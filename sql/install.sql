@@ -1,200 +1,276 @@
--- RESET
 DROP DATABASE IF EXISTS hospital_db;
-CREATE DATABASE hospital_db;
+CREATE DATABASE hospital_db
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
 USE hospital_db;
 
--- PATIENT
+-- =========================
+-- 1. PATIENT
+-- =========================
 CREATE TABLE Patient (
     Patient_AMKA VARCHAR(20) PRIMARY KEY,
-    Name VARCHAR(50),
-    Surname VARCHAR(50),
+    Name VARCHAR(50) NOT NULL,
+    Surname VARCHAR(50) NOT NULL,
     FathersName VARCHAR(50),
     Birthdate DATE,
     Sex VARCHAR(10),
-    Weight FLOAT,
-    Height FLOAT,
+    Weight DECIMAL(5,2),
+    Height DECIMAL(4,2),
     Address VARCHAR(100),
     Phone VARCHAR(20),
-    Email VARCHAR(50),
+    Email VARCHAR(100),
     Job VARCHAR(50),
     Nationality VARCHAR(50),
     Insurance VARCHAR(50)
 ) ENGINE=InnoDB;
 
--- PERSONEL + ISA
+-- =========================
+-- 2. PERSONEL
+-- =========================
 CREATE TABLE Personel (
     AMKA VARCHAR(20) PRIMARY KEY,
-    Name VARCHAR(50),
-    Surname VARCHAR(50),
+    Name VARCHAR(50) NOT NULL,
+    Surname VARCHAR(50) NOT NULL,
     Birthdate DATE,
-    Email VARCHAR(50),
+    Email VARCHAR(100),
     Phone VARCHAR(20),
     HiringDate DATE
 ) ENGINE=InnoDB;
 
+-- =========================
+-- 3. DOCTOR
+-- =========================
 CREATE TABLE Doctor (
     Doctor_AMKA VARCHAR(20) PRIMARY KEY,
-    LicenseNumber VARCHAR(50),
-    Major VARCHAR(50),
-    Rank VARCHAR(50),
+    LicenseNumber VARCHAR(50) NOT NULL,
+    Major VARCHAR(100),
+    `Rank` VARCHAR(50),
     Supervisor_AMKA VARCHAR(20),
-    FOREIGN KEY (Doctor_AMKA) REFERENCES Personel(AMKA),
-    FOREIGN KEY (Supervisor_AMKA) REFERENCES Doctor(Doctor_AMKA)
+    CONSTRAINT fk_doctor_personel
+        FOREIGN KEY (Doctor_AMKA) REFERENCES Personel(AMKA),
+    CONSTRAINT fk_doctor_supervisor
+        FOREIGN KEY (Supervisor_AMKA) REFERENCES Doctor(Doctor_AMKA)
 ) ENGINE=InnoDB;
 
+-- =========================
+-- 4. DEPARTMENT
+-- =========================
+CREATE TABLE Department (
+    Department_id INT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Description TEXT,
+    BedTotal INT,
+    Floor_Building VARCHAR(50),
+    Head_AMKA VARCHAR(20),
+    CONSTRAINT fk_department_head
+        FOREIGN KEY (Head_AMKA) REFERENCES Doctor(Doctor_AMKA)
+) ENGINE=InnoDB;
+
+-- =========================
+-- 5. NURSE
+-- =========================
 CREATE TABLE Nurse (
     Nurse_AMKA VARCHAR(20) PRIMARY KEY,
-    Rank VARCHAR(50),
+    `Rank` VARCHAR(50),
     Department_id INT,
-    FOREIGN KEY (Nurse_AMKA) REFERENCES Personel(AMKA)
+    CONSTRAINT fk_nurse_personel
+        FOREIGN KEY (Nurse_AMKA) REFERENCES Personel(AMKA),
+    CONSTRAINT fk_nurse_department
+        FOREIGN KEY (Department_id) REFERENCES Department(Department_id)
 ) ENGINE=InnoDB;
 
+-- =========================
+-- 6. STAFF
+-- =========================
 CREATE TABLE Staff (
     Staff_AMKA VARCHAR(20) PRIMARY KEY,
     Role VARCHAR(50),
     Office VARCHAR(50),
     Department_id INT,
-    FOREIGN KEY (Staff_AMKA) REFERENCES Personel(AMKA)
+    CONSTRAINT fk_staff_personel
+        FOREIGN KEY (Staff_AMKA) REFERENCES Personel(AMKA),
+    CONSTRAINT fk_staff_department
+        FOREIGN KEY (Department_id) REFERENCES Department(Department_id)
 ) ENGINE=InnoDB;
 
--- DEPARTMENT
-CREATE TABLE Department (
-    Department_id INT PRIMARY KEY AUTO_INCREMENT,
-    Name VARCHAR(50),
-    Description TEXT,
-    BedTotal INT,
-    Floor_Building VARCHAR(50),
-    Head_AMKA VARCHAR(20),
-    FOREIGN KEY (Head_AMKA) REFERENCES Doctor(Doctor_AMKA)
-) ENGINE=InnoDB;
-
--- DOCTOR_DEPARTMENT
+-- =========================
+-- 7. DOCTOR_DEPARTMENT
+-- =========================
 CREATE TABLE Doctor_Department (
     Doctor_AMKA VARCHAR(20),
     Department_id INT,
     PRIMARY KEY (Doctor_AMKA, Department_id),
-    FOREIGN KEY (Doctor_AMKA) REFERENCES Doctor(Doctor_AMKA),
-    FOREIGN KEY (Department_id) REFERENCES Department(Department_id)
+    CONSTRAINT fk_docdep_doctor
+        FOREIGN KEY (Doctor_AMKA) REFERENCES Doctor(Doctor_AMKA),
+    CONSTRAINT fk_docdep_department
+        FOREIGN KEY (Department_id) REFERENCES Department(Department_id)
 ) ENGINE=InnoDB;
 
--- BED
+-- =========================
+-- 8. BED
+-- =========================
 CREATE TABLE Bed (
-    Bed_id INT PRIMARY KEY AUTO_INCREMENT,
-    Department_id INT,
+    Bed_id INT PRIMARY KEY,
+    Department_id INT NOT NULL,
     Type VARCHAR(50),
     Status VARCHAR(50),
-    FOREIGN KEY (Department_id) REFERENCES Department(Department_id)
+    CONSTRAINT fk_bed_department
+        FOREIGN KEY (Department_id) REFERENCES Department(Department_id)
 ) ENGINE=InnoDB;
 
--- HOSPITALISATION
+-- =========================
+-- 9. KEN
+-- Source-based table
+-- =========================
+CREATE TABLE KEN (
+    KEN_id VARCHAR(20) PRIMARY KEY,
+    Description TEXT,
+    Base_cost DECIMAL(12,2),
+    AverageStay INT,
+    Additional_daily_cost DECIMAL(12,2)
+) ENGINE=InnoDB;
+
+-- =========================
+-- 10. HOSPITALISATION
+-- =========================
 CREATE TABLE Hospitalisation (
-    Hospitalisation_id INT PRIMARY KEY AUTO_INCREMENT,
-    Patient_AMKA VARCHAR(20),
-    Department_id INT,
-    Bed_id INT,
+    Hospitalisation_id INT PRIMARY KEY,
+    Patient_AMKA VARCHAR(20) NOT NULL,
+    Department_id INT NOT NULL,
+    Bed_id INT NOT NULL,
     EntryDate DATE,
     ReleaseDate DATE,
     FirstDiagnosis TEXT,
     FinalDiagnosis TEXT,
-    KEN_id INT,
-    Cost DECIMAL(10,2),
-    FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
-    FOREIGN KEY (Department_id) REFERENCES Department(Department_id),
-    FOREIGN KEY (Bed_id) REFERENCES Bed(Bed_id)
+    KEN_id VARCHAR(20),
+    Cost DECIMAL(12,2),
+    CONSTRAINT fk_hosp_patient
+        FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
+    CONSTRAINT fk_hosp_department
+        FOREIGN KEY (Department_id) REFERENCES Department(Department_id),
+    CONSTRAINT fk_hosp_bed
+        FOREIGN KEY (Bed_id) REFERENCES Bed(Bed_id),
+    CONSTRAINT fk_hosp_ken
+        FOREIGN KEY (KEN_id) REFERENCES KEN(KEN_id)
 ) ENGINE=InnoDB;
 
--- KEN
-CREATE TABLE KEN (
-    KEN_id INT PRIMARY KEY AUTO_INCREMENT,
-    Description TEXT,
-    Base_cost DECIMAL(10,2),
-    AvarageStay INT,
-    Additional_daily_cost DECIMAL(10,2)
-) ENGINE=InnoDB;
-
--- ROOM
+-- =========================
+-- 11. ROOM
+-- =========================
 CREATE TABLE Room (
-    Room_id INT PRIMARY KEY AUTO_INCREMENT,
+    Room_id INT PRIMARY KEY,
     Type VARCHAR(50),
     Name VARCHAR(50)
 ) ENGINE=InnoDB;
 
--- MEDICAL PROCEDURE
+-- =========================
+-- 12. MEDICAL PROCEDURE
+-- Source-based table
+-- =========================
 CREATE TABLE MedicalProcedure (
-    MedicalProcedure_id INT PRIMARY KEY AUTO_INCREMENT,
-    Name VARCHAR(100),
+    MedicalProcedure_id VARCHAR(30) PRIMARY KEY,
+    Name TEXT,
     Category VARCHAR(50),
     Duration INT,
-    Cost DECIMAL(10,2)
+    Cost DECIMAL(12,2)
 ) ENGINE=InnoDB;
-
--- HOSPITALISATION_PROCEDURE
+-- =========================
+-- 13. HOSPITALISATION_PROCEDURE
+-- =========================
 CREATE TABLE Hospitalisation_Procedure (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    Hospitalisation_id INT,
-    MedicalProcedure_id INT,
+    id INT PRIMARY KEY,
+    Hospitalisation_id INT NOT NULL,
+    MedicalProcedure_id VARCHAR(30) NOT NULL,
     Date DATE,
     Room_id INT,
-    FOREIGN KEY (Hospitalisation_id) REFERENCES Hospitalisation(Hospitalisation_id),
-    FOREIGN KEY (MedicalProcedure_id) REFERENCES MedicalProcedure(MedicalProcedure_id),
-    FOREIGN KEY (Room_id) REFERENCES Room(Room_id)
+    CONSTRAINT fk_hospproc_hosp
+        FOREIGN KEY (Hospitalisation_id) REFERENCES Hospitalisation(Hospitalisation_id),
+    CONSTRAINT fk_hospproc_medproc
+        FOREIGN KEY (MedicalProcedure_id) REFERENCES MedicalProcedure(MedicalProcedure_id),
+    CONSTRAINT fk_hospproc_room
+        FOREIGN KEY (Room_id) REFERENCES Room(Room_id)
 ) ENGINE=InnoDB;
 
--- MEDICALPROCEDURE_STAFF
+-- =========================
+-- 14. MEDICALPROCEDURE_STAFF
+-- =========================
 CREATE TABLE MedicalProcedure_Staff (
     Hospitalisation_Procedure INT,
     Personel_AMKA VARCHAR(20),
-    Role VARCHAR(50),
+    Role VARCHAR(500),
     PRIMARY KEY (Hospitalisation_Procedure, Personel_AMKA),
-    FOREIGN KEY (Hospitalisation_Procedure) REFERENCES Hospitalisation_Procedure(id),
-    FOREIGN KEY (Personel_AMKA) REFERENCES Personel(AMKA)
+    CONSTRAINT fk_mpstaff_proc
+        FOREIGN KEY (Hospitalisation_Procedure) REFERENCES Hospitalisation_Procedure(id),
+    CONSTRAINT fk_mpstaff_personel
+        FOREIGN KEY (Personel_AMKA) REFERENCES Personel(AMKA)
 ) ENGINE=InnoDB;
 
--- EXAM
+-- =========================
+-- 15. EXAM
+-- =========================
 CREATE TABLE Exam (
-    Exam_id INT PRIMARY KEY AUTO_INCREMENT,
-    Type VARCHAR(50),
+    Exam_id INT PRIMARY KEY,
+    Type VARCHAR(100),
     Date DATE,
     Result_text TEXT,
-    Result_value FLOAT,
+    Result_value DECIMAL(12,2),
     Unit VARCHAR(20),
-    Cost DECIMAL(10,2),
+    Cost DECIMAL(12,2),
     Hospitalisation_id INT,
     Doctor_AMKA VARCHAR(20),
-    FOREIGN KEY (Hospitalisation_id) REFERENCES Hospitalisation(Hospitalisation_id),
-    FOREIGN KEY (Doctor_AMKA) REFERENCES Doctor(Doctor_AMKA)
+    CONSTRAINT fk_exam_hosp
+        FOREIGN KEY (Hospitalisation_id) REFERENCES Hospitalisation(Hospitalisation_id),
+    CONSTRAINT fk_exam_doctor
+        FOREIGN KEY (Doctor_AMKA) REFERENCES Doctor(Doctor_AMKA)
 ) ENGINE=InnoDB;
 
--- MEDICINE
+-- =========================
+-- 16. MEDICINE
+-- =========================
 CREATE TABLE Medicine (
-    Medicine_id INT PRIMARY KEY AUTO_INCREMENT,
-    Name VARCHAR(100)
+    Medicine_id INT PRIMARY KEY,
+    Name VARCHAR(255) NOT NULL
 ) ENGINE=InnoDB;
 
+-- =========================
+-- 17. ACTIVESUBSTANCE
+-- =========================
 CREATE TABLE ActiveSubstance (
-    Substance_id INT PRIMARY KEY AUTO_INCREMENT,
-    Name VARCHAR(100)
+    Substance_id INT PRIMARY KEY,
+    Name VARCHAR(255) NOT NULL
 ) ENGINE=InnoDB;
 
+-- =========================
+-- 18. MEDICINE_SUBSTANCE
+-- =========================
 CREATE TABLE Medicine_Substance (
-    medicine_id INT,
-    substance_id INT,
-    PRIMARY KEY (medicine_id, substance_id),
-    FOREIGN KEY (medicine_id) REFERENCES Medicine(Medicine_id),
-    FOREIGN KEY (substance_id) REFERENCES ActiveSubstance(Substance_id)
+    Medicine_id INT,
+    Substance_id INT,
+    PRIMARY KEY (Medicine_id, Substance_id),
+    CONSTRAINT fk_medsub_med
+        FOREIGN KEY (Medicine_id) REFERENCES Medicine(Medicine_id),
+    CONSTRAINT fk_medsub_sub
+        FOREIGN KEY (Substance_id) REFERENCES ActiveSubstance(Substance_id)
 ) ENGINE=InnoDB;
 
+-- =========================
+-- 19. PATIENT_ALLERGY
+-- =========================
 CREATE TABLE Patient_Allergy (
     Patient_AMKA VARCHAR(20),
     Substance_id INT,
     PRIMARY KEY (Patient_AMKA, Substance_id),
-    FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
-    FOREIGN KEY (Substance_id) REFERENCES ActiveSubstance(Substance_id)
+    CONSTRAINT fk_patall_patient
+        FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
+    CONSTRAINT fk_patall_sub
+        FOREIGN KEY (Substance_id) REFERENCES ActiveSubstance(Substance_id)
 ) ENGINE=InnoDB;
 
--- PRESCRIPTION
+-- =========================
+-- 20. PRESCRIPTION
+-- =========================
 CREATE TABLE Prescription (
-    Prescription_id INT PRIMARY KEY AUTO_INCREMENT,
+    Prescription_id INT PRIMARY KEY,
     Doctor_AMKA VARCHAR(20),
     Patient_AMKA VARCHAR(20),
     Medicine_id INT,
@@ -202,43 +278,62 @@ CREATE TABLE Prescription (
     Frequency VARCHAR(50),
     StartDate DATE,
     EndDate DATE,
-    FOREIGN KEY (Doctor_AMKA) REFERENCES Doctor(Doctor_AMKA),
-    FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
-    FOREIGN KEY (Medicine_id) REFERENCES Medicine(Medicine_id)
+    CONSTRAINT uq_prescription
+        UNIQUE (Doctor_AMKA, Patient_AMKA, Medicine_id, StartDate),
+    CONSTRAINT fk_presc_doctor
+        FOREIGN KEY (Doctor_AMKA) REFERENCES Doctor(Doctor_AMKA),
+    CONSTRAINT fk_presc_patient
+        FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
+    CONSTRAINT fk_presc_medicine
+        FOREIGN KEY (Medicine_id) REFERENCES Medicine(Medicine_id)
 ) ENGINE=InnoDB;
 
--- SHIFT
+-- =========================
+-- 21. SHIFT
+-- =========================
 CREATE TABLE Shift (
-    Shift_id INT PRIMARY KEY AUTO_INCREMENT,
+    Shift_id INT PRIMARY KEY,
     Date DATE,
     Type VARCHAR(50),
     Department_id INT,
-    FOREIGN KEY (Department_id) REFERENCES Department(Department_id)
+    CONSTRAINT fk_shift_department
+        FOREIGN KEY (Department_id) REFERENCES Department(Department_id)
 ) ENGINE=InnoDB;
 
+-- =========================
+-- 22. SHIFT_STAFF
+-- =========================
 CREATE TABLE Shift_Staff (
     Shift_id INT,
     Personel_AMKA VARCHAR(20),
     PRIMARY KEY (Shift_id, Personel_AMKA),
-    FOREIGN KEY (Shift_id) REFERENCES Shift(Shift_id),
-    FOREIGN KEY (Personel_AMKA) REFERENCES Personel(AMKA)
+    CONSTRAINT fk_shiftstaff_shift
+        FOREIGN KEY (Shift_id) REFERENCES Shift(Shift_id),
+    CONSTRAINT fk_shiftstaff_personel
+        FOREIGN KEY (Personel_AMKA) REFERENCES Personel(AMKA)
 ) ENGINE=InnoDB;
 
--- TRIAGE
+-- =========================
+-- 23. TRIAGE
+-- =========================
 CREATE TABLE Triage (
-    Triage_id INT PRIMARY KEY AUTO_INCREMENT,
+    Triage_id INT PRIMARY KEY,
     Patient_AMKA VARCHAR(20),
     Nurse_AMKA VARCHAR(20),
     Symptoms TEXT,
     Urgency_level INT,
     Arrival_time DATETIME,
-    FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
-    FOREIGN KEY (Nurse_AMKA) REFERENCES Nurse(Nurse_AMKA)
+    CONSTRAINT fk_triage_patient
+        FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
+    CONSTRAINT fk_triage_nurse
+        FOREIGN KEY (Nurse_AMKA) REFERENCES Nurse(Nurse_AMKA)
 ) ENGINE=InnoDB;
 
--- RATING
+-- =========================
+-- 24. RATING
+-- =========================
 CREATE TABLE Rating (
-    Rating_id INT PRIMARY KEY AUTO_INCREMENT,
+    Rating_id INT PRIMARY KEY,
     Patient_AMKA VARCHAR(20),
     Hospitalisation_id INT,
     Medical_care INT,
@@ -246,296 +341,50 @@ CREATE TABLE Rating (
     Food INT,
     Hygiene INT,
     Overall_experience INT,
-    FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
-    FOREIGN KEY (Hospitalisation_id) REFERENCES Hospitalisation(Hospitalisation_id)
+    CONSTRAINT fk_rating_patient
+        FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
+    CONSTRAINT fk_rating_hosp
+        FOREIGN KEY (Hospitalisation_id) REFERENCES Hospitalisation(Hospitalisation_id)
 ) ENGINE=InnoDB;
 
--- EMERGENCY CONTACT
+-- =========================
+-- 25. EMERGENCY CONTACT
+-- =========================
 CREATE TABLE EmergencyContact (
-    EmergencyContact_id INT PRIMARY KEY AUTO_INCREMENT,
+    EmergencyContact_id INT PRIMARY KEY,
     Name VARCHAR(50),
     Number VARCHAR(20),
     Relation VARCHAR(50)
 ) ENGINE=InnoDB;
 
+-- =========================
+-- 26. PATIENT_EMERGENCYCONTACT
+-- =========================
 CREATE TABLE Patient_EmergencyContact (
     Patient_AMKA VARCHAR(20),
     EmergencyContact_id INT,
     PRIMARY KEY (Patient_AMKA, EmergencyContact_id),
-    FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
-    FOREIGN KEY (EmergencyContact_id) REFERENCES EmergencyContact(EmergencyContact_id)
+    CONSTRAINT fk_pec_patient
+        FOREIGN KEY (Patient_AMKA) REFERENCES Patient(Patient_AMKA),
+    CONSTRAINT fk_pec_contact
+        FOREIGN KEY (EmergencyContact_id) REFERENCES EmergencyContact(EmergencyContact_id)
 ) ENGINE=InnoDB;
 
-ALTER TABLE Prescription
-ADD CONSTRAINT unique_prescription 
-UNIQUE (Doctor_AMKA, Patient_AMKA, Medicine_id, StartDate);
-ALTER TABLE NURSE
-ADD FOREIGN KEY (Department_id) REFERENCES Department(Department_id);
-ALTER TABLE STAFF
-ADD FOREIGN KEY (Department_id) REFERENCES Department(Department_id);
-ALTER TABLE Hospitalisation
-ADD FOREIGN KEY (KEN_id) REFERENCES KEN(KEN_id);
-
-DELIMITER $$
-
-CREATE TRIGGER check_allergy
-BEFORE INSERT ON Prescription
-FOR EACH ROW
-BEGIN
-    IF EXISTS (
-        SELECT 1
-        FROM Patient_Allergy pa
-        JOIN Medicine_Substance ms 
-            ON pa.Substance_id = ms.substance_id
-        WHERE pa.Patient_AMKA = NEW.Patient_AMKA
-          AND ms.medicine_id = NEW.Medicine_id
-    ) THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Patient is allergic to this medicine';
-    END IF;
-END$$
-
-DELIMITER ;
-DELIMITER $$
-
-CREATE TRIGGER check_doctor_supervisor
-BEFORE INSERT ON Doctor
-FOR EACH ROW
-BEGIN
-    IF NEW.Rank = 'Resident' AND NEW.Supervisor_AMKA IS NULL THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Resident must have a supervisor';
-    END IF;
-
-    IF NEW.Rank = 'Director' AND NEW.Supervisor_AMKA IS NOT NULL THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Director cannot have supervisor';
-    END IF;
-END$$
-
-DELIMITER ;
-DELIMITER $$
-
-CREATE TRIGGER prevent_self_supervision
-BEFORE INSERT ON Doctor
-FOR EACH ROW
-BEGIN
-    IF NEW.Supervisor_AMKA = NEW.Doctor_AMKA THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Doctor cannot supervise themselves';
-    END IF;
-END$$
-
-DELIMITER ;
-DELIMITER $$
-
-CREATE TRIGGER update_bed_status
-AFTER INSERT ON Hospitalisation
-FOR EACH ROW
-BEGIN
-    UPDATE Bed
-    SET Status = 'occupied'
-    WHERE Bed_id = NEW.Bed_id;
-END$$
-
-DELIMITER ;
-DELIMITER $$
-
-CREATE TRIGGER calculate_cost
-BEFORE INSERT ON Hospitalisation
-FOR EACH ROW
-BEGIN
-    DECLARE days INT;
-    DECLARE base DECIMAL(10,2);
-    DECLARE avg_days INT;
-    DECLARE extra DECIMAL(10,2);
-
-    SET days = DATEDIFF(NEW.ReleaseDate, NEW.EntryDate);
-
-    SELECT Base_cost, AvarageStay, Additional_daily_cost
-    INTO base, avg_days, extra
-    FROM KEN
-    WHERE KEN_id = NEW.KEN_id;
-
-    IF days <= avg_days THEN
-        SET NEW.Cost = base;
-    ELSE
-        SET NEW.Cost = base + (days - avg_days) * extra;
-    END IF;
-END$$
-
-DELIMITER ;
-DELIMITER $$
-
-CREATE TRIGGER prevent_overlap
-BEFORE INSERT ON Hospitalisation_Procedure
-FOR EACH ROW
-BEGIN
-    IF EXISTS (
-        SELECT 1
-        FROM Hospitalisation_Procedure
-        WHERE Room_id = NEW.Room_id
-          AND Date = NEW.Date
-    ) THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Room already booked';
-    END IF;
-END$$
-
-DELIMITER ;
-DELIMITER $$
-
-CREATE TRIGGER limit_night_shifts
-BEFORE INSERT ON Shift_Staff
-FOR EACH ROW
-BEGIN
-    DECLARE count_shifts INT;
-
-    SELECT COUNT(*) INTO count_shifts
-    FROM Shift_Staff ss
-    JOIN Shift s ON ss.Shift_id = s.Shift_id
-    WHERE ss.Personel_AMKA = NEW.Personel_AMKA
-      AND s.Type = 'night'
-      AND MONTH(s.Date) = MONTH(CURDATE());
-
-    IF count_shifts >= 3 THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Too many night shifts';
-    END IF;
-END$$
-
-DELIMITER ;
-
-DELIMITER $$
-
-CREATE TRIGGER prevent_doctor_overlap
-BEFORE INSERT ON MedicalProcedure_Staff
-FOR EACH ROW
-BEGIN
-    DECLARE proc_date DATE;
-
-    SELECT Date INTO proc_date
-    FROM Hospitalisation_Procedure
-    WHERE id = NEW.Hospitalisation_Procedure;
-
-    IF EXISTS (
-        SELECT 1
-        FROM MedicalProcedure_Staff mps
-        JOIN Hospitalisation_Procedure hp 
-            ON mps.Hospitalisation_Procedure = hp.id
-        WHERE mps.Personel_AMKA = NEW.Personel_AMKA
-          AND hp.Date = proc_date
-    ) THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Doctor already in another procedure at same time';
-    END IF;
-
-END$$
-
-DELIMITER ;
-DELIMITER $$
-
-CREATE TRIGGER limit_monthly_shifts
-BEFORE INSERT ON Shift_Staff
-FOR EACH ROW
-BEGIN
-    DECLARE total INT;
-    DECLARE role_type VARCHAR(20);
-
-    SELECT COUNT(*) INTO total
-    FROM Shift_Staff ss
-    JOIN Shift s ON ss.Shift_id = s.Shift_id
-    WHERE ss.Personel_AMKA = NEW.Personel_AMKA
-      AND MONTH(s.Date) = MONTH(CURDATE());
-
-    SELECT 
-        CASE 
-            WHEN d.Doctor_AMKA IS NOT NULL THEN 'Doctor'
-            WHEN n.Nurse_AMKA IS NOT NULL THEN 'Nurse'
-            ELSE 'Staff'
-        END
-    INTO role_type
-    FROM Personel p
-    LEFT JOIN Doctor d ON p.AMKA = d.Doctor_AMKA
-    LEFT JOIN Nurse n ON p.AMKA = n.Nurse_AMKA
-    WHERE p.AMKA = NEW.Personel_AMKA;
-
-    IF role_type = 'Doctor' AND total >= 15 THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Doctor shift limit exceeded';
-    END IF;
-
-    IF role_type = 'Nurse' AND total >= 20 THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Nurse shift limit exceeded';
-    END IF;
-
-    IF role_type = 'Staff' AND total >= 25 THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Staff shift limit exceeded';
-    END IF;
-
-END$$
-
-DELIMITER ;
-DELIMITER $$
-
-CREATE TRIGGER check_rest_time
-BEFORE INSERT ON Shift_Staff
-FOR EACH ROW
-BEGIN
-    DECLARE last_shift DATETIME;
-
-    SELECT MAX(CONCAT(s.Date, ' ', 
-        CASE 
-            WHEN s.Type='morning' THEN '07:00:00'
-            WHEN s.Type='evening' THEN '15:00:00'
-            ELSE '23:00:00'
-        END))
-    INTO last_shift
-    FROM Shift_Staff ss
-    JOIN Shift s ON ss.Shift_id = s.Shift_id
-    WHERE ss.Personel_AMKA = NEW.Personel_AMKA;
-
-    IF last_shift IS NOT NULL AND 
-       TIMESTAMPDIFF(HOUR, last_shift, NOW()) < 8 THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Not enough rest time (8 hours required)';
-    END IF;
-
-END$$
-
-DELIMITER ;
-DELIMITER $$
-
-CREATE TRIGGER check_shift_coverage
-AFTER INSERT ON Shift_Staff
-FOR EACH ROW
-BEGIN
-    DECLARE doc_count INT;
-    DECLARE nurse_count INT;
-    DECLARE staff_count INT;
-
-    SELECT COUNT(*) INTO doc_count
-    FROM Shift_Staff ss
-    JOIN Doctor d ON ss.Personel_AMKA = d.Doctor_AMKA
-    WHERE ss.Shift_id = NEW.Shift_id;
-
-    SELECT COUNT(*) INTO nurse_count
-    FROM Shift_Staff ss
-    JOIN Nurse n ON ss.Personel_AMKA = n.Nurse_AMKA
-    WHERE ss.Shift_id = NEW.Shift_id;
-
-    SELECT COUNT(*) INTO staff_count
-    FROM Shift_Staff ss
-    JOIN Staff s ON ss.Personel_AMKA = s.Staff_AMKA
-    WHERE ss.Shift_id = NEW.Shift_id;
-
-    IF doc_count < 3 OR nurse_count < 6 OR staff_count < 2 THEN
-        SIGNAL SQLSTATE '45000'
-        SET MESSAGE_TEXT = 'Shift does not meet minimum staffing requirements';
-    END IF;
-
-END$$
-
-DELIMITER ;
+-- =========================
+-- INDEXES
+-- =========================
+CREATE INDEX idx_doctor_major ON Doctor(Major);
+CREATE INDEX idx_doctor_rank ON Doctor(`Rank`);
+CREATE INDEX idx_nurse_department ON Nurse(Department_id);
+CREATE INDEX idx_staff_department ON Staff(Department_id);
+CREATE INDEX idx_bed_department ON Bed(Department_id);
+CREATE INDEX idx_hosp_patient ON Hospitalisation(Patient_AMKA);
+CREATE INDEX idx_hosp_department ON Hospitalisation(Department_id);
+CREATE INDEX idx_hosp_ken ON Hospitalisation(KEN_id);
+CREATE INDEX idx_exam_hosp ON Exam(Hospitalisation_id);
+CREATE INDEX idx_exam_doctor ON Exam(Doctor_AMKA);
+CREATE INDEX idx_presc_patient ON Prescription(Patient_AMKA);
+CREATE INDEX idx_presc_doctor ON Prescription(Doctor_AMKA);
+CREATE INDEX idx_shift_date ON Shift(Date);
+CREATE INDEX idx_triage_patient ON Triage(Patient_AMKA);
+CREATE INDEX idx_rating_hosp ON Rating(Hospitalisation_id);
