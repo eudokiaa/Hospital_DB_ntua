@@ -1,0 +1,5 @@
+ICD10_Category	Year_1	Year_2	Admissions_Year_1	Admissions_Year_2
+A	2024	2025	10	10
+E	2024	2025	10	10
+I	2024	2025	20	20
+J	2024	2025	10	10

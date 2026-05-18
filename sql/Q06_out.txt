@@ -1,0 +1,2 @@
+Hospitalisation_id	EntryDate	ReleaseDate	Days_Stayed	FirstDiagnosis	FinalDiagnosis	KEN_id	KEN_Description	Cost	Department	Medical_care	Nursing_care	Food	Hygiene	Overall_experience	Avg_Rating
+80	2025-04-27	2025-05-07	10	J18 Pneumonia	J18.9 Pneumonia improved	Β23Α	Αντρική στείρωση	1760.00	Cardiology	1	2	3	4	5	3.00

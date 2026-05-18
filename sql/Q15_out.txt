@@ -1,0 +1,6 @@
+Urgency_level	Total_Cases	Avg_Wait_Minutes	Pct_Hospitalised	Total_Hospitalised	Department	Referrals_To_Department
+1	56	614914.2857	100.00	56	Cardiology	56
+2	56	584434.2857	100.00	56	Surgery	56
+3	56	592054.2857	100.00	56	Emergency	56
+4	56	599674.2857	100.00	56	ICU	56
+5	56	607294.2857	100.00	56	Pathology	56

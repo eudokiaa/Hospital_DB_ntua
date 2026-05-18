@@ -1,0 +1,2 @@
+Substance_1	Substance_2	Co_Prescription_Count
+Dexamethasone Base	Dexamethasone Sodium Phosphate	1

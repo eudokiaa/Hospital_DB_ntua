@@ -144,7 +144,7 @@ WHERE n <= 80;
 
 -- Reference data from CSV files, as requested in the assignment.
 -- Run the mysql client from the project root so paths like data/ken.csv resolve correctly.
-LOAD DATA LOCAL INFILE 'C:/Users/nekti/Desktop/database121/data/ken.csv'
+LOAD DATA LOCAL INFILE 'data/ken.csv'
 INTO TABLE KEN
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
@@ -165,7 +165,7 @@ INSERT INTO Room (Room_id, Type, Name) VALUES
 (5, 'Endoscopy Room', 'END-1'),
 (6, 'Laboratory', 'LAB-1');
 
-LOAD DATA LOCAL INFILE 'C:/Users/nekti/Desktop/database121/data/medical_procedures.csv'
+LOAD DATA LOCAL INFILE 'data/medical_procedures.csv'
 INTO TABLE MedicalProcedure
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
@@ -178,7 +178,7 @@ SELECT ROW_NUMBER() OVER (ORDER BY MedicalProcedure_id) AS rn, MedicalProcedure_
 FROM MedicalProcedure;
 SET @medical_procedure_count = (SELECT COUNT(*) FROM ref_medical_procedure);
 
-LOAD DATA LOCAL INFILE 'C:/Users/nekti/Desktop/database121/data/active_substances.csv'
+LOAD DATA LOCAL INFILE 'data/active_substances.csv'
 INTO TABLE ActiveSubstance
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
@@ -186,7 +186,7 @@ LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (Substance_id, Name);
 
-LOAD DATA LOCAL INFILE 'C:/Users/nekti/Desktop/database121/data/medicines.csv'
+LOAD DATA LOCAL INFILE 'data/medicines.csv'
 INTO TABLE Medicine
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
@@ -194,7 +194,7 @@ LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (Medicine_id, Name);
 
-LOAD DATA LOCAL INFILE 'C:/Users/nekti/Desktop/database121/data/medicine_substances.csv'
+LOAD DATA LOCAL INFILE 'data/medicine_substances.csv'
 INTO TABLE Medicine_Substance
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'

@@ -1,0 +1,4 @@
+Name	Surname	Major	Rank	Had_Shift_This_Year	Total_Shifts_This_Year	Procedures_As_Lead
+Sofia	Dimitriou	Cardiology	Attending B	YES	30	0
+Vasiliki	Koutra	Cardiology	Resident	YES	30	0
+Andreas	Papadopoulos	Cardiology	Director	YES	30	0
