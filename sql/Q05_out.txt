@@ -1,2 +1,2 @@
 Name	Surname	Age	Major	Rank	Procedures_As_Lead
-Sofia	Dimitriou	31	Neurology	Attending A	1
+Sofia	Dimitriou	31	Neurology	Director	1

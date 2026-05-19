@@ -1,71 +1,131 @@
 Doctor_AMKA	Doctor_Name	Doctor_Surname	Level	Hierarchy_Member_AMKA	Hierarchy_Member_Name	Hierarchy_Member_Surname	Rank
-20000000011	Eleni	Nikolaou	1	20000000001	Eleni	Nikolaou	Director
-20000000012	Dimitris	Georgiou	1	20000000002	Dimitris	Georgiou	Director
-20000000013	Maria	Konstantinou	1	20000000003	Maria	Konstantinou	Director
-20000000014	Nikos	Ioannou	1	20000000004	Nikos	Ioannou	Director
-20000000015	Sofia	Dimitriou	1	20000000005	Sofia	Dimitriou	Director
-20000000016	Giorgos	Apostolou	1	20000000006	Giorgos	Apostolou	Director
-20000000017	Katerina	Pappa	1	20000000007	Katerina	Pappa	Director
-20000000018	Petros	Vasileiou	1	20000000008	Petros	Vasileiou	Director
-20000000019	Anna	Markou	1	20000000009	Anna	Markou	Director
-20000000020	Andreas	Papadopoulos	1	20000000010	Andreas	Papadopoulos	Director
-20000000021	Eleni	Nikolaou	1	20000000001	Eleni	Nikolaou	Director
-20000000022	Dimitris	Georgiou	1	20000000002	Dimitris	Georgiou	Director
-20000000023	Maria	Konstantinou	1	20000000003	Maria	Konstantinou	Director
-20000000024	Nikos	Ioannou	1	20000000004	Nikos	Ioannou	Director
-20000000025	Sofia	Dimitriou	1	20000000005	Sofia	Dimitriou	Director
-20000000026	Giorgos	Apostolou	1	20000000006	Giorgos	Apostolou	Director
-20000000027	Katerina	Pappa	1	20000000007	Katerina	Pappa	Director
-20000000028	Petros	Vasileiou	1	20000000008	Petros	Vasileiou	Director
-20000000029	Anna	Markou	1	20000000009	Anna	Markou	Director
-20000000030	Andreas	Papadopoulos	1	20000000010	Andreas	Papadopoulos	Director
+20000000016	Giorgos	Apostolou	1	20000000001	Eleni	Nikolaou	Director
+20000000017	Katerina	Pappa	1	20000000002	Dimitris	Georgiou	Director
+20000000018	Petros	Vasileiou	1	20000000003	Maria	Konstantinou	Director
+20000000019	Anna	Markou	1	20000000004	Nikos	Ioannou	Director
+20000000020	Andreas	Papadopoulos	1	20000000005	Sofia	Dimitriou	Director
+20000000021	Eleni	Nikolaou	1	20000000006	Giorgos	Apostolou	Director
+20000000022	Dimitris	Georgiou	1	20000000007	Katerina	Pappa	Director
+20000000023	Maria	Konstantinou	1	20000000008	Petros	Vasileiou	Director
+20000000024	Nikos	Ioannou	1	20000000009	Anna	Markou	Director
+20000000025	Sofia	Dimitriou	1	20000000010	Andreas	Papadopoulos	Director
+20000000026	Giorgos	Apostolou	1	20000000011	Eleni	Nikolaou	Director
+20000000027	Katerina	Pappa	1	20000000012	Dimitris	Georgiou	Director
+20000000028	Petros	Vasileiou	1	20000000013	Maria	Konstantinou	Director
+20000000029	Anna	Markou	1	20000000014	Nikos	Ioannou	Director
+20000000030	Andreas	Papadopoulos	1	20000000015	Sofia	Dimitriou	Director
 20000000031	Eleni	Nikolaou	1	20000000001	Eleni	Nikolaou	Director
 20000000032	Dimitris	Georgiou	1	20000000002	Dimitris	Georgiou	Director
 20000000033	Maria	Konstantinou	1	20000000003	Maria	Konstantinou	Director
 20000000034	Nikos	Ioannou	1	20000000004	Nikos	Ioannou	Director
 20000000035	Sofia	Dimitriou	1	20000000005	Sofia	Dimitriou	Director
-20000000036	Giorgos	Apostolou	1	20000000006	Giorgos	Apostolou	Director
-20000000037	Katerina	Pappa	1	20000000007	Katerina	Pappa	Director
-20000000038	Petros	Vasileiou	1	20000000008	Petros	Vasileiou	Director
-20000000039	Anna	Markou	1	20000000009	Anna	Markou	Director
-20000000040	Andreas	Papadopoulos	1	20000000010	Andreas	Papadopoulos	Director
-20000000041	Eleni	Nikolaou	1	20000000001	Eleni	Nikolaou	Director
-20000000042	Dimitris	Georgiou	1	20000000002	Dimitris	Georgiou	Director
-20000000043	Maria	Konstantinou	1	20000000003	Maria	Konstantinou	Director
-20000000044	Nikos	Ioannou	1	20000000004	Nikos	Ioannou	Director
-20000000045	Sofia	Dimitriou	1	20000000005	Sofia	Dimitriou	Director
-20000000046	Giorgos	Apostolou	1	20000000006	Giorgos	Apostolou	Director
-20000000047	Katerina	Pappa	1	20000000007	Katerina	Pappa	Director
-20000000048	Petros	Vasileiou	1	20000000008	Petros	Vasileiou	Director
-20000000049	Anna	Markou	1	20000000009	Anna	Markou	Director
-20000000050	Andreas	Papadopoulos	1	20000000010	Andreas	Papadopoulos	Director
-20000000051	Eleni	Nikolaou	1	20000000001	Eleni	Nikolaou	Director
-20000000052	Dimitris	Georgiou	1	20000000002	Dimitris	Georgiou	Director
-20000000053	Maria	Konstantinou	1	20000000003	Maria	Konstantinou	Director
-20000000054	Nikos	Ioannou	1	20000000004	Nikos	Ioannou	Director
-20000000055	Sofia	Dimitriou	1	20000000005	Sofia	Dimitriou	Director
-20000000056	Giorgos	Apostolou	1	20000000006	Giorgos	Apostolou	Director
-20000000057	Katerina	Pappa	1	20000000007	Katerina	Pappa	Director
-20000000058	Petros	Vasileiou	1	20000000008	Petros	Vasileiou	Director
-20000000059	Anna	Markou	1	20000000009	Anna	Markou	Director
-20000000060	Andreas	Papadopoulos	1	20000000010	Andreas	Papadopoulos	Director
-20000000061	Eleni	Nikolaou	1	20000000001	Eleni	Nikolaou	Director
-20000000062	Dimitris	Georgiou	1	20000000002	Dimitris	Georgiou	Director
-20000000063	Maria	Konstantinou	1	20000000003	Maria	Konstantinou	Director
-20000000064	Nikos	Ioannou	1	20000000004	Nikos	Ioannou	Director
-20000000065	Sofia	Dimitriou	1	20000000005	Sofia	Dimitriou	Director
-20000000066	Giorgos	Apostolou	1	20000000006	Giorgos	Apostolou	Director
-20000000067	Katerina	Pappa	1	20000000007	Katerina	Pappa	Director
-20000000068	Petros	Vasileiou	1	20000000008	Petros	Vasileiou	Director
-20000000069	Anna	Markou	1	20000000009	Anna	Markou	Director
-20000000070	Andreas	Papadopoulos	1	20000000010	Andreas	Papadopoulos	Director
-20000000071	Eleni	Nikolaou	1	20000000001	Eleni	Nikolaou	Director
-20000000072	Dimitris	Georgiou	1	20000000002	Dimitris	Georgiou	Director
-20000000073	Maria	Konstantinou	1	20000000003	Maria	Konstantinou	Director
-20000000074	Nikos	Ioannou	1	20000000004	Nikos	Ioannou	Director
-20000000075	Sofia	Dimitriou	1	20000000005	Sofia	Dimitriou	Director
-20000000076	Giorgos	Apostolou	1	20000000006	Giorgos	Apostolou	Director
-20000000077	Katerina	Pappa	1	20000000007	Katerina	Pappa	Director
-20000000078	Petros	Vasileiou	1	20000000008	Petros	Vasileiou	Director
-20000000079	Anna	Markou	1	20000000009	Anna	Markou	Director
-20000000080	Andreas	Papadopoulos	1	20000000010	Andreas	Papadopoulos	Director
+20000000036	Giorgos	Apostolou	1	20000000016	Giorgos	Apostolou	Attending A
+20000000036	Giorgos	Apostolou	2	20000000001	Eleni	Nikolaou	Director
+20000000037	Katerina	Pappa	1	20000000017	Katerina	Pappa	Attending A
+20000000037	Katerina	Pappa	2	20000000002	Dimitris	Georgiou	Director
+20000000038	Petros	Vasileiou	1	20000000018	Petros	Vasileiou	Attending A
+20000000038	Petros	Vasileiou	2	20000000003	Maria	Konstantinou	Director
+20000000039	Anna	Markou	1	20000000019	Anna	Markou	Attending A
+20000000039	Anna	Markou	2	20000000004	Nikos	Ioannou	Director
+20000000040	Andreas	Papadopoulos	1	20000000020	Andreas	Papadopoulos	Attending A
+20000000040	Andreas	Papadopoulos	2	20000000005	Sofia	Dimitriou	Director
+20000000041	Eleni	Nikolaou	1	20000000021	Eleni	Nikolaou	Attending A
+20000000041	Eleni	Nikolaou	2	20000000006	Giorgos	Apostolou	Director
+20000000042	Dimitris	Georgiou	1	20000000022	Dimitris	Georgiou	Attending A
+20000000042	Dimitris	Georgiou	2	20000000007	Katerina	Pappa	Director
+20000000043	Maria	Konstantinou	1	20000000023	Maria	Konstantinou	Attending A
+20000000043	Maria	Konstantinou	2	20000000008	Petros	Vasileiou	Director
+20000000044	Nikos	Ioannou	1	20000000024	Nikos	Ioannou	Attending A
+20000000044	Nikos	Ioannou	2	20000000009	Anna	Markou	Director
+20000000045	Sofia	Dimitriou	1	20000000025	Sofia	Dimitriou	Attending A
+20000000045	Sofia	Dimitriou	2	20000000010	Andreas	Papadopoulos	Director
+20000000046	Giorgos	Apostolou	1	20000000026	Giorgos	Apostolou	Attending A
+20000000046	Giorgos	Apostolou	2	20000000011	Eleni	Nikolaou	Director
+20000000047	Katerina	Pappa	1	20000000027	Katerina	Pappa	Attending A
+20000000047	Katerina	Pappa	2	20000000012	Dimitris	Georgiou	Director
+20000000048	Petros	Vasileiou	1	20000000028	Petros	Vasileiou	Attending A
+20000000048	Petros	Vasileiou	2	20000000013	Maria	Konstantinou	Director
+20000000049	Anna	Markou	1	20000000029	Anna	Markou	Attending A
+20000000049	Anna	Markou	2	20000000014	Nikos	Ioannou	Director
+20000000050	Andreas	Papadopoulos	1	20000000030	Andreas	Papadopoulos	Attending A
+20000000050	Andreas	Papadopoulos	2	20000000015	Sofia	Dimitriou	Director
+20000000051	Eleni	Nikolaou	1	20000000031	Eleni	Nikolaou	Attending A
+20000000051	Eleni	Nikolaou	2	20000000001	Eleni	Nikolaou	Director
+20000000052	Dimitris	Georgiou	1	20000000032	Dimitris	Georgiou	Attending A
+20000000052	Dimitris	Georgiou	2	20000000002	Dimitris	Georgiou	Director
+20000000053	Maria	Konstantinou	1	20000000033	Maria	Konstantinou	Attending A
+20000000053	Maria	Konstantinou	2	20000000003	Maria	Konstantinou	Director
+20000000054	Nikos	Ioannou	1	20000000034	Nikos	Ioannou	Attending A
+20000000054	Nikos	Ioannou	2	20000000004	Nikos	Ioannou	Director
+20000000055	Sofia	Dimitriou	1	20000000035	Sofia	Dimitriou	Attending A
+20000000055	Sofia	Dimitriou	2	20000000005	Sofia	Dimitriou	Director
+20000000056	Giorgos	Apostolou	1	20000000016	Giorgos	Apostolou	Attending A
+20000000056	Giorgos	Apostolou	2	20000000001	Eleni	Nikolaou	Director
+20000000057	Katerina	Pappa	1	20000000017	Katerina	Pappa	Attending A
+20000000057	Katerina	Pappa	2	20000000002	Dimitris	Georgiou	Director
+20000000058	Petros	Vasileiou	1	20000000018	Petros	Vasileiou	Attending A
+20000000058	Petros	Vasileiou	2	20000000003	Maria	Konstantinou	Director
+20000000059	Anna	Markou	1	20000000019	Anna	Markou	Attending A
+20000000059	Anna	Markou	2	20000000004	Nikos	Ioannou	Director
+20000000060	Andreas	Papadopoulos	1	20000000020	Andreas	Papadopoulos	Attending A
+20000000060	Andreas	Papadopoulos	2	20000000005	Sofia	Dimitriou	Director
+20000000061	Eleni	Nikolaou	1	20000000036	Giorgos	Apostolou	Attending B
+20000000061	Eleni	Nikolaou	2	20000000016	Giorgos	Apostolou	Attending A
+20000000061	Eleni	Nikolaou	3	20000000001	Eleni	Nikolaou	Director
+20000000062	Dimitris	Georgiou	1	20000000037	Katerina	Pappa	Attending B
+20000000062	Dimitris	Georgiou	2	20000000017	Katerina	Pappa	Attending A
+20000000062	Dimitris	Georgiou	3	20000000002	Dimitris	Georgiou	Director
+20000000063	Maria	Konstantinou	1	20000000038	Petros	Vasileiou	Attending B
+20000000063	Maria	Konstantinou	2	20000000018	Petros	Vasileiou	Attending A
+20000000063	Maria	Konstantinou	3	20000000003	Maria	Konstantinou	Director
+20000000064	Nikos	Ioannou	1	20000000039	Anna	Markou	Attending B
+20000000064	Nikos	Ioannou	2	20000000019	Anna	Markou	Attending A
+20000000064	Nikos	Ioannou	3	20000000004	Nikos	Ioannou	Director
+20000000065	Sofia	Dimitriou	1	20000000040	Andreas	Papadopoulos	Attending B
+20000000065	Sofia	Dimitriou	2	20000000020	Andreas	Papadopoulos	Attending A
+20000000065	Sofia	Dimitriou	3	20000000005	Sofia	Dimitriou	Director
+20000000066	Giorgos	Apostolou	1	20000000041	Eleni	Nikolaou	Attending B
+20000000066	Giorgos	Apostolou	2	20000000021	Eleni	Nikolaou	Attending A
+20000000066	Giorgos	Apostolou	3	20000000006	Giorgos	Apostolou	Director
+20000000067	Katerina	Pappa	1	20000000042	Dimitris	Georgiou	Attending B
+20000000067	Katerina	Pappa	2	20000000022	Dimitris	Georgiou	Attending A
+20000000067	Katerina	Pappa	3	20000000007	Katerina	Pappa	Director
+20000000068	Petros	Vasileiou	1	20000000043	Maria	Konstantinou	Attending B
+20000000068	Petros	Vasileiou	2	20000000023	Maria	Konstantinou	Attending A
+20000000068	Petros	Vasileiou	3	20000000008	Petros	Vasileiou	Director
+20000000069	Anna	Markou	1	20000000044	Nikos	Ioannou	Attending B
+20000000069	Anna	Markou	2	20000000024	Nikos	Ioannou	Attending A
+20000000069	Anna	Markou	3	20000000009	Anna	Markou	Director
+20000000070	Andreas	Papadopoulos	1	20000000045	Sofia	Dimitriou	Attending B
+20000000070	Andreas	Papadopoulos	2	20000000025	Sofia	Dimitriou	Attending A
+20000000070	Andreas	Papadopoulos	3	20000000010	Andreas	Papadopoulos	Director
+20000000071	Eleni	Nikolaou	1	20000000046	Giorgos	Apostolou	Attending B
+20000000071	Eleni	Nikolaou	2	20000000026	Giorgos	Apostolou	Attending A
+20000000071	Eleni	Nikolaou	3	20000000011	Eleni	Nikolaou	Director
+20000000072	Dimitris	Georgiou	1	20000000047	Katerina	Pappa	Attending B
+20000000072	Dimitris	Georgiou	2	20000000027	Katerina	Pappa	Attending A
+20000000072	Dimitris	Georgiou	3	20000000012	Dimitris	Georgiou	Director
+20000000073	Maria	Konstantinou	1	20000000048	Petros	Vasileiou	Attending B
+20000000073	Maria	Konstantinou	2	20000000028	Petros	Vasileiou	Attending A
+20000000073	Maria	Konstantinou	3	20000000013	Maria	Konstantinou	Director
+20000000074	Nikos	Ioannou	1	20000000049	Anna	Markou	Attending B
+20000000074	Nikos	Ioannou	2	20000000029	Anna	Markou	Attending A
+20000000074	Nikos	Ioannou	3	20000000014	Nikos	Ioannou	Director
+20000000075	Sofia	Dimitriou	1	20000000050	Andreas	Papadopoulos	Attending B
+20000000075	Sofia	Dimitriou	2	20000000030	Andreas	Papadopoulos	Attending A
+20000000075	Sofia	Dimitriou	3	20000000015	Sofia	Dimitriou	Director
+20000000076	Giorgos	Apostolou	1	20000000051	Eleni	Nikolaou	Attending B
+20000000076	Giorgos	Apostolou	2	20000000031	Eleni	Nikolaou	Attending A
+20000000076	Giorgos	Apostolou	3	20000000001	Eleni	Nikolaou	Director
+20000000077	Katerina	Pappa	1	20000000052	Dimitris	Georgiou	Attending B
+20000000077	Katerina	Pappa	2	20000000032	Dimitris	Georgiou	Attending A
+20000000077	Katerina	Pappa	3	20000000002	Dimitris	Georgiou	Director
+20000000078	Petros	Vasileiou	1	20000000053	Maria	Konstantinou	Attending B
+20000000078	Petros	Vasileiou	2	20000000033	Maria	Konstantinou	Attending A
+20000000078	Petros	Vasileiou	3	20000000003	Maria	Konstantinou	Director
+20000000079	Anna	Markou	1	20000000054	Nikos	Ioannou	Attending B
+20000000079	Anna	Markou	2	20000000034	Nikos	Ioannou	Attending A
+20000000079	Anna	Markou	3	20000000004	Nikos	Ioannou	Director
+20000000080	Andreas	Papadopoulos	1	20000000055	Sofia	Dimitriou	Attending B
+20000000080	Andreas	Papadopoulos	2	20000000035	Sofia	Dimitriou	Attending A
+20000000080	Andreas	Papadopoulos	3	20000000005	Sofia	Dimitriou	Director

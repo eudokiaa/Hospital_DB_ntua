@@ -1,80 +1,80 @@
 Name	Surname	Major	Rank	Procedures_This_Year	Max_Procedures	Difference
 Maria	Konstantinou	Surgery	Attending A	3	27	24
-Nikos	Ioannou	Emergency Medicine	Attending B	3	27	24
-Sofia	Dimitriou	Intensive Care	Resident	3	27	24
-Giorgos	Apostolou	Pathology	Attending A	3	27	24
+Nikos	Ioannou	Emergency Medicine	Attending A	3	27	24
+Sofia	Dimitriou	Intensive Care	Attending A	3	27	24
+Giorgos	Apostolou	Pathology	Attending B	3	27	24
 Katerina	Pappa	Radiology	Attending B	3	27	24
-Petros	Vasileiou	Microbiology	Resident	3	27	24
-Anna	Markou	Neurology	Attending A	3	27	24
-Sofia	Dimitriou	Surgery	Attending B	3	27	24
-Giorgos	Apostolou	Emergency Medicine	Resident	3	27	24
+Petros	Vasileiou	Microbiology	Attending B	3	27	24
+Anna	Markou	Neurology	Attending B	3	27	24
+Sofia	Dimitriou	Surgery	Attending A	3	27	24
+Giorgos	Apostolou	Emergency Medicine	Attending A	3	27	24
 Katerina	Pappa	Intensive Care	Attending A	3	27	24
-Petros	Vasileiou	Pathology	Attending B	3	27	24
-Anna	Markou	Radiology	Resident	3	27	24
+Petros	Vasileiou	Pathology	Attending A	3	27	24
+Anna	Markou	Radiology	Attending A	3	27	24
 Andreas	Papadopoulos	Microbiology	Attending A	3	27	24
-Eleni	Nikolaou	Neurology	Attending B	3	27	24
-Dimitris	Georgiou	Cardiology	Resident	3	27	24
+Eleni	Nikolaou	Neurology	Attending A	3	27	24
+Dimitris	Georgiou	Cardiology	Attending A	3	27	24
 Sofia	Dimitriou	Surgery	Resident	2	27	25
 Eleni	Nikolaou	Surgery	Director	2	27	25
-Giorgos	Apostolou	Emergency Medicine	Attending A	2	27	25
+Giorgos	Apostolou	Emergency Medicine	Resident	2	27	25
 Dimitris	Georgiou	Emergency Medicine	Director	2	27	25
-Katerina	Pappa	Intensive Care	Attending B	2	27	25
+Katerina	Pappa	Intensive Care	Resident	2	27	25
 Maria	Konstantinou	Intensive Care	Director	2	27	25
 Petros	Vasileiou	Pathology	Resident	2	27	25
 Nikos	Ioannou	Pathology	Director	2	27	25
-Anna	Markou	Radiology	Attending A	2	27	25
+Anna	Markou	Radiology	Resident	2	27	25
 Sofia	Dimitriou	Radiology	Director	2	27	25
-Andreas	Papadopoulos	Microbiology	Attending B	2	27	25
+Andreas	Papadopoulos	Microbiology	Resident	2	27	25
 Giorgos	Apostolou	Microbiology	Director	2	27	25
 Eleni	Nikolaou	Neurology	Resident	2	27	25
-Katerina	Pappa	Neurology	Director	2	27	25
-Dimitris	Georgiou	Cardiology	Attending A	2	27	25
 Andreas	Papadopoulos	Cardiology	Attending B	2	27	25
+Katerina	Pappa	Neurology	Director	2	27	25
+Dimitris	Georgiou	Cardiology	Resident	2	27	25
+Eleni	Nikolaou	Surgery	Attending B	2	27	25
 Petros	Vasileiou	Cardiology	Director	2	27	25
-Maria	Konstantinou	Surgery	Attending B	2	27	25
-Eleni	Nikolaou	Surgery	Resident	2	27	25
+Maria	Konstantinou	Surgery	Resident	2	27	25
 Anna	Markou	Surgery	Director	2	27	25
 Nikos	Ioannou	Emergency Medicine	Resident	2	27	25
-Dimitris	Georgiou	Emergency Medicine	Attending A	2	27	25
+Dimitris	Georgiou	Emergency Medicine	Attending B	2	27	25
 Andreas	Papadopoulos	Emergency Medicine	Director	2	27	25
-Sofia	Dimitriou	Intensive Care	Attending A	2	27	25
+Sofia	Dimitriou	Intensive Care	Resident	2	27	25
 Maria	Konstantinou	Intensive Care	Attending B	2	27	25
-Eleni	Nikolaou	Intensive Care	Resident	2	27	25
-Giorgos	Apostolou	Pathology	Attending B	2	27	25
-Nikos	Ioannou	Pathology	Resident	2	27	25
-Dimitris	Georgiou	Pathology	Attending A	2	27	25
+Eleni	Nikolaou	Intensive Care	Director	2	27	25
+Giorgos	Apostolou	Pathology	Resident	2	27	25
+Nikos	Ioannou	Pathology	Attending B	2	27	25
+Dimitris	Georgiou	Pathology	Director	2	27	25
 Katerina	Pappa	Radiology	Resident	2	27	25
-Sofia	Dimitriou	Radiology	Attending A	2	27	25
+Sofia	Dimitriou	Radiology	Attending B	2	27	25
+Maria	Konstantinou	Radiology	Director	2	27	25
+Petros	Vasileiou	Microbiology	Resident	2	27	25
 Giorgos	Apostolou	Microbiology	Attending B	2	27	25
-Maria	Konstantinou	Radiology	Attending B	2	27	25
-Petros	Vasileiou	Microbiology	Attending A	2	27	25
-Katerina	Pappa	Neurology	Resident	2	27	25
-Nikos	Ioannou	Microbiology	Resident	2	27	25
-Anna	Markou	Neurology	Attending B	2	27	25
-Petros	Vasileiou	Cardiology	Attending A	2	27	25
-Giorgos	Apostolou	Cardiology	Attending B	2	27	25
+Nikos	Ioannou	Microbiology	Director	2	27	25
+Anna	Markou	Neurology	Resident	2	27	25
+Katerina	Pappa	Neurology	Attending B	2	27	25
+Giorgos	Apostolou	Cardiology	Attending A	2	27	25
 Andreas	Papadopoulos	Cardiology	Resident	2	27	25
-Anna	Markou	Surgery	Attending B	2	27	25
-Katerina	Pappa	Surgery	Resident	2	27	25
-Andreas	Papadopoulos	Emergency Medicine	Resident	2	27	25
-Petros	Vasileiou	Emergency Medicine	Attending A	2	27	25
-Eleni	Nikolaou	Intensive Care	Attending A	2	27	25
-Anna	Markou	Intensive Care	Attending B	2	27	25
-Dimitris	Georgiou	Pathology	Attending B	2	27	25
-Andreas	Papadopoulos	Pathology	Resident	2	27	25
-Maria	Konstantinou	Radiology	Resident	2	27	25
-Eleni	Nikolaou	Radiology	Attending A	2	27	25
-Nikos	Ioannou	Microbiology	Attending A	2	27	25
-Dimitris	Georgiou	Microbiology	Attending B	2	27	25
-Sofia	Dimitriou	Neurology	Attending B	2	27	25
-Maria	Konstantinou	Neurology	Resident	2	27	25
-Giorgos	Apostolou	Cardiology	Resident	2	27	25
-Nikos	Ioannou	Cardiology	Attending A	2	27	25
+Petros	Vasileiou	Cardiology	Attending B	2	27	25
 Katerina	Pappa	Surgery	Attending A	2	27	25
-Petros	Vasileiou	Emergency Medicine	Attending B	2	27	25
-Anna	Markou	Intensive Care	Resident	2	27	25
+Anna	Markou	Surgery	Attending B	2	27	25
+Petros	Vasileiou	Emergency Medicine	Attending A	2	27	25
+Andreas	Papadopoulos	Emergency Medicine	Attending B	2	27	25
+Anna	Markou	Intensive Care	Attending A	2	27	25
+Eleni	Nikolaou	Intensive Care	Attending B	2	27	25
 Andreas	Papadopoulos	Pathology	Attending A	2	27	25
-Eleni	Nikolaou	Radiology	Attending B	2	27	25
-Dimitris	Georgiou	Microbiology	Resident	2	27	25
+Dimitris	Georgiou	Pathology	Attending B	2	27	25
+Eleni	Nikolaou	Radiology	Attending A	2	27	25
+Maria	Konstantinou	Radiology	Attending B	2	27	25
+Dimitris	Georgiou	Microbiology	Attending A	2	27	25
+Nikos	Ioannou	Microbiology	Attending B	2	27	25
 Maria	Konstantinou	Neurology	Attending A	2	27	25
-Nikos	Ioannou	Cardiology	Attending B	2	27	25
+Sofia	Dimitriou	Neurology	Attending B	2	27	25
+Nikos	Ioannou	Cardiology	Attending A	2	27	25
+Giorgos	Apostolou	Cardiology	Attending B	2	27	25
+Katerina	Pappa	Surgery	Attending B	2	27	25
+Petros	Vasileiou	Emergency Medicine	Attending B	2	27	25
+Anna	Markou	Intensive Care	Attending B	2	27	25
+Andreas	Papadopoulos	Pathology	Attending B	2	27	25
+Eleni	Nikolaou	Radiology	Resident	2	27	25
+Dimitris	Georgiou	Microbiology	Resident	2	27	25
+Maria	Konstantinou	Neurology	Resident	2	27	25
+Nikos	Ioannou	Cardiology	Resident	2	27	25
