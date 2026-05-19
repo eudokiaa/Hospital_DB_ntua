@@ -1,6 +1,2 @@
-id	select_type	table	type	possible_keys	key	key_len	ref	rows	Extra
-1	SIMPLE	d	const	PRIMARY	PRIMARY	82	const	1	
-1	SIMPLE	p	const	PRIMARY	PRIMARY	82	const	1	
-1	SIMPLE	dd	ref	PRIMARY,fk_docdep_department	PRIMARY	82	const	1	Using where; Using index
-1	SIMPLE	h	ref	PRIMARY,idx_hosp_department	idx_hosp_department	4	hospital_db.dd.Department_id	15	Using index
-1	SIMPLE	r	ref	idx_rating_hosp	idx_rating_hosp	5	hospital_db.h.Hospitalisation_id	1	
+Name	Surname	Major	Rank	Total_Hospitalisations_Rated	Avg_Medical_Care	Avg_Overall_Experience
+Eleni	Nikolaou	Surgery	Director	4	2.00	1.00

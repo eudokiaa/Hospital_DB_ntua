@@ -21,7 +21,11 @@ SELECT
     )                                               AS Total_Extra_Cost,
  
     -- Συνολικό κόστος (= αυτό που υπολογίζει το trigger calculate_cost)
-    SUM(h.Cost)                                     AS Total_Revenue
+    SUM(
+    k.Base_cost +
+    GREATEST(0, DATEDIFF(h.ReleaseDate, h.EntryDate) - k.AverageStay)
+    * k.Additional_daily_cost
+)                                     AS Total_Revenue
  
 FROM Hospitalisation h
 JOIN Department   d ON h.Department_id = d.Department_id
@@ -32,8 +36,10 @@ WHERE h.ReleaseDate IS NOT NULL   -- μόνο ολοκληρωμένες νοσ�
  
 GROUP BY
     d.Department_id,
+    d.Name, 
     YEAR(h.EntryDate),
     k.KEN_id,
+    k.Description,
     p.Insurance
  
 ORDER BY

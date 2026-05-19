@@ -1,6 +1,2 @@
 Name	Surname	Age	Major	Rank	Procedures_As_Lead
-Giorgos	Apostolou	34	Surgery	Attending A	7
-Irene	Stamatiou	31	Intensive Care	Resident	7
-Katerina	Pappa	32	Surgery	Resident	7
-Anna	Markou	34	Emergency Medicine	Resident	7
-Stavros	Mylonas	31	Surgery	Resident	6
+Sofia	Dimitriou	31	Neurology	Attending A	1

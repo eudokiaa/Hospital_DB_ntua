@@ -1,690 +1,1891 @@
 Department	Date	Shift_Type	Personnel_Category	Subcategory	Personnel_Count
-Cardiology	2026-04-01	Evening	Doctor	Cardiology	3
-Cardiology	2026-04-01	Evening	Doctor	Pathology	1
-Cardiology	2026-04-01	Evening	Nurse	Assistant Nurse	2
-Cardiology	2026-04-01	Evening	Nurse	Head Nurse	2
-Cardiology	2026-04-01	Evening	Nurse	Nurse	2
-Cardiology	2026-04-01	Evening	Staff	IT Support	1
+Cardiology	2026-04-01	Evening	Doctor	Cardiology	1
+Cardiology	2026-04-01	Evening	Doctor	Neurology	1
+Cardiology	2026-04-01	Evening	Doctor	Surgery	1
+Cardiology	2026-04-01	Evening	Nurse	Nurse	6
+Cardiology	2026-04-01	Evening	Staff	Accountant	1
 Cardiology	2026-04-01	Evening	Staff	Secretary	1
-Cardiology	2026-04-01	Morning	Doctor	Cardiology	3
-Cardiology	2026-04-01	Morning	Doctor	Pathology	1
-Cardiology	2026-04-01	Morning	Nurse	Assistant Nurse	2
-Cardiology	2026-04-01	Morning	Nurse	Head Nurse	2
-Cardiology	2026-04-01	Morning	Nurse	Nurse	2
-Cardiology	2026-04-01	Morning	Staff	Admissions Clerk	1
+Cardiology	2026-04-01	Morning	Doctor	Cardiology	1
+Cardiology	2026-04-01	Morning	Doctor	Neurology	1
+Cardiology	2026-04-01	Morning	Doctor	Surgery	1
+Cardiology	2026-04-01	Morning	Nurse	Nurse	6
 Cardiology	2026-04-01	Morning	Staff	IT Support	1
-Cardiology	2026-04-01	Night	Doctor	Cardiology	3
-Cardiology	2026-04-01	Night	Doctor	Pathology	1
-Cardiology	2026-04-01	Night	Nurse	Assistant Nurse	2
-Cardiology	2026-04-01	Night	Nurse	Head Nurse	2
-Cardiology	2026-04-01	Night	Nurse	Nurse	2
+Cardiology	2026-04-01	Morning	Staff	Secretary	1
+Cardiology	2026-04-01	Night	Doctor	Cardiology	1
+Cardiology	2026-04-01	Night	Doctor	Neurology	1
+Cardiology	2026-04-01	Night	Doctor	Surgery	1
+Cardiology	2026-04-01	Night	Nurse	Nurse	6
 Cardiology	2026-04-01	Night	Staff	Accountant	1
-Cardiology	2026-04-01	Night	Staff	Secretary	1
-Emergency	2026-04-01	Evening	Doctor	Emergency Medicine	3
-Emergency	2026-04-01	Evening	Doctor	Radiology	2
-Emergency	2026-04-01	Evening	Nurse	Assistant Nurse	2
-Emergency	2026-04-01	Evening	Nurse	Head Nurse	2
-Emergency	2026-04-01	Evening	Nurse	Nurse	2
+Cardiology	2026-04-01	Night	Staff	Admissions Clerk	1
+Emergency	2026-04-01	Evening	Doctor	Emergency Medicine	1
+Emergency	2026-04-01	Evening	Doctor	Intensive Care	1
+Emergency	2026-04-01	Evening	Doctor	Surgery	1
+Emergency	2026-04-01	Evening	Nurse	Assistant Nurse	6
 Emergency	2026-04-01	Evening	Staff	Accountant	1
-Emergency	2026-04-01	Evening	Staff	Admissions Clerk	1
-Emergency	2026-04-01	Morning	Doctor	Emergency Medicine	3
-Emergency	2026-04-01	Morning	Doctor	Radiology	2
-Emergency	2026-04-01	Morning	Nurse	Assistant Nurse	2
-Emergency	2026-04-01	Morning	Nurse	Head Nurse	2
-Emergency	2026-04-01	Morning	Nurse	Nurse	2
-Emergency	2026-04-01	Morning	Staff	Accountant	1
+Emergency	2026-04-01	Evening	Staff	Secretary	1
+Emergency	2026-04-01	Morning	Doctor	Emergency Medicine	1
+Emergency	2026-04-01	Morning	Doctor	Intensive Care	1
+Emergency	2026-04-01	Morning	Doctor	Surgery	1
+Emergency	2026-04-01	Morning	Nurse	Assistant Nurse	6
+Emergency	2026-04-01	Morning	Staff	IT Support	1
 Emergency	2026-04-01	Morning	Staff	Secretary	1
-Emergency	2026-04-01	Night	Doctor	Emergency Medicine	3
-Emergency	2026-04-01	Night	Doctor	Radiology	2
-Emergency	2026-04-01	Night	Nurse	Assistant Nurse	2
-Emergency	2026-04-01	Night	Nurse	Head Nurse	2
-Emergency	2026-04-01	Night	Nurse	Nurse	2
+Emergency	2026-04-01	Night	Doctor	Emergency Medicine	1
+Emergency	2026-04-01	Night	Doctor	Intensive Care	1
+Emergency	2026-04-01	Night	Doctor	Surgery	1
+Emergency	2026-04-01	Night	Nurse	Assistant Nurse	6
+Emergency	2026-04-01	Night	Staff	Accountant	1
 Emergency	2026-04-01	Night	Staff	Admissions Clerk	1
-Emergency	2026-04-01	Night	Staff	IT Support	1
-ICU	2026-04-01	Evening	Doctor	Intensive Care	3
-ICU	2026-04-01	Evening	Nurse	Assistant Nurse	2
-ICU	2026-04-01	Evening	Nurse	Head Nurse	2
-ICU	2026-04-01	Evening	Nurse	Nurse	2
+Gastroenterology	2026-04-01	Evening	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-01	Evening	Doctor	Intensive Care	1
+Gastroenterology	2026-04-01	Evening	Doctor	Surgery	1
+Gastroenterology	2026-04-01	Evening	Nurse	Head Nurse	6
+Gastroenterology	2026-04-01	Evening	Staff	Accountant	1
+Gastroenterology	2026-04-01	Evening	Staff	Secretary	1
+Gastroenterology	2026-04-01	Morning	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-01	Morning	Doctor	Intensive Care	1
+Gastroenterology	2026-04-01	Morning	Doctor	Surgery	1
+Gastroenterology	2026-04-01	Morning	Nurse	Head Nurse	6
+Gastroenterology	2026-04-01	Morning	Staff	IT Support	1
+Gastroenterology	2026-04-01	Morning	Staff	Secretary	1
+Gastroenterology	2026-04-01	Night	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-01	Night	Doctor	Intensive Care	1
+Gastroenterology	2026-04-01	Night	Doctor	Surgery	1
+Gastroenterology	2026-04-01	Night	Nurse	Head Nurse	6
+Gastroenterology	2026-04-01	Night	Staff	Accountant	1
+Gastroenterology	2026-04-01	Night	Staff	Admissions Clerk	1
+ICU	2026-04-01	Evening	Doctor	Emergency Medicine	1
+ICU	2026-04-01	Evening	Doctor	Intensive Care	1
+ICU	2026-04-01	Evening	Doctor	Pathology	1
+ICU	2026-04-01	Evening	Nurse	Nurse	6
 ICU	2026-04-01	Evening	Staff	Accountant	1
 ICU	2026-04-01	Evening	Staff	Secretary	1
-ICU	2026-04-01	Morning	Doctor	Intensive Care	3
-ICU	2026-04-01	Morning	Nurse	Assistant Nurse	2
-ICU	2026-04-01	Morning	Nurse	Head Nurse	2
-ICU	2026-04-01	Morning	Nurse	Nurse	2
+ICU	2026-04-01	Morning	Doctor	Emergency Medicine	1
+ICU	2026-04-01	Morning	Doctor	Intensive Care	1
+ICU	2026-04-01	Morning	Doctor	Pathology	1
+ICU	2026-04-01	Morning	Nurse	Nurse	6
 ICU	2026-04-01	Morning	Staff	IT Support	1
 ICU	2026-04-01	Morning	Staff	Secretary	1
-ICU	2026-04-01	Night	Doctor	Intensive Care	3
-ICU	2026-04-01	Night	Nurse	Assistant Nurse	2
-ICU	2026-04-01	Night	Nurse	Head Nurse	2
-ICU	2026-04-01	Night	Nurse	Nurse	2
+ICU	2026-04-01	Night	Doctor	Emergency Medicine	1
+ICU	2026-04-01	Night	Doctor	Intensive Care	1
+ICU	2026-04-01	Night	Doctor	Pathology	1
+ICU	2026-04-01	Night	Nurse	Nurse	6
 ICU	2026-04-01	Night	Staff	Accountant	1
 ICU	2026-04-01	Night	Staff	Admissions Clerk	1
-Pathology	2026-04-01	Evening	Doctor	Microbiology	1
-Pathology	2026-04-01	Evening	Doctor	Pathology	2
-Pathology	2026-04-01	Evening	Nurse	Assistant Nurse	2
-Pathology	2026-04-01	Evening	Nurse	Head Nurse	2
-Pathology	2026-04-01	Evening	Nurse	Nurse	2
-Pathology	2026-04-01	Evening	Staff	IT Support	1
+Microbiology	2026-04-01	Evening	Doctor	Microbiology	1
+Microbiology	2026-04-01	Evening	Doctor	Neurology	1
+Microbiology	2026-04-01	Evening	Doctor	Radiology	1
+Microbiology	2026-04-01	Evening	Nurse	Nurse	6
+Microbiology	2026-04-01	Evening	Staff	Accountant	1
+Microbiology	2026-04-01	Evening	Staff	Secretary	1
+Microbiology	2026-04-01	Morning	Doctor	Microbiology	1
+Microbiology	2026-04-01	Morning	Doctor	Neurology	1
+Microbiology	2026-04-01	Morning	Doctor	Radiology	1
+Microbiology	2026-04-01	Morning	Nurse	Nurse	6
+Microbiology	2026-04-01	Morning	Staff	IT Support	1
+Microbiology	2026-04-01	Morning	Staff	Secretary	1
+Microbiology	2026-04-01	Night	Doctor	Microbiology	1
+Microbiology	2026-04-01	Night	Doctor	Neurology	1
+Microbiology	2026-04-01	Night	Doctor	Radiology	1
+Microbiology	2026-04-01	Night	Nurse	Nurse	6
+Microbiology	2026-04-01	Night	Staff	Accountant	1
+Microbiology	2026-04-01	Night	Staff	Admissions Clerk	1
+Nephrology	2026-04-01	Evening	Doctor	Emergency Medicine	1
+Nephrology	2026-04-01	Evening	Doctor	Intensive Care	1
+Nephrology	2026-04-01	Evening	Doctor	Pathology	1
+Nephrology	2026-04-01	Evening	Nurse	Assistant Nurse	6
+Nephrology	2026-04-01	Evening	Staff	Accountant	1
+Nephrology	2026-04-01	Evening	Staff	Secretary	1
+Nephrology	2026-04-01	Morning	Doctor	Emergency Medicine	1
+Nephrology	2026-04-01	Morning	Doctor	Intensive Care	1
+Nephrology	2026-04-01	Morning	Doctor	Pathology	1
+Nephrology	2026-04-01	Morning	Nurse	Assistant Nurse	6
+Nephrology	2026-04-01	Morning	Staff	IT Support	1
+Nephrology	2026-04-01	Morning	Staff	Secretary	1
+Nephrology	2026-04-01	Night	Doctor	Emergency Medicine	1
+Nephrology	2026-04-01	Night	Doctor	Intensive Care	1
+Nephrology	2026-04-01	Night	Doctor	Pathology	1
+Nephrology	2026-04-01	Night	Nurse	Assistant Nurse	6
+Nephrology	2026-04-01	Night	Staff	Accountant	1
+Nephrology	2026-04-01	Night	Staff	Admissions Clerk	1
+Neurology	2026-04-01	Evening	Doctor	Cardiology	1
+Neurology	2026-04-01	Evening	Doctor	Microbiology	1
+Neurology	2026-04-01	Evening	Doctor	Neurology	1
+Neurology	2026-04-01	Evening	Nurse	Head Nurse	6
+Neurology	2026-04-01	Evening	Staff	Accountant	1
+Neurology	2026-04-01	Evening	Staff	Secretary	1
+Neurology	2026-04-01	Morning	Doctor	Cardiology	1
+Neurology	2026-04-01	Morning	Doctor	Microbiology	1
+Neurology	2026-04-01	Morning	Doctor	Neurology	1
+Neurology	2026-04-01	Morning	Nurse	Head Nurse	6
+Neurology	2026-04-01	Morning	Staff	IT Support	1
+Neurology	2026-04-01	Morning	Staff	Secretary	1
+Neurology	2026-04-01	Night	Doctor	Cardiology	1
+Neurology	2026-04-01	Night	Doctor	Microbiology	1
+Neurology	2026-04-01	Night	Doctor	Neurology	1
+Neurology	2026-04-01	Night	Nurse	Head Nurse	6
+Neurology	2026-04-01	Night	Staff	Accountant	1
+Neurology	2026-04-01	Night	Staff	Admissions Clerk	1
+Oncology	2026-04-01	Evening	Doctor	Intensive Care	1
+Oncology	2026-04-01	Evening	Doctor	Pathology	1
+Oncology	2026-04-01	Evening	Doctor	Radiology	1
+Oncology	2026-04-01	Evening	Nurse	Nurse	6
+Oncology	2026-04-01	Evening	Staff	Accountant	1
+Oncology	2026-04-01	Evening	Staff	Secretary	1
+Oncology	2026-04-01	Morning	Doctor	Intensive Care	1
+Oncology	2026-04-01	Morning	Doctor	Pathology	1
+Oncology	2026-04-01	Morning	Doctor	Radiology	1
+Oncology	2026-04-01	Morning	Nurse	Nurse	6
+Oncology	2026-04-01	Morning	Staff	IT Support	1
+Oncology	2026-04-01	Morning	Staff	Secretary	1
+Oncology	2026-04-01	Night	Doctor	Intensive Care	1
+Oncology	2026-04-01	Night	Doctor	Pathology	1
+Oncology	2026-04-01	Night	Doctor	Radiology	1
+Oncology	2026-04-01	Night	Nurse	Nurse	6
+Oncology	2026-04-01	Night	Staff	Accountant	1
+Oncology	2026-04-01	Night	Staff	Admissions Clerk	1
+Orthopedics	2026-04-01	Evening	Doctor	Cardiology	1
+Orthopedics	2026-04-01	Evening	Doctor	Neurology	1
+Orthopedics	2026-04-01	Evening	Doctor	Surgery	1
+Orthopedics	2026-04-01	Evening	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-01	Evening	Staff	Accountant	1
+Orthopedics	2026-04-01	Evening	Staff	Secretary	1
+Orthopedics	2026-04-01	Morning	Doctor	Cardiology	1
+Orthopedics	2026-04-01	Morning	Doctor	Neurology	1
+Orthopedics	2026-04-01	Morning	Doctor	Surgery	1
+Orthopedics	2026-04-01	Morning	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-01	Morning	Staff	IT Support	1
+Orthopedics	2026-04-01	Morning	Staff	Secretary	1
+Orthopedics	2026-04-01	Night	Doctor	Cardiology	1
+Orthopedics	2026-04-01	Night	Doctor	Neurology	1
+Orthopedics	2026-04-01	Night	Doctor	Surgery	1
+Orthopedics	2026-04-01	Night	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-01	Night	Staff	Accountant	1
+Orthopedics	2026-04-01	Night	Staff	Admissions Clerk	1
+Pathology	2026-04-01	Evening	Doctor	Intensive Care	1
+Pathology	2026-04-01	Evening	Doctor	Pathology	1
+Pathology	2026-04-01	Evening	Doctor	Radiology	1
+Pathology	2026-04-01	Evening	Nurse	Head Nurse	6
+Pathology	2026-04-01	Evening	Staff	Accountant	1
 Pathology	2026-04-01	Evening	Staff	Secretary	1
-Pathology	2026-04-01	Morning	Doctor	Microbiology	1
-Pathology	2026-04-01	Morning	Doctor	Pathology	2
-Pathology	2026-04-01	Morning	Nurse	Assistant Nurse	2
-Pathology	2026-04-01	Morning	Nurse	Head Nurse	2
-Pathology	2026-04-01	Morning	Nurse	Nurse	2
-Pathology	2026-04-01	Morning	Staff	Admissions Clerk	1
+Pathology	2026-04-01	Morning	Doctor	Intensive Care	1
+Pathology	2026-04-01	Morning	Doctor	Pathology	1
+Pathology	2026-04-01	Morning	Doctor	Radiology	1
+Pathology	2026-04-01	Morning	Nurse	Head Nurse	6
 Pathology	2026-04-01	Morning	Staff	IT Support	1
-Pathology	2026-04-01	Night	Doctor	Microbiology	1
-Pathology	2026-04-01	Night	Doctor	Pathology	2
-Pathology	2026-04-01	Night	Nurse	Assistant Nurse	2
-Pathology	2026-04-01	Night	Nurse	Head Nurse	2
-Pathology	2026-04-01	Night	Nurse	Nurse	2
+Pathology	2026-04-01	Morning	Staff	Secretary	1
+Pathology	2026-04-01	Night	Doctor	Intensive Care	1
+Pathology	2026-04-01	Night	Doctor	Pathology	1
+Pathology	2026-04-01	Night	Doctor	Radiology	1
+Pathology	2026-04-01	Night	Nurse	Head Nurse	6
 Pathology	2026-04-01	Night	Staff	Accountant	1
-Pathology	2026-04-01	Night	Staff	Secretary	1
-Surgery	2026-04-01	Evening	Doctor	Surgery	4
-Surgery	2026-04-01	Evening	Nurse	Assistant Nurse	2
-Surgery	2026-04-01	Evening	Nurse	Head Nurse	2
-Surgery	2026-04-01	Evening	Nurse	Nurse	2
-Surgery	2026-04-01	Evening	Staff	Admissions Clerk	1
-Surgery	2026-04-01	Evening	Staff	IT Support	1
-Surgery	2026-04-01	Morning	Doctor	Surgery	4
-Surgery	2026-04-01	Morning	Nurse	Assistant Nurse	2
-Surgery	2026-04-01	Morning	Nurse	Head Nurse	2
-Surgery	2026-04-01	Morning	Nurse	Nurse	2
-Surgery	2026-04-01	Morning	Staff	Accountant	1
-Surgery	2026-04-01	Morning	Staff	Admissions Clerk	1
-Surgery	2026-04-01	Night	Doctor	Surgery	4
-Surgery	2026-04-01	Night	Nurse	Assistant Nurse	2
-Surgery	2026-04-01	Night	Nurse	Head Nurse	2
-Surgery	2026-04-01	Night	Nurse	Nurse	2
-Surgery	2026-04-01	Night	Staff	IT Support	1
-Surgery	2026-04-01	Night	Staff	Secretary	1
-Cardiology	2026-04-02	Evening	Doctor	Cardiology	3
-Cardiology	2026-04-02	Evening	Doctor	Pathology	1
-Cardiology	2026-04-02	Evening	Nurse	Assistant Nurse	2
-Cardiology	2026-04-02	Evening	Nurse	Head Nurse	2
-Cardiology	2026-04-02	Evening	Nurse	Nurse	2
-Cardiology	2026-04-02	Evening	Staff	Admissions Clerk	1
+Pathology	2026-04-01	Night	Staff	Admissions Clerk	1
+Pediatrics	2026-04-01	Evening	Doctor	Microbiology	1
+Pediatrics	2026-04-01	Evening	Doctor	Pathology	1
+Pediatrics	2026-04-01	Evening	Doctor	Radiology	1
+Pediatrics	2026-04-01	Evening	Nurse	Head Nurse	6
+Pediatrics	2026-04-01	Evening	Staff	Accountant	1
+Pediatrics	2026-04-01	Evening	Staff	Secretary	1
+Pediatrics	2026-04-01	Morning	Doctor	Microbiology	1
+Pediatrics	2026-04-01	Morning	Doctor	Pathology	1
+Pediatrics	2026-04-01	Morning	Doctor	Radiology	1
+Pediatrics	2026-04-01	Morning	Nurse	Head Nurse	6
+Pediatrics	2026-04-01	Morning	Staff	IT Support	1
+Pediatrics	2026-04-01	Morning	Staff	Secretary	1
+Pediatrics	2026-04-01	Night	Doctor	Microbiology	1
+Pediatrics	2026-04-01	Night	Doctor	Pathology	1
+Pediatrics	2026-04-01	Night	Doctor	Radiology	1
+Pediatrics	2026-04-01	Night	Nurse	Head Nurse	6
+Pediatrics	2026-04-01	Night	Staff	Accountant	1
+Pediatrics	2026-04-01	Night	Staff	Admissions Clerk	1
+Pulmonology	2026-04-01	Evening	Doctor	Cardiology	1
+Pulmonology	2026-04-01	Evening	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-01	Evening	Doctor	Surgery	1
+Pulmonology	2026-04-01	Evening	Nurse	Nurse	6
+Pulmonology	2026-04-01	Evening	Staff	Accountant	1
+Pulmonology	2026-04-01	Evening	Staff	Secretary	1
+Pulmonology	2026-04-01	Morning	Doctor	Cardiology	1
+Pulmonology	2026-04-01	Morning	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-01	Morning	Doctor	Surgery	1
+Pulmonology	2026-04-01	Morning	Nurse	Nurse	6
+Pulmonology	2026-04-01	Morning	Staff	IT Support	1
+Pulmonology	2026-04-01	Morning	Staff	Secretary	1
+Pulmonology	2026-04-01	Night	Doctor	Cardiology	1
+Pulmonology	2026-04-01	Night	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-01	Night	Doctor	Surgery	1
+Pulmonology	2026-04-01	Night	Nurse	Nurse	6
+Pulmonology	2026-04-01	Night	Staff	Accountant	1
+Pulmonology	2026-04-01	Night	Staff	Admissions Clerk	1
+Radiology	2026-04-01	Evening	Doctor	Microbiology	1
+Radiology	2026-04-01	Evening	Doctor	Pathology	1
+Radiology	2026-04-01	Evening	Doctor	Radiology	1
+Radiology	2026-04-01	Evening	Nurse	Assistant Nurse	6
+Radiology	2026-04-01	Evening	Staff	Accountant	1
+Radiology	2026-04-01	Evening	Staff	Secretary	1
+Radiology	2026-04-01	Morning	Doctor	Microbiology	1
+Radiology	2026-04-01	Morning	Doctor	Pathology	1
+Radiology	2026-04-01	Morning	Doctor	Radiology	1
+Radiology	2026-04-01	Morning	Nurse	Assistant Nurse	6
+Radiology	2026-04-01	Morning	Staff	IT Support	1
+Radiology	2026-04-01	Morning	Staff	Secretary	1
+Radiology	2026-04-01	Night	Doctor	Microbiology	1
+Radiology	2026-04-01	Night	Doctor	Pathology	1
+Radiology	2026-04-01	Night	Doctor	Radiology	1
+Radiology	2026-04-01	Night	Nurse	Assistant Nurse	6
+Radiology	2026-04-01	Night	Staff	Accountant	1
+Radiology	2026-04-01	Night	Staff	Admissions Clerk	1
+Surgery	2026-04-01	Evening	Doctor	Cardiology	1
+Surgery	2026-04-01	Evening	Doctor	Emergency Medicine	1
+Surgery	2026-04-01	Evening	Doctor	Surgery	1
+Surgery	2026-04-01	Evening	Nurse	Head Nurse	6
+Surgery	2026-04-01	Evening	Staff	Accountant	1
+Surgery	2026-04-01	Evening	Staff	Secretary	1
+Surgery	2026-04-01	Morning	Doctor	Cardiology	1
+Surgery	2026-04-01	Morning	Doctor	Emergency Medicine	1
+Surgery	2026-04-01	Morning	Doctor	Surgery	1
+Surgery	2026-04-01	Morning	Nurse	Head Nurse	6
+Surgery	2026-04-01	Morning	Staff	IT Support	1
+Surgery	2026-04-01	Morning	Staff	Secretary	1
+Surgery	2026-04-01	Night	Doctor	Cardiology	1
+Surgery	2026-04-01	Night	Doctor	Emergency Medicine	1
+Surgery	2026-04-01	Night	Doctor	Surgery	1
+Surgery	2026-04-01	Night	Nurse	Head Nurse	6
+Surgery	2026-04-01	Night	Staff	Accountant	1
+Surgery	2026-04-01	Night	Staff	Admissions Clerk	1
+Urology	2026-04-01	Evening	Doctor	Microbiology	1
+Urology	2026-04-01	Evening	Doctor	Neurology	1
+Urology	2026-04-01	Evening	Doctor	Radiology	1
+Urology	2026-04-01	Evening	Nurse	Assistant Nurse	6
+Urology	2026-04-01	Evening	Staff	Accountant	1
+Urology	2026-04-01	Evening	Staff	Secretary	1
+Urology	2026-04-01	Morning	Doctor	Microbiology	1
+Urology	2026-04-01	Morning	Doctor	Neurology	1
+Urology	2026-04-01	Morning	Doctor	Radiology	1
+Urology	2026-04-01	Morning	Nurse	Assistant Nurse	6
+Urology	2026-04-01	Morning	Staff	IT Support	1
+Urology	2026-04-01	Morning	Staff	Secretary	1
+Urology	2026-04-01	Night	Doctor	Microbiology	1
+Urology	2026-04-01	Night	Doctor	Neurology	1
+Urology	2026-04-01	Night	Doctor	Radiology	1
+Urology	2026-04-01	Night	Nurse	Assistant Nurse	6
+Urology	2026-04-01	Night	Staff	Accountant	1
+Urology	2026-04-01	Night	Staff	Admissions Clerk	1
+Cardiology	2026-04-02	Evening	Doctor	Cardiology	1
+Cardiology	2026-04-02	Evening	Doctor	Neurology	1
+Cardiology	2026-04-02	Evening	Doctor	Surgery	1
+Cardiology	2026-04-02	Evening	Nurse	Nurse	6
 Cardiology	2026-04-02	Evening	Staff	IT Support	1
-Cardiology	2026-04-02	Morning	Doctor	Cardiology	3
-Cardiology	2026-04-02	Morning	Doctor	Pathology	1
-Cardiology	2026-04-02	Morning	Nurse	Assistant Nurse	2
-Cardiology	2026-04-02	Morning	Nurse	Head Nurse	2
-Cardiology	2026-04-02	Morning	Nurse	Nurse	2
-Cardiology	2026-04-02	Morning	Staff	Accountant	1
+Cardiology	2026-04-02	Evening	Staff	Secretary	1
+Cardiology	2026-04-02	Morning	Doctor	Cardiology	1
+Cardiology	2026-04-02	Morning	Doctor	Neurology	1
+Cardiology	2026-04-02	Morning	Doctor	Surgery	1
+Cardiology	2026-04-02	Morning	Nurse	Nurse	6
 Cardiology	2026-04-02	Morning	Staff	Admissions Clerk	1
-Cardiology	2026-04-02	Night	Doctor	Cardiology	3
-Cardiology	2026-04-02	Night	Doctor	Pathology	1
-Cardiology	2026-04-02	Night	Nurse	Assistant Nurse	2
-Cardiology	2026-04-02	Night	Nurse	Head Nurse	2
-Cardiology	2026-04-02	Night	Nurse	Nurse	2
-Cardiology	2026-04-02	Night	Staff	IT Support	1
+Cardiology	2026-04-02	Morning	Staff	IT Support	1
+Cardiology	2026-04-02	Night	Doctor	Cardiology	1
+Cardiology	2026-04-02	Night	Doctor	Neurology	1
+Cardiology	2026-04-02	Night	Doctor	Surgery	1
+Cardiology	2026-04-02	Night	Nurse	Nurse	6
+Cardiology	2026-04-02	Night	Staff	Accountant	1
 Cardiology	2026-04-02	Night	Staff	Secretary	1
-Emergency	2026-04-02	Evening	Doctor	Emergency Medicine	3
-Emergency	2026-04-02	Evening	Doctor	Radiology	2
-Emergency	2026-04-02	Evening	Nurse	Assistant Nurse	2
-Emergency	2026-04-02	Evening	Nurse	Head Nurse	2
-Emergency	2026-04-02	Evening	Nurse	Nurse	2
-Emergency	2026-04-02	Evening	Staff	Secretary	2
-Emergency	2026-04-02	Morning	Doctor	Emergency Medicine	3
-Emergency	2026-04-02	Morning	Doctor	Radiology	2
-Emergency	2026-04-02	Morning	Nurse	Assistant Nurse	2
-Emergency	2026-04-02	Morning	Nurse	Head Nurse	2
-Emergency	2026-04-02	Morning	Nurse	Nurse	2
+Emergency	2026-04-02	Evening	Doctor	Emergency Medicine	1
+Emergency	2026-04-02	Evening	Doctor	Intensive Care	1
+Emergency	2026-04-02	Evening	Doctor	Surgery	1
+Emergency	2026-04-02	Evening	Nurse	Assistant Nurse	6
+Emergency	2026-04-02	Evening	Staff	IT Support	1
+Emergency	2026-04-02	Evening	Staff	Secretary	1
+Emergency	2026-04-02	Morning	Doctor	Emergency Medicine	1
+Emergency	2026-04-02	Morning	Doctor	Intensive Care	1
+Emergency	2026-04-02	Morning	Doctor	Surgery	1
+Emergency	2026-04-02	Morning	Nurse	Assistant Nurse	6
+Emergency	2026-04-02	Morning	Staff	Admissions Clerk	1
 Emergency	2026-04-02	Morning	Staff	IT Support	1
-Emergency	2026-04-02	Morning	Staff	Secretary	1
-Emergency	2026-04-02	Night	Doctor	Emergency Medicine	3
-Emergency	2026-04-02	Night	Doctor	Radiology	2
-Emergency	2026-04-02	Night	Nurse	Assistant Nurse	2
-Emergency	2026-04-02	Night	Nurse	Head Nurse	2
-Emergency	2026-04-02	Night	Nurse	Nurse	2
+Emergency	2026-04-02	Night	Doctor	Emergency Medicine	1
+Emergency	2026-04-02	Night	Doctor	Intensive Care	1
+Emergency	2026-04-02	Night	Doctor	Surgery	1
+Emergency	2026-04-02	Night	Nurse	Assistant Nurse	6
 Emergency	2026-04-02	Night	Staff	Accountant	1
 Emergency	2026-04-02	Night	Staff	Secretary	1
-ICU	2026-04-02	Evening	Doctor	Intensive Care	3
-ICU	2026-04-02	Evening	Nurse	Assistant Nurse	2
-ICU	2026-04-02	Evening	Nurse	Head Nurse	2
-ICU	2026-04-02	Evening	Nurse	Nurse	2
-ICU	2026-04-02	Evening	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-02	Evening	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-02	Evening	Doctor	Intensive Care	1
+Gastroenterology	2026-04-02	Evening	Doctor	Surgery	1
+Gastroenterology	2026-04-02	Evening	Nurse	Head Nurse	6
+Gastroenterology	2026-04-02	Evening	Staff	IT Support	1
+Gastroenterology	2026-04-02	Evening	Staff	Secretary	1
+Gastroenterology	2026-04-02	Morning	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-02	Morning	Doctor	Intensive Care	1
+Gastroenterology	2026-04-02	Morning	Doctor	Surgery	1
+Gastroenterology	2026-04-02	Morning	Nurse	Head Nurse	6
+Gastroenterology	2026-04-02	Morning	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-02	Morning	Staff	IT Support	1
+Gastroenterology	2026-04-02	Night	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-02	Night	Doctor	Intensive Care	1
+Gastroenterology	2026-04-02	Night	Doctor	Surgery	1
+Gastroenterology	2026-04-02	Night	Nurse	Head Nurse	6
+Gastroenterology	2026-04-02	Night	Staff	Accountant	1
+Gastroenterology	2026-04-02	Night	Staff	Secretary	1
+ICU	2026-04-02	Evening	Doctor	Emergency Medicine	1
+ICU	2026-04-02	Evening	Doctor	Intensive Care	1
+ICU	2026-04-02	Evening	Doctor	Pathology	1
+ICU	2026-04-02	Evening	Nurse	Nurse	6
 ICU	2026-04-02	Evening	Staff	IT Support	1
-ICU	2026-04-02	Morning	Doctor	Intensive Care	3
-ICU	2026-04-02	Morning	Nurse	Assistant Nurse	2
-ICU	2026-04-02	Morning	Nurse	Head Nurse	2
-ICU	2026-04-02	Morning	Nurse	Nurse	2
-ICU	2026-04-02	Morning	Staff	Accountant	1
+ICU	2026-04-02	Evening	Staff	Secretary	1
+ICU	2026-04-02	Morning	Doctor	Emergency Medicine	1
+ICU	2026-04-02	Morning	Doctor	Intensive Care	1
+ICU	2026-04-02	Morning	Doctor	Pathology	1
+ICU	2026-04-02	Morning	Nurse	Nurse	6
 ICU	2026-04-02	Morning	Staff	Admissions Clerk	1
-ICU	2026-04-02	Night	Doctor	Intensive Care	3
-ICU	2026-04-02	Night	Nurse	Assistant Nurse	2
-ICU	2026-04-02	Night	Nurse	Head Nurse	2
-ICU	2026-04-02	Night	Nurse	Nurse	2
-ICU	2026-04-02	Night	Staff	IT Support	1
+ICU	2026-04-02	Morning	Staff	IT Support	1
+ICU	2026-04-02	Night	Doctor	Emergency Medicine	1
+ICU	2026-04-02	Night	Doctor	Intensive Care	1
+ICU	2026-04-02	Night	Doctor	Pathology	1
+ICU	2026-04-02	Night	Nurse	Nurse	6
+ICU	2026-04-02	Night	Staff	Accountant	1
 ICU	2026-04-02	Night	Staff	Secretary	1
-Pathology	2026-04-02	Evening	Doctor	Microbiology	1
-Pathology	2026-04-02	Evening	Doctor	Pathology	2
-Pathology	2026-04-02	Evening	Nurse	Assistant Nurse	1
-Pathology	2026-04-02	Evening	Nurse	Head Nurse	2
-Pathology	2026-04-02	Evening	Nurse	Nurse	3
-Pathology	2026-04-02	Evening	Staff	Accountant	1
-Pathology	2026-04-02	Evening	Staff	Admissions Clerk	1
-Pathology	2026-04-02	Morning	Doctor	Microbiology	1
-Pathology	2026-04-02	Morning	Doctor	Pathology	2
-Pathology	2026-04-02	Morning	Nurse	Assistant Nurse	2
-Pathology	2026-04-02	Morning	Nurse	Head Nurse	2
-Pathology	2026-04-02	Morning	Nurse	Nurse	2
-Pathology	2026-04-02	Morning	Staff	Accountant	1
-Pathology	2026-04-02	Morning	Staff	Secretary	1
-Pathology	2026-04-02	Night	Doctor	Microbiology	1
-Pathology	2026-04-02	Night	Doctor	Pathology	2
-Pathology	2026-04-02	Night	Nurse	Assistant Nurse	1
-Pathology	2026-04-02	Night	Nurse	Head Nurse	3
-Pathology	2026-04-02	Night	Nurse	Nurse	2
-Pathology	2026-04-02	Night	Staff	Admissions Clerk	1
-Pathology	2026-04-02	Night	Staff	IT Support	1
-Surgery	2026-04-02	Evening	Doctor	Surgery	4
-Surgery	2026-04-02	Evening	Nurse	Assistant Nurse	2
-Surgery	2026-04-02	Evening	Nurse	Head Nurse	2
-Surgery	2026-04-02	Evening	Nurse	Nurse	2
-Surgery	2026-04-02	Evening	Staff	Accountant	1
-Surgery	2026-04-02	Evening	Staff	Admissions Clerk	1
-Surgery	2026-04-02	Morning	Doctor	Surgery	4
-Surgery	2026-04-02	Morning	Nurse	Assistant Nurse	2
-Surgery	2026-04-02	Morning	Nurse	Head Nurse	2
-Surgery	2026-04-02	Morning	Nurse	Nurse	2
-Surgery	2026-04-02	Morning	Staff	Accountant	1
-Surgery	2026-04-02	Morning	Staff	Secretary	1
-Surgery	2026-04-02	Night	Doctor	Surgery	4
-Surgery	2026-04-02	Night	Nurse	Assistant Nurse	2
-Surgery	2026-04-02	Night	Nurse	Head Nurse	2
-Surgery	2026-04-02	Night	Nurse	Nurse	2
-Surgery	2026-04-02	Night	Staff	Admissions Clerk	1
-Surgery	2026-04-02	Night	Staff	IT Support	1
-Cardiology	2026-04-03	Evening	Doctor	Cardiology	3
-Cardiology	2026-04-03	Evening	Doctor	Pathology	1
-Cardiology	2026-04-03	Evening	Nurse	Assistant Nurse	1
-Cardiology	2026-04-03	Evening	Nurse	Head Nurse	2
-Cardiology	2026-04-03	Evening	Nurse	Nurse	3
-Cardiology	2026-04-03	Evening	Staff	Accountant	1
-Cardiology	2026-04-03	Evening	Staff	Secretary	1
-Cardiology	2026-04-03	Morning	Doctor	Cardiology	3
-Cardiology	2026-04-03	Morning	Doctor	Pathology	1
-Cardiology	2026-04-03	Morning	Nurse	Assistant Nurse	2
-Cardiology	2026-04-03	Morning	Nurse	Head Nurse	2
-Cardiology	2026-04-03	Morning	Nurse	Nurse	2
-Cardiology	2026-04-03	Morning	Staff	IT Support	1
-Cardiology	2026-04-03	Morning	Staff	Secretary	1
-Cardiology	2026-04-03	Night	Doctor	Cardiology	3
-Cardiology	2026-04-03	Night	Doctor	Pathology	1
-Cardiology	2026-04-03	Night	Nurse	Assistant Nurse	1
-Cardiology	2026-04-03	Night	Nurse	Head Nurse	3
-Cardiology	2026-04-03	Night	Nurse	Nurse	2
-Cardiology	2026-04-03	Night	Staff	Accountant	1
-Cardiology	2026-04-03	Night	Staff	Admissions Clerk	1
-Emergency	2026-04-03	Evening	Doctor	Emergency Medicine	3
-Emergency	2026-04-03	Evening	Doctor	Radiology	2
-Emergency	2026-04-03	Evening	Nurse	Assistant Nurse	2
-Emergency	2026-04-03	Evening	Nurse	Head Nurse	2
-Emergency	2026-04-03	Evening	Nurse	Nurse	2
+Microbiology	2026-04-02	Evening	Doctor	Microbiology	1
+Microbiology	2026-04-02	Evening	Doctor	Neurology	1
+Microbiology	2026-04-02	Evening	Doctor	Radiology	1
+Microbiology	2026-04-02	Evening	Nurse	Nurse	6
+Microbiology	2026-04-02	Evening	Staff	IT Support	1
+Microbiology	2026-04-02	Evening	Staff	Secretary	1
+Microbiology	2026-04-02	Morning	Doctor	Microbiology	1
+Microbiology	2026-04-02	Morning	Doctor	Neurology	1
+Microbiology	2026-04-02	Morning	Doctor	Radiology	1
+Microbiology	2026-04-02	Morning	Nurse	Nurse	6
+Microbiology	2026-04-02	Morning	Staff	Admissions Clerk	1
+Microbiology	2026-04-02	Morning	Staff	IT Support	1
+Microbiology	2026-04-02	Night	Doctor	Microbiology	1
+Microbiology	2026-04-02	Night	Doctor	Neurology	1
+Microbiology	2026-04-02	Night	Doctor	Radiology	1
+Microbiology	2026-04-02	Night	Nurse	Nurse	6
+Microbiology	2026-04-02	Night	Staff	Accountant	1
+Microbiology	2026-04-02	Night	Staff	Secretary	1
+Nephrology	2026-04-02	Evening	Doctor	Emergency Medicine	1
+Nephrology	2026-04-02	Evening	Doctor	Intensive Care	1
+Nephrology	2026-04-02	Evening	Doctor	Pathology	1
+Nephrology	2026-04-02	Evening	Nurse	Assistant Nurse	6
+Nephrology	2026-04-02	Evening	Staff	IT Support	1
+Nephrology	2026-04-02	Evening	Staff	Secretary	1
+Nephrology	2026-04-02	Morning	Doctor	Emergency Medicine	1
+Nephrology	2026-04-02	Morning	Doctor	Intensive Care	1
+Nephrology	2026-04-02	Morning	Doctor	Pathology	1
+Nephrology	2026-04-02	Morning	Nurse	Assistant Nurse	6
+Nephrology	2026-04-02	Morning	Staff	Admissions Clerk	1
+Nephrology	2026-04-02	Morning	Staff	IT Support	1
+Nephrology	2026-04-02	Night	Doctor	Emergency Medicine	1
+Nephrology	2026-04-02	Night	Doctor	Intensive Care	1
+Nephrology	2026-04-02	Night	Doctor	Pathology	1
+Nephrology	2026-04-02	Night	Nurse	Assistant Nurse	6
+Nephrology	2026-04-02	Night	Staff	Accountant	1
+Nephrology	2026-04-02	Night	Staff	Secretary	1
+Neurology	2026-04-02	Evening	Doctor	Cardiology	1
+Neurology	2026-04-02	Evening	Doctor	Microbiology	1
+Neurology	2026-04-02	Evening	Doctor	Neurology	1
+Neurology	2026-04-02	Evening	Nurse	Head Nurse	6
+Neurology	2026-04-02	Evening	Staff	IT Support	1
+Neurology	2026-04-02	Evening	Staff	Secretary	1
+Neurology	2026-04-02	Morning	Doctor	Cardiology	1
+Neurology	2026-04-02	Morning	Doctor	Microbiology	1
+Neurology	2026-04-02	Morning	Doctor	Neurology	1
+Neurology	2026-04-02	Morning	Nurse	Head Nurse	6
+Neurology	2026-04-02	Morning	Staff	Admissions Clerk	1
+Neurology	2026-04-02	Morning	Staff	IT Support	1
+Neurology	2026-04-02	Night	Doctor	Cardiology	1
+Neurology	2026-04-02	Night	Doctor	Microbiology	1
+Neurology	2026-04-02	Night	Doctor	Neurology	1
+Neurology	2026-04-02	Night	Nurse	Head Nurse	6
+Neurology	2026-04-02	Night	Staff	Accountant	1
+Neurology	2026-04-02	Night	Staff	Secretary	1
+Oncology	2026-04-02	Evening	Doctor	Intensive Care	1
+Oncology	2026-04-02	Evening	Doctor	Pathology	1
+Oncology	2026-04-02	Evening	Doctor	Radiology	1
+Oncology	2026-04-02	Evening	Nurse	Nurse	6
+Oncology	2026-04-02	Evening	Staff	IT Support	1
+Oncology	2026-04-02	Evening	Staff	Secretary	1
+Oncology	2026-04-02	Morning	Doctor	Intensive Care	1
+Oncology	2026-04-02	Morning	Doctor	Pathology	1
+Oncology	2026-04-02	Morning	Doctor	Radiology	1
+Oncology	2026-04-02	Morning	Nurse	Nurse	6
+Oncology	2026-04-02	Morning	Staff	Admissions Clerk	1
+Oncology	2026-04-02	Morning	Staff	IT Support	1
+Oncology	2026-04-02	Night	Doctor	Intensive Care	1
+Oncology	2026-04-02	Night	Doctor	Pathology	1
+Oncology	2026-04-02	Night	Doctor	Radiology	1
+Oncology	2026-04-02	Night	Nurse	Nurse	6
+Oncology	2026-04-02	Night	Staff	Accountant	1
+Oncology	2026-04-02	Night	Staff	Secretary	1
+Orthopedics	2026-04-02	Evening	Doctor	Cardiology	1
+Orthopedics	2026-04-02	Evening	Doctor	Neurology	1
+Orthopedics	2026-04-02	Evening	Doctor	Surgery	1
+Orthopedics	2026-04-02	Evening	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-02	Evening	Staff	IT Support	1
+Orthopedics	2026-04-02	Evening	Staff	Secretary	1
+Orthopedics	2026-04-02	Morning	Doctor	Cardiology	1
+Orthopedics	2026-04-02	Morning	Doctor	Neurology	1
+Orthopedics	2026-04-02	Morning	Doctor	Surgery	1
+Orthopedics	2026-04-02	Morning	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-02	Morning	Staff	Admissions Clerk	1
+Orthopedics	2026-04-02	Morning	Staff	IT Support	1
+Orthopedics	2026-04-02	Night	Doctor	Cardiology	1
+Orthopedics	2026-04-02	Night	Doctor	Neurology	1
+Orthopedics	2026-04-02	Night	Doctor	Surgery	1
+Orthopedics	2026-04-02	Night	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-02	Night	Staff	Accountant	1
+Orthopedics	2026-04-02	Night	Staff	Secretary	1
+Pathology	2026-04-02	Evening	Doctor	Intensive Care	1
+Pathology	2026-04-02	Evening	Doctor	Pathology	1
+Pathology	2026-04-02	Evening	Doctor	Radiology	1
+Pathology	2026-04-02	Evening	Nurse	Head Nurse	6
+Pathology	2026-04-02	Evening	Staff	IT Support	1
+Pathology	2026-04-02	Evening	Staff	Secretary	1
+Pathology	2026-04-02	Morning	Doctor	Intensive Care	1
+Pathology	2026-04-02	Morning	Doctor	Pathology	1
+Pathology	2026-04-02	Morning	Doctor	Radiology	1
+Pathology	2026-04-02	Morning	Nurse	Head Nurse	6
+Pathology	2026-04-02	Morning	Staff	Admissions Clerk	1
+Pathology	2026-04-02	Morning	Staff	IT Support	1
+Pathology	2026-04-02	Night	Doctor	Intensive Care	1
+Pathology	2026-04-02	Night	Doctor	Pathology	1
+Pathology	2026-04-02	Night	Doctor	Radiology	1
+Pathology	2026-04-02	Night	Nurse	Head Nurse	6
+Pathology	2026-04-02	Night	Staff	Accountant	1
+Pathology	2026-04-02	Night	Staff	Secretary	1
+Pediatrics	2026-04-02	Evening	Doctor	Microbiology	1
+Pediatrics	2026-04-02	Evening	Doctor	Pathology	1
+Pediatrics	2026-04-02	Evening	Doctor	Radiology	1
+Pediatrics	2026-04-02	Evening	Nurse	Head Nurse	6
+Pediatrics	2026-04-02	Evening	Staff	IT Support	1
+Pediatrics	2026-04-02	Evening	Staff	Secretary	1
+Pediatrics	2026-04-02	Morning	Doctor	Microbiology	1
+Pediatrics	2026-04-02	Morning	Doctor	Pathology	1
+Pediatrics	2026-04-02	Morning	Doctor	Radiology	1
+Pediatrics	2026-04-02	Morning	Nurse	Head Nurse	6
+Pediatrics	2026-04-02	Morning	Staff	Admissions Clerk	1
+Pediatrics	2026-04-02	Morning	Staff	IT Support	1
+Pediatrics	2026-04-02	Night	Doctor	Microbiology	1
+Pediatrics	2026-04-02	Night	Doctor	Pathology	1
+Pediatrics	2026-04-02	Night	Doctor	Radiology	1
+Pediatrics	2026-04-02	Night	Nurse	Head Nurse	6
+Pediatrics	2026-04-02	Night	Staff	Accountant	1
+Pediatrics	2026-04-02	Night	Staff	Secretary	1
+Pulmonology	2026-04-02	Evening	Doctor	Cardiology	1
+Pulmonology	2026-04-02	Evening	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-02	Evening	Doctor	Surgery	1
+Pulmonology	2026-04-02	Evening	Nurse	Nurse	6
+Pulmonology	2026-04-02	Evening	Staff	IT Support	1
+Pulmonology	2026-04-02	Evening	Staff	Secretary	1
+Pulmonology	2026-04-02	Morning	Doctor	Cardiology	1
+Pulmonology	2026-04-02	Morning	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-02	Morning	Doctor	Surgery	1
+Pulmonology	2026-04-02	Morning	Nurse	Nurse	6
+Pulmonology	2026-04-02	Morning	Staff	Admissions Clerk	1
+Pulmonology	2026-04-02	Morning	Staff	IT Support	1
+Pulmonology	2026-04-02	Night	Doctor	Cardiology	1
+Pulmonology	2026-04-02	Night	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-02	Night	Doctor	Surgery	1
+Pulmonology	2026-04-02	Night	Nurse	Nurse	6
+Pulmonology	2026-04-02	Night	Staff	Accountant	1
+Pulmonology	2026-04-02	Night	Staff	Secretary	1
+Radiology	2026-04-02	Evening	Doctor	Microbiology	1
+Radiology	2026-04-02	Evening	Doctor	Pathology	1
+Radiology	2026-04-02	Evening	Doctor	Radiology	1
+Radiology	2026-04-02	Evening	Nurse	Assistant Nurse	6
+Radiology	2026-04-02	Evening	Staff	IT Support	1
+Radiology	2026-04-02	Evening	Staff	Secretary	1
+Radiology	2026-04-02	Morning	Doctor	Microbiology	1
+Radiology	2026-04-02	Morning	Doctor	Pathology	1
+Radiology	2026-04-02	Morning	Doctor	Radiology	1
+Radiology	2026-04-02	Morning	Nurse	Assistant Nurse	6
+Radiology	2026-04-02	Morning	Staff	Admissions Clerk	1
+Radiology	2026-04-02	Morning	Staff	IT Support	1
+Radiology	2026-04-02	Night	Doctor	Microbiology	1
+Radiology	2026-04-02	Night	Doctor	Pathology	1
+Radiology	2026-04-02	Night	Doctor	Radiology	1
+Radiology	2026-04-02	Night	Nurse	Assistant Nurse	6
+Radiology	2026-04-02	Night	Staff	Accountant	1
+Radiology	2026-04-02	Night	Staff	Secretary	1
+Surgery	2026-04-02	Evening	Doctor	Cardiology	1
+Surgery	2026-04-02	Evening	Doctor	Emergency Medicine	1
+Surgery	2026-04-02	Evening	Doctor	Surgery	1
+Surgery	2026-04-02	Evening	Nurse	Head Nurse	6
+Surgery	2026-04-02	Evening	Staff	IT Support	1
+Surgery	2026-04-02	Evening	Staff	Secretary	1
+Surgery	2026-04-02	Morning	Doctor	Cardiology	1
+Surgery	2026-04-02	Morning	Doctor	Emergency Medicine	1
+Surgery	2026-04-02	Morning	Doctor	Surgery	1
+Surgery	2026-04-02	Morning	Nurse	Head Nurse	6
+Surgery	2026-04-02	Morning	Staff	Admissions Clerk	1
+Surgery	2026-04-02	Morning	Staff	IT Support	1
+Surgery	2026-04-02	Night	Doctor	Cardiology	1
+Surgery	2026-04-02	Night	Doctor	Emergency Medicine	1
+Surgery	2026-04-02	Night	Doctor	Surgery	1
+Surgery	2026-04-02	Night	Nurse	Head Nurse	6
+Surgery	2026-04-02	Night	Staff	Accountant	1
+Surgery	2026-04-02	Night	Staff	Secretary	1
+Urology	2026-04-02	Evening	Doctor	Microbiology	1
+Urology	2026-04-02	Evening	Doctor	Neurology	1
+Urology	2026-04-02	Evening	Doctor	Radiology	1
+Urology	2026-04-02	Evening	Nurse	Assistant Nurse	6
+Urology	2026-04-02	Evening	Staff	IT Support	1
+Urology	2026-04-02	Evening	Staff	Secretary	1
+Urology	2026-04-02	Morning	Doctor	Microbiology	1
+Urology	2026-04-02	Morning	Doctor	Neurology	1
+Urology	2026-04-02	Morning	Doctor	Radiology	1
+Urology	2026-04-02	Morning	Nurse	Assistant Nurse	6
+Urology	2026-04-02	Morning	Staff	Admissions Clerk	1
+Urology	2026-04-02	Morning	Staff	IT Support	1
+Urology	2026-04-02	Night	Doctor	Microbiology	1
+Urology	2026-04-02	Night	Doctor	Neurology	1
+Urology	2026-04-02	Night	Doctor	Radiology	1
+Urology	2026-04-02	Night	Nurse	Assistant Nurse	6
+Urology	2026-04-02	Night	Staff	Accountant	1
+Urology	2026-04-02	Night	Staff	Secretary	1
+Cardiology	2026-04-03	Evening	Doctor	Cardiology	1
+Cardiology	2026-04-03	Evening	Doctor	Neurology	1
+Cardiology	2026-04-03	Evening	Doctor	Surgery	1
+Cardiology	2026-04-03	Evening	Nurse	Nurse	6
+Cardiology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Cardiology	2026-04-03	Evening	Staff	IT Support	1
+Cardiology	2026-04-03	Morning	Doctor	Cardiology	1
+Cardiology	2026-04-03	Morning	Doctor	Neurology	1
+Cardiology	2026-04-03	Morning	Doctor	Surgery	1
+Cardiology	2026-04-03	Morning	Nurse	Nurse	6
+Cardiology	2026-04-03	Morning	Staff	Accountant	1
+Cardiology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Cardiology	2026-04-03	Night	Doctor	Cardiology	1
+Cardiology	2026-04-03	Night	Doctor	Neurology	1
+Cardiology	2026-04-03	Night	Doctor	Surgery	1
+Cardiology	2026-04-03	Night	Nurse	Nurse	6
+Cardiology	2026-04-03	Night	Staff	IT Support	1
+Cardiology	2026-04-03	Night	Staff	Secretary	1
+Emergency	2026-04-03	Evening	Doctor	Emergency Medicine	1
+Emergency	2026-04-03	Evening	Doctor	Intensive Care	1
+Emergency	2026-04-03	Evening	Doctor	Surgery	1
+Emergency	2026-04-03	Evening	Nurse	Assistant Nurse	6
 Emergency	2026-04-03	Evening	Staff	Admissions Clerk	1
 Emergency	2026-04-03	Evening	Staff	IT Support	1
-Emergency	2026-04-03	Morning	Doctor	Emergency Medicine	3
-Emergency	2026-04-03	Morning	Doctor	Radiology	2
-Emergency	2026-04-03	Morning	Nurse	Assistant Nurse	2
-Emergency	2026-04-03	Morning	Nurse	Head Nurse	2
-Emergency	2026-04-03	Morning	Nurse	Nurse	2
+Emergency	2026-04-03	Morning	Doctor	Emergency Medicine	1
+Emergency	2026-04-03	Morning	Doctor	Intensive Care	1
+Emergency	2026-04-03	Morning	Doctor	Surgery	1
+Emergency	2026-04-03	Morning	Nurse	Assistant Nurse	6
 Emergency	2026-04-03	Morning	Staff	Accountant	1
 Emergency	2026-04-03	Morning	Staff	Admissions Clerk	1
-Emergency	2026-04-03	Night	Doctor	Emergency Medicine	3
-Emergency	2026-04-03	Night	Doctor	Radiology	2
-Emergency	2026-04-03	Night	Nurse	Assistant Nurse	2
-Emergency	2026-04-03	Night	Nurse	Head Nurse	2
-Emergency	2026-04-03	Night	Nurse	Nurse	2
+Emergency	2026-04-03	Night	Doctor	Emergency Medicine	1
+Emergency	2026-04-03	Night	Doctor	Intensive Care	1
+Emergency	2026-04-03	Night	Doctor	Surgery	1
+Emergency	2026-04-03	Night	Nurse	Assistant Nurse	6
 Emergency	2026-04-03	Night	Staff	IT Support	1
 Emergency	2026-04-03	Night	Staff	Secretary	1
-ICU	2026-04-03	Evening	Doctor	Intensive Care	3
-ICU	2026-04-03	Evening	Nurse	Assistant Nurse	2
-ICU	2026-04-03	Evening	Nurse	Head Nurse	2
-ICU	2026-04-03	Evening	Nurse	Nurse	2
-ICU	2026-04-03	Evening	Staff	Accountant	1
+Gastroenterology	2026-04-03	Evening	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-03	Evening	Doctor	Intensive Care	1
+Gastroenterology	2026-04-03	Evening	Doctor	Surgery	1
+Gastroenterology	2026-04-03	Evening	Nurse	Head Nurse	6
+Gastroenterology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-03	Evening	Staff	IT Support	1
+Gastroenterology	2026-04-03	Morning	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-03	Morning	Doctor	Intensive Care	1
+Gastroenterology	2026-04-03	Morning	Doctor	Surgery	1
+Gastroenterology	2026-04-03	Morning	Nurse	Head Nurse	6
+Gastroenterology	2026-04-03	Morning	Staff	Accountant	1
+Gastroenterology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-03	Night	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-03	Night	Doctor	Intensive Care	1
+Gastroenterology	2026-04-03	Night	Doctor	Surgery	1
+Gastroenterology	2026-04-03	Night	Nurse	Head Nurse	6
+Gastroenterology	2026-04-03	Night	Staff	IT Support	1
+Gastroenterology	2026-04-03	Night	Staff	Secretary	1
+ICU	2026-04-03	Evening	Doctor	Emergency Medicine	1
+ICU	2026-04-03	Evening	Doctor	Intensive Care	1
+ICU	2026-04-03	Evening	Doctor	Pathology	1
+ICU	2026-04-03	Evening	Nurse	Nurse	6
 ICU	2026-04-03	Evening	Staff	Admissions Clerk	1
-ICU	2026-04-03	Morning	Doctor	Intensive Care	3
-ICU	2026-04-03	Morning	Nurse	Assistant Nurse	2
-ICU	2026-04-03	Morning	Nurse	Head Nurse	2
-ICU	2026-04-03	Morning	Nurse	Nurse	2
+ICU	2026-04-03	Evening	Staff	IT Support	1
+ICU	2026-04-03	Morning	Doctor	Emergency Medicine	1
+ICU	2026-04-03	Morning	Doctor	Intensive Care	1
+ICU	2026-04-03	Morning	Doctor	Pathology	1
+ICU	2026-04-03	Morning	Nurse	Nurse	6
 ICU	2026-04-03	Morning	Staff	Accountant	1
-ICU	2026-04-03	Morning	Staff	Secretary	1
-ICU	2026-04-03	Night	Doctor	Intensive Care	3
-ICU	2026-04-03	Night	Nurse	Assistant Nurse	2
-ICU	2026-04-03	Night	Nurse	Head Nurse	2
-ICU	2026-04-03	Night	Nurse	Nurse	2
-ICU	2026-04-03	Night	Staff	Admissions Clerk	1
+ICU	2026-04-03	Morning	Staff	Admissions Clerk	1
+ICU	2026-04-03	Night	Doctor	Emergency Medicine	1
+ICU	2026-04-03	Night	Doctor	Intensive Care	1
+ICU	2026-04-03	Night	Doctor	Pathology	1
+ICU	2026-04-03	Night	Nurse	Nurse	6
 ICU	2026-04-03	Night	Staff	IT Support	1
-Pathology	2026-04-03	Evening	Doctor	Microbiology	1
-Pathology	2026-04-03	Evening	Doctor	Pathology	2
-Pathology	2026-04-03	Evening	Nurse	Assistant Nurse	2
-Pathology	2026-04-03	Evening	Nurse	Head Nurse	2
-Pathology	2026-04-03	Evening	Nurse	Nurse	2
-Pathology	2026-04-03	Evening	Staff	Accountant	1
-Pathology	2026-04-03	Evening	Staff	Secretary	1
-Pathology	2026-04-03	Morning	Doctor	Microbiology	1
-Pathology	2026-04-03	Morning	Doctor	Pathology	2
-Pathology	2026-04-03	Morning	Nurse	Assistant Nurse	2
-Pathology	2026-04-03	Morning	Nurse	Head Nurse	2
-Pathology	2026-04-03	Morning	Nurse	Nurse	2
-Pathology	2026-04-03	Morning	Staff	IT Support	1
-Pathology	2026-04-03	Morning	Staff	Secretary	1
-Pathology	2026-04-03	Night	Doctor	Microbiology	1
-Pathology	2026-04-03	Night	Doctor	Pathology	2
-Pathology	2026-04-03	Night	Nurse	Assistant Nurse	2
-Pathology	2026-04-03	Night	Nurse	Head Nurse	2
-Pathology	2026-04-03	Night	Nurse	Nurse	2
-Pathology	2026-04-03	Night	Staff	Accountant	1
-Pathology	2026-04-03	Night	Staff	Admissions Clerk	1
-Surgery	2026-04-03	Evening	Doctor	Surgery	4
-Surgery	2026-04-03	Evening	Nurse	Assistant Nurse	2
-Surgery	2026-04-03	Evening	Nurse	Head Nurse	2
-Surgery	2026-04-03	Evening	Nurse	Nurse	2
+ICU	2026-04-03	Night	Staff	Secretary	1
+Microbiology	2026-04-03	Evening	Doctor	Microbiology	1
+Microbiology	2026-04-03	Evening	Doctor	Neurology	1
+Microbiology	2026-04-03	Evening	Doctor	Radiology	1
+Microbiology	2026-04-03	Evening	Nurse	Nurse	6
+Microbiology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Microbiology	2026-04-03	Evening	Staff	IT Support	1
+Microbiology	2026-04-03	Morning	Doctor	Microbiology	1
+Microbiology	2026-04-03	Morning	Doctor	Neurology	1
+Microbiology	2026-04-03	Morning	Doctor	Radiology	1
+Microbiology	2026-04-03	Morning	Nurse	Nurse	6
+Microbiology	2026-04-03	Morning	Staff	Accountant	1
+Microbiology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Microbiology	2026-04-03	Night	Doctor	Microbiology	1
+Microbiology	2026-04-03	Night	Doctor	Neurology	1
+Microbiology	2026-04-03	Night	Doctor	Radiology	1
+Microbiology	2026-04-03	Night	Nurse	Nurse	6
+Microbiology	2026-04-03	Night	Staff	IT Support	1
+Microbiology	2026-04-03	Night	Staff	Secretary	1
+Nephrology	2026-04-03	Evening	Doctor	Emergency Medicine	1
+Nephrology	2026-04-03	Evening	Doctor	Intensive Care	1
+Nephrology	2026-04-03	Evening	Doctor	Pathology	1
+Nephrology	2026-04-03	Evening	Nurse	Assistant Nurse	6
+Nephrology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Nephrology	2026-04-03	Evening	Staff	IT Support	1
+Nephrology	2026-04-03	Morning	Doctor	Emergency Medicine	1
+Nephrology	2026-04-03	Morning	Doctor	Intensive Care	1
+Nephrology	2026-04-03	Morning	Doctor	Pathology	1
+Nephrology	2026-04-03	Morning	Nurse	Assistant Nurse	6
+Nephrology	2026-04-03	Morning	Staff	Accountant	1
+Nephrology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Nephrology	2026-04-03	Night	Doctor	Emergency Medicine	1
+Nephrology	2026-04-03	Night	Doctor	Intensive Care	1
+Nephrology	2026-04-03	Night	Doctor	Pathology	1
+Nephrology	2026-04-03	Night	Nurse	Assistant Nurse	6
+Nephrology	2026-04-03	Night	Staff	IT Support	1
+Nephrology	2026-04-03	Night	Staff	Secretary	1
+Neurology	2026-04-03	Evening	Doctor	Cardiology	1
+Neurology	2026-04-03	Evening	Doctor	Microbiology	1
+Neurology	2026-04-03	Evening	Doctor	Neurology	1
+Neurology	2026-04-03	Evening	Nurse	Head Nurse	6
+Neurology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Neurology	2026-04-03	Evening	Staff	IT Support	1
+Neurology	2026-04-03	Morning	Doctor	Cardiology	1
+Neurology	2026-04-03	Morning	Doctor	Microbiology	1
+Neurology	2026-04-03	Morning	Doctor	Neurology	1
+Neurology	2026-04-03	Morning	Nurse	Head Nurse	6
+Neurology	2026-04-03	Morning	Staff	Accountant	1
+Neurology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Neurology	2026-04-03	Night	Doctor	Cardiology	1
+Neurology	2026-04-03	Night	Doctor	Microbiology	1
+Neurology	2026-04-03	Night	Doctor	Neurology	1
+Neurology	2026-04-03	Night	Nurse	Head Nurse	6
+Neurology	2026-04-03	Night	Staff	IT Support	1
+Neurology	2026-04-03	Night	Staff	Secretary	1
+Oncology	2026-04-03	Evening	Doctor	Intensive Care	1
+Oncology	2026-04-03	Evening	Doctor	Pathology	1
+Oncology	2026-04-03	Evening	Doctor	Radiology	1
+Oncology	2026-04-03	Evening	Nurse	Nurse	6
+Oncology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Oncology	2026-04-03	Evening	Staff	IT Support	1
+Oncology	2026-04-03	Morning	Doctor	Intensive Care	1
+Oncology	2026-04-03	Morning	Doctor	Pathology	1
+Oncology	2026-04-03	Morning	Doctor	Radiology	1
+Oncology	2026-04-03	Morning	Nurse	Nurse	6
+Oncology	2026-04-03	Morning	Staff	Accountant	1
+Oncology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Oncology	2026-04-03	Night	Doctor	Intensive Care	1
+Oncology	2026-04-03	Night	Doctor	Pathology	1
+Oncology	2026-04-03	Night	Doctor	Radiology	1
+Oncology	2026-04-03	Night	Nurse	Nurse	6
+Oncology	2026-04-03	Night	Staff	IT Support	1
+Oncology	2026-04-03	Night	Staff	Secretary	1
+Orthopedics	2026-04-03	Evening	Doctor	Cardiology	1
+Orthopedics	2026-04-03	Evening	Doctor	Neurology	1
+Orthopedics	2026-04-03	Evening	Doctor	Surgery	1
+Orthopedics	2026-04-03	Evening	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-03	Evening	Staff	Admissions Clerk	1
+Orthopedics	2026-04-03	Evening	Staff	IT Support	1
+Orthopedics	2026-04-03	Morning	Doctor	Cardiology	1
+Orthopedics	2026-04-03	Morning	Doctor	Neurology	1
+Orthopedics	2026-04-03	Morning	Doctor	Surgery	1
+Orthopedics	2026-04-03	Morning	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-03	Morning	Staff	Accountant	1
+Orthopedics	2026-04-03	Morning	Staff	Admissions Clerk	1
+Orthopedics	2026-04-03	Night	Doctor	Cardiology	1
+Orthopedics	2026-04-03	Night	Doctor	Neurology	1
+Orthopedics	2026-04-03	Night	Doctor	Surgery	1
+Orthopedics	2026-04-03	Night	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-03	Night	Staff	IT Support	1
+Orthopedics	2026-04-03	Night	Staff	Secretary	1
+Pathology	2026-04-03	Evening	Doctor	Intensive Care	1
+Pathology	2026-04-03	Evening	Doctor	Pathology	1
+Pathology	2026-04-03	Evening	Doctor	Radiology	1
+Pathology	2026-04-03	Evening	Nurse	Head Nurse	6
+Pathology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Pathology	2026-04-03	Evening	Staff	IT Support	1
+Pathology	2026-04-03	Morning	Doctor	Intensive Care	1
+Pathology	2026-04-03	Morning	Doctor	Pathology	1
+Pathology	2026-04-03	Morning	Doctor	Radiology	1
+Pathology	2026-04-03	Morning	Nurse	Head Nurse	6
+Pathology	2026-04-03	Morning	Staff	Accountant	1
+Pathology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Pathology	2026-04-03	Night	Doctor	Intensive Care	1
+Pathology	2026-04-03	Night	Doctor	Pathology	1
+Pathology	2026-04-03	Night	Doctor	Radiology	1
+Pathology	2026-04-03	Night	Nurse	Head Nurse	6
+Pathology	2026-04-03	Night	Staff	IT Support	1
+Pathology	2026-04-03	Night	Staff	Secretary	1
+Pediatrics	2026-04-03	Evening	Doctor	Microbiology	1
+Pediatrics	2026-04-03	Evening	Doctor	Pathology	1
+Pediatrics	2026-04-03	Evening	Doctor	Radiology	1
+Pediatrics	2026-04-03	Evening	Nurse	Head Nurse	6
+Pediatrics	2026-04-03	Evening	Staff	Admissions Clerk	1
+Pediatrics	2026-04-03	Evening	Staff	IT Support	1
+Pediatrics	2026-04-03	Morning	Doctor	Microbiology	1
+Pediatrics	2026-04-03	Morning	Doctor	Pathology	1
+Pediatrics	2026-04-03	Morning	Doctor	Radiology	1
+Pediatrics	2026-04-03	Morning	Nurse	Head Nurse	6
+Pediatrics	2026-04-03	Morning	Staff	Accountant	1
+Pediatrics	2026-04-03	Morning	Staff	Admissions Clerk	1
+Pediatrics	2026-04-03	Night	Doctor	Microbiology	1
+Pediatrics	2026-04-03	Night	Doctor	Pathology	1
+Pediatrics	2026-04-03	Night	Doctor	Radiology	1
+Pediatrics	2026-04-03	Night	Nurse	Head Nurse	6
+Pediatrics	2026-04-03	Night	Staff	IT Support	1
+Pediatrics	2026-04-03	Night	Staff	Secretary	1
+Pulmonology	2026-04-03	Evening	Doctor	Cardiology	1
+Pulmonology	2026-04-03	Evening	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-03	Evening	Doctor	Surgery	1
+Pulmonology	2026-04-03	Evening	Nurse	Nurse	6
+Pulmonology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Pulmonology	2026-04-03	Evening	Staff	IT Support	1
+Pulmonology	2026-04-03	Morning	Doctor	Cardiology	1
+Pulmonology	2026-04-03	Morning	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-03	Morning	Doctor	Surgery	1
+Pulmonology	2026-04-03	Morning	Nurse	Nurse	6
+Pulmonology	2026-04-03	Morning	Staff	Accountant	1
+Pulmonology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Pulmonology	2026-04-03	Night	Doctor	Cardiology	1
+Pulmonology	2026-04-03	Night	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-03	Night	Doctor	Surgery	1
+Pulmonology	2026-04-03	Night	Nurse	Nurse	6
+Pulmonology	2026-04-03	Night	Staff	IT Support	1
+Pulmonology	2026-04-03	Night	Staff	Secretary	1
+Radiology	2026-04-03	Evening	Doctor	Microbiology	1
+Radiology	2026-04-03	Evening	Doctor	Pathology	1
+Radiology	2026-04-03	Evening	Doctor	Radiology	1
+Radiology	2026-04-03	Evening	Nurse	Assistant Nurse	6
+Radiology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Radiology	2026-04-03	Evening	Staff	IT Support	1
+Radiology	2026-04-03	Morning	Doctor	Microbiology	1
+Radiology	2026-04-03	Morning	Doctor	Pathology	1
+Radiology	2026-04-03	Morning	Doctor	Radiology	1
+Radiology	2026-04-03	Morning	Nurse	Assistant Nurse	6
+Radiology	2026-04-03	Morning	Staff	Accountant	1
+Radiology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Radiology	2026-04-03	Night	Doctor	Microbiology	1
+Radiology	2026-04-03	Night	Doctor	Pathology	1
+Radiology	2026-04-03	Night	Doctor	Radiology	1
+Radiology	2026-04-03	Night	Nurse	Assistant Nurse	6
+Radiology	2026-04-03	Night	Staff	IT Support	1
+Radiology	2026-04-03	Night	Staff	Secretary	1
+Surgery	2026-04-03	Evening	Doctor	Cardiology	1
+Surgery	2026-04-03	Evening	Doctor	Emergency Medicine	1
+Surgery	2026-04-03	Evening	Doctor	Surgery	1
+Surgery	2026-04-03	Evening	Nurse	Head Nurse	6
+Surgery	2026-04-03	Evening	Staff	Admissions Clerk	1
 Surgery	2026-04-03	Evening	Staff	IT Support	1
-Surgery	2026-04-03	Evening	Staff	Secretary	1
-Surgery	2026-04-03	Morning	Doctor	Surgery	4
-Surgery	2026-04-03	Morning	Nurse	Assistant Nurse	2
-Surgery	2026-04-03	Morning	Nurse	Head Nurse	2
-Surgery	2026-04-03	Morning	Nurse	Nurse	2
+Surgery	2026-04-03	Morning	Doctor	Cardiology	1
+Surgery	2026-04-03	Morning	Doctor	Emergency Medicine	1
+Surgery	2026-04-03	Morning	Doctor	Surgery	1
+Surgery	2026-04-03	Morning	Nurse	Head Nurse	6
+Surgery	2026-04-03	Morning	Staff	Accountant	1
 Surgery	2026-04-03	Morning	Staff	Admissions Clerk	1
-Surgery	2026-04-03	Morning	Staff	IT Support	1
-Surgery	2026-04-03	Night	Doctor	Surgery	4
-Surgery	2026-04-03	Night	Nurse	Assistant Nurse	2
-Surgery	2026-04-03	Night	Nurse	Head Nurse	2
-Surgery	2026-04-03	Night	Nurse	Nurse	2
-Surgery	2026-04-03	Night	Staff	Accountant	1
+Surgery	2026-04-03	Night	Doctor	Cardiology	1
+Surgery	2026-04-03	Night	Doctor	Emergency Medicine	1
+Surgery	2026-04-03	Night	Doctor	Surgery	1
+Surgery	2026-04-03	Night	Nurse	Head Nurse	6
+Surgery	2026-04-03	Night	Staff	IT Support	1
 Surgery	2026-04-03	Night	Staff	Secretary	1
-Cardiology	2026-04-04	Evening	Doctor	Cardiology	3
-Cardiology	2026-04-04	Evening	Doctor	Pathology	1
-Cardiology	2026-04-04	Evening	Nurse	Assistant Nurse	2
-Cardiology	2026-04-04	Evening	Nurse	Head Nurse	2
-Cardiology	2026-04-04	Evening	Nurse	Nurse	2
-Cardiology	2026-04-04	Evening	Staff	IT Support	1
-Cardiology	2026-04-04	Evening	Staff	Secretary	1
-Cardiology	2026-04-04	Morning	Doctor	Cardiology	3
-Cardiology	2026-04-04	Morning	Doctor	Pathology	1
-Cardiology	2026-04-04	Morning	Nurse	Assistant Nurse	2
-Cardiology	2026-04-04	Morning	Nurse	Head Nurse	2
-Cardiology	2026-04-04	Morning	Nurse	Nurse	2
-Cardiology	2026-04-04	Morning	Staff	Admissions Clerk	1
-Cardiology	2026-04-04	Morning	Staff	IT Support	1
-Cardiology	2026-04-04	Night	Doctor	Cardiology	3
-Cardiology	2026-04-04	Night	Doctor	Pathology	1
-Cardiology	2026-04-04	Night	Nurse	Assistant Nurse	2
-Cardiology	2026-04-04	Night	Nurse	Head Nurse	2
-Cardiology	2026-04-04	Night	Nurse	Nurse	2
-Cardiology	2026-04-04	Night	Staff	Secretary	2
-Emergency	2026-04-04	Evening	Doctor	Emergency Medicine	3
-Emergency	2026-04-04	Evening	Doctor	Radiology	2
-Emergency	2026-04-04	Evening	Nurse	Assistant Nurse	2
-Emergency	2026-04-04	Evening	Nurse	Head Nurse	2
-Emergency	2026-04-04	Evening	Nurse	Nurse	2
+Urology	2026-04-03	Evening	Doctor	Microbiology	1
+Urology	2026-04-03	Evening	Doctor	Neurology	1
+Urology	2026-04-03	Evening	Doctor	Radiology	1
+Urology	2026-04-03	Evening	Nurse	Assistant Nurse	6
+Urology	2026-04-03	Evening	Staff	Admissions Clerk	1
+Urology	2026-04-03	Evening	Staff	IT Support	1
+Urology	2026-04-03	Morning	Doctor	Microbiology	1
+Urology	2026-04-03	Morning	Doctor	Neurology	1
+Urology	2026-04-03	Morning	Doctor	Radiology	1
+Urology	2026-04-03	Morning	Nurse	Assistant Nurse	6
+Urology	2026-04-03	Morning	Staff	Accountant	1
+Urology	2026-04-03	Morning	Staff	Admissions Clerk	1
+Urology	2026-04-03	Night	Doctor	Microbiology	1
+Urology	2026-04-03	Night	Doctor	Neurology	1
+Urology	2026-04-03	Night	Doctor	Radiology	1
+Urology	2026-04-03	Night	Nurse	Assistant Nurse	6
+Urology	2026-04-03	Night	Staff	IT Support	1
+Urology	2026-04-03	Night	Staff	Secretary	1
+Cardiology	2026-04-04	Evening	Doctor	Cardiology	1
+Cardiology	2026-04-04	Evening	Doctor	Neurology	1
+Cardiology	2026-04-04	Evening	Doctor	Surgery	1
+Cardiology	2026-04-04	Evening	Nurse	Nurse	6
+Cardiology	2026-04-04	Evening	Staff	Accountant	1
+Cardiology	2026-04-04	Evening	Staff	Admissions Clerk	1
+Cardiology	2026-04-04	Morning	Doctor	Cardiology	1
+Cardiology	2026-04-04	Morning	Doctor	Neurology	1
+Cardiology	2026-04-04	Morning	Doctor	Surgery	1
+Cardiology	2026-04-04	Morning	Nurse	Nurse	6
+Cardiology	2026-04-04	Morning	Staff	Accountant	1
+Cardiology	2026-04-04	Morning	Staff	Secretary	1
+Cardiology	2026-04-04	Night	Doctor	Cardiology	1
+Cardiology	2026-04-04	Night	Doctor	Neurology	1
+Cardiology	2026-04-04	Night	Doctor	Surgery	1
+Cardiology	2026-04-04	Night	Nurse	Nurse	6
+Cardiology	2026-04-04	Night	Staff	Admissions Clerk	1
+Cardiology	2026-04-04	Night	Staff	IT Support	1
+Emergency	2026-04-04	Evening	Doctor	Emergency Medicine	1
+Emergency	2026-04-04	Evening	Doctor	Intensive Care	1
+Emergency	2026-04-04	Evening	Doctor	Surgery	1
+Emergency	2026-04-04	Evening	Nurse	Assistant Nurse	6
 Emergency	2026-04-04	Evening	Staff	Accountant	1
-Emergency	2026-04-04	Evening	Staff	Secretary	1
-Emergency	2026-04-04	Morning	Doctor	Emergency Medicine	3
-Emergency	2026-04-04	Morning	Doctor	Radiology	2
-Emergency	2026-04-04	Morning	Nurse	Assistant Nurse	2
-Emergency	2026-04-04	Morning	Nurse	Head Nurse	2
-Emergency	2026-04-04	Morning	Nurse	Nurse	2
-Emergency	2026-04-04	Morning	Staff	IT Support	1
+Emergency	2026-04-04	Evening	Staff	Admissions Clerk	1
+Emergency	2026-04-04	Morning	Doctor	Emergency Medicine	1
+Emergency	2026-04-04	Morning	Doctor	Intensive Care	1
+Emergency	2026-04-04	Morning	Doctor	Surgery	1
+Emergency	2026-04-04	Morning	Nurse	Assistant Nurse	6
+Emergency	2026-04-04	Morning	Staff	Accountant	1
 Emergency	2026-04-04	Morning	Staff	Secretary	1
-Emergency	2026-04-04	Night	Doctor	Emergency Medicine	3
-Emergency	2026-04-04	Night	Doctor	Radiology	2
-Emergency	2026-04-04	Night	Nurse	Assistant Nurse	2
-Emergency	2026-04-04	Night	Nurse	Head Nurse	2
-Emergency	2026-04-04	Night	Nurse	Nurse	2
-Emergency	2026-04-04	Night	Staff	Accountant	1
+Emergency	2026-04-04	Night	Doctor	Emergency Medicine	1
+Emergency	2026-04-04	Night	Doctor	Intensive Care	1
+Emergency	2026-04-04	Night	Doctor	Surgery	1
+Emergency	2026-04-04	Night	Nurse	Assistant Nurse	6
 Emergency	2026-04-04	Night	Staff	Admissions Clerk	1
-ICU	2026-04-04	Evening	Doctor	Intensive Care	3
-ICU	2026-04-04	Evening	Nurse	Assistant Nurse	2
-ICU	2026-04-04	Evening	Nurse	Head Nurse	2
-ICU	2026-04-04	Evening	Nurse	Nurse	2
-ICU	2026-04-04	Evening	Staff	IT Support	1
-ICU	2026-04-04	Evening	Staff	Secretary	1
-ICU	2026-04-04	Morning	Doctor	Intensive Care	3
-ICU	2026-04-04	Morning	Nurse	Assistant Nurse	2
-ICU	2026-04-04	Morning	Nurse	Head Nurse	2
-ICU	2026-04-04	Morning	Nurse	Nurse	2
-ICU	2026-04-04	Morning	Staff	Admissions Clerk	1
-ICU	2026-04-04	Morning	Staff	IT Support	1
-ICU	2026-04-04	Night	Doctor	Intensive Care	3
-ICU	2026-04-04	Night	Nurse	Assistant Nurse	2
-ICU	2026-04-04	Night	Nurse	Head Nurse	2
-ICU	2026-04-04	Night	Nurse	Nurse	2
-ICU	2026-04-04	Night	Staff	Accountant	1
-ICU	2026-04-04	Night	Staff	Secretary	1
-Pathology	2026-04-04	Evening	Doctor	Microbiology	1
-Pathology	2026-04-04	Evening	Doctor	Pathology	2
-Pathology	2026-04-04	Evening	Nurse	Assistant Nurse	2
-Pathology	2026-04-04	Evening	Nurse	Head Nurse	2
-Pathology	2026-04-04	Evening	Nurse	Nurse	2
+Emergency	2026-04-04	Night	Staff	IT Support	1
+Gastroenterology	2026-04-04	Evening	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-04	Evening	Doctor	Intensive Care	1
+Gastroenterology	2026-04-04	Evening	Doctor	Surgery	1
+Gastroenterology	2026-04-04	Evening	Nurse	Head Nurse	6
+Gastroenterology	2026-04-04	Evening	Staff	Accountant	1
+Gastroenterology	2026-04-04	Evening	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-04	Morning	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-04	Morning	Doctor	Intensive Care	1
+Gastroenterology	2026-04-04	Morning	Doctor	Surgery	1
+Gastroenterology	2026-04-04	Morning	Nurse	Head Nurse	6
+Gastroenterology	2026-04-04	Morning	Staff	Accountant	1
+Gastroenterology	2026-04-04	Morning	Staff	Secretary	1
+Gastroenterology	2026-04-04	Night	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-04	Night	Doctor	Intensive Care	1
+Gastroenterology	2026-04-04	Night	Doctor	Surgery	1
+Gastroenterology	2026-04-04	Night	Nurse	Head Nurse	6
+Gastroenterology	2026-04-04	Night	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-04	Night	Staff	IT Support	1
+ICU	2026-04-04	Evening	Doctor	Emergency Medicine	1
+ICU	2026-04-04	Evening	Doctor	Intensive Care	1
+ICU	2026-04-04	Evening	Doctor	Pathology	1
+ICU	2026-04-04	Evening	Nurse	Nurse	6
+ICU	2026-04-04	Evening	Staff	Accountant	1
+ICU	2026-04-04	Evening	Staff	Admissions Clerk	1
+ICU	2026-04-04	Morning	Doctor	Emergency Medicine	1
+ICU	2026-04-04	Morning	Doctor	Intensive Care	1
+ICU	2026-04-04	Morning	Doctor	Pathology	1
+ICU	2026-04-04	Morning	Nurse	Nurse	6
+ICU	2026-04-04	Morning	Staff	Accountant	1
+ICU	2026-04-04	Morning	Staff	Secretary	1
+ICU	2026-04-04	Night	Doctor	Emergency Medicine	1
+ICU	2026-04-04	Night	Doctor	Intensive Care	1
+ICU	2026-04-04	Night	Doctor	Pathology	1
+ICU	2026-04-04	Night	Nurse	Nurse	6
+ICU	2026-04-04	Night	Staff	Admissions Clerk	1
+ICU	2026-04-04	Night	Staff	IT Support	1
+Microbiology	2026-04-04	Evening	Doctor	Microbiology	1
+Microbiology	2026-04-04	Evening	Doctor	Neurology	1
+Microbiology	2026-04-04	Evening	Doctor	Radiology	1
+Microbiology	2026-04-04	Evening	Nurse	Nurse	6
+Microbiology	2026-04-04	Evening	Staff	Accountant	1
+Microbiology	2026-04-04	Evening	Staff	Admissions Clerk	1
+Microbiology	2026-04-04	Morning	Doctor	Microbiology	1
+Microbiology	2026-04-04	Morning	Doctor	Neurology	1
+Microbiology	2026-04-04	Morning	Doctor	Radiology	1
+Microbiology	2026-04-04	Morning	Nurse	Nurse	6
+Microbiology	2026-04-04	Morning	Staff	Accountant	1
+Microbiology	2026-04-04	Morning	Staff	Secretary	1
+Microbiology	2026-04-04	Night	Doctor	Microbiology	1
+Microbiology	2026-04-04	Night	Doctor	Neurology	1
+Microbiology	2026-04-04	Night	Doctor	Radiology	1
+Microbiology	2026-04-04	Night	Nurse	Nurse	6
+Microbiology	2026-04-04	Night	Staff	Admissions Clerk	1
+Microbiology	2026-04-04	Night	Staff	IT Support	1
+Nephrology	2026-04-04	Evening	Doctor	Emergency Medicine	1
+Nephrology	2026-04-04	Evening	Doctor	Intensive Care	1
+Nephrology	2026-04-04	Evening	Doctor	Pathology	1
+Nephrology	2026-04-04	Evening	Nurse	Assistant Nurse	6
+Nephrology	2026-04-04	Evening	Staff	Accountant	1
+Nephrology	2026-04-04	Evening	Staff	Admissions Clerk	1
+Nephrology	2026-04-04	Morning	Doctor	Emergency Medicine	1
+Nephrology	2026-04-04	Morning	Doctor	Intensive Care	1
+Nephrology	2026-04-04	Morning	Doctor	Pathology	1
+Nephrology	2026-04-04	Morning	Nurse	Assistant Nurse	6
+Nephrology	2026-04-04	Morning	Staff	Accountant	1
+Nephrology	2026-04-04	Morning	Staff	Secretary	1
+Nephrology	2026-04-04	Night	Doctor	Emergency Medicine	1
+Nephrology	2026-04-04	Night	Doctor	Intensive Care	1
+Nephrology	2026-04-04	Night	Doctor	Pathology	1
+Nephrology	2026-04-04	Night	Nurse	Assistant Nurse	6
+Nephrology	2026-04-04	Night	Staff	Admissions Clerk	1
+Nephrology	2026-04-04	Night	Staff	IT Support	1
+Neurology	2026-04-04	Evening	Doctor	Cardiology	1
+Neurology	2026-04-04	Evening	Doctor	Microbiology	1
+Neurology	2026-04-04	Evening	Doctor	Neurology	1
+Neurology	2026-04-04	Evening	Nurse	Head Nurse	6
+Neurology	2026-04-04	Evening	Staff	Accountant	1
+Neurology	2026-04-04	Evening	Staff	Admissions Clerk	1
+Neurology	2026-04-04	Morning	Doctor	Cardiology	1
+Neurology	2026-04-04	Morning	Doctor	Microbiology	1
+Neurology	2026-04-04	Morning	Doctor	Neurology	1
+Neurology	2026-04-04	Morning	Nurse	Head Nurse	6
+Neurology	2026-04-04	Morning	Staff	Accountant	1
+Neurology	2026-04-04	Morning	Staff	Secretary	1
+Neurology	2026-04-04	Night	Doctor	Cardiology	1
+Neurology	2026-04-04	Night	Doctor	Microbiology	1
+Neurology	2026-04-04	Night	Doctor	Neurology	1
+Neurology	2026-04-04	Night	Nurse	Head Nurse	6
+Neurology	2026-04-04	Night	Staff	Admissions Clerk	1
+Neurology	2026-04-04	Night	Staff	IT Support	1
+Oncology	2026-04-04	Evening	Doctor	Intensive Care	1
+Oncology	2026-04-04	Evening	Doctor	Pathology	1
+Oncology	2026-04-04	Evening	Doctor	Radiology	1
+Oncology	2026-04-04	Evening	Nurse	Nurse	6
+Oncology	2026-04-04	Evening	Staff	Accountant	1
+Oncology	2026-04-04	Evening	Staff	Admissions Clerk	1
+Oncology	2026-04-04	Morning	Doctor	Intensive Care	1
+Oncology	2026-04-04	Morning	Doctor	Pathology	1
+Oncology	2026-04-04	Morning	Doctor	Radiology	1
+Oncology	2026-04-04	Morning	Nurse	Nurse	6
+Oncology	2026-04-04	Morning	Staff	Accountant	1
+Oncology	2026-04-04	Morning	Staff	Secretary	1
+Oncology	2026-04-04	Night	Doctor	Intensive Care	1
+Oncology	2026-04-04	Night	Doctor	Pathology	1
+Oncology	2026-04-04	Night	Doctor	Radiology	1
+Oncology	2026-04-04	Night	Nurse	Nurse	6
+Oncology	2026-04-04	Night	Staff	Admissions Clerk	1
+Oncology	2026-04-04	Night	Staff	IT Support	1
+Orthopedics	2026-04-04	Evening	Doctor	Cardiology	1
+Orthopedics	2026-04-04	Evening	Doctor	Neurology	1
+Orthopedics	2026-04-04	Evening	Doctor	Surgery	1
+Orthopedics	2026-04-04	Evening	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-04	Evening	Staff	Accountant	1
+Orthopedics	2026-04-04	Evening	Staff	Admissions Clerk	1
+Orthopedics	2026-04-04	Morning	Doctor	Cardiology	1
+Orthopedics	2026-04-04	Morning	Doctor	Neurology	1
+Orthopedics	2026-04-04	Morning	Doctor	Surgery	1
+Orthopedics	2026-04-04	Morning	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-04	Morning	Staff	Accountant	1
+Orthopedics	2026-04-04	Morning	Staff	Secretary	1
+Orthopedics	2026-04-04	Night	Doctor	Cardiology	1
+Orthopedics	2026-04-04	Night	Doctor	Neurology	1
+Orthopedics	2026-04-04	Night	Doctor	Surgery	1
+Orthopedics	2026-04-04	Night	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-04	Night	Staff	Admissions Clerk	1
+Orthopedics	2026-04-04	Night	Staff	IT Support	1
+Pathology	2026-04-04	Evening	Doctor	Intensive Care	1
+Pathology	2026-04-04	Evening	Doctor	Pathology	1
+Pathology	2026-04-04	Evening	Doctor	Radiology	1
+Pathology	2026-04-04	Evening	Nurse	Head Nurse	6
+Pathology	2026-04-04	Evening	Staff	Accountant	1
 Pathology	2026-04-04	Evening	Staff	Admissions Clerk	1
-Pathology	2026-04-04	Evening	Staff	IT Support	1
-Pathology	2026-04-04	Morning	Doctor	Microbiology	1
-Pathology	2026-04-04	Morning	Doctor	Pathology	2
-Pathology	2026-04-04	Morning	Nurse	Assistant Nurse	2
-Pathology	2026-04-04	Morning	Nurse	Head Nurse	2
-Pathology	2026-04-04	Morning	Nurse	Nurse	2
+Pathology	2026-04-04	Morning	Doctor	Intensive Care	1
+Pathology	2026-04-04	Morning	Doctor	Pathology	1
+Pathology	2026-04-04	Morning	Doctor	Radiology	1
+Pathology	2026-04-04	Morning	Nurse	Head Nurse	6
 Pathology	2026-04-04	Morning	Staff	Accountant	1
-Pathology	2026-04-04	Morning	Staff	Admissions Clerk	1
-Pathology	2026-04-04	Night	Doctor	Microbiology	1
-Pathology	2026-04-04	Night	Doctor	Pathology	2
-Pathology	2026-04-04	Night	Nurse	Assistant Nurse	2
-Pathology	2026-04-04	Night	Nurse	Head Nurse	2
-Pathology	2026-04-04	Night	Nurse	Nurse	2
+Pathology	2026-04-04	Morning	Staff	Secretary	1
+Pathology	2026-04-04	Night	Doctor	Intensive Care	1
+Pathology	2026-04-04	Night	Doctor	Pathology	1
+Pathology	2026-04-04	Night	Doctor	Radiology	1
+Pathology	2026-04-04	Night	Nurse	Head Nurse	6
+Pathology	2026-04-04	Night	Staff	Admissions Clerk	1
 Pathology	2026-04-04	Night	Staff	IT Support	1
-Pathology	2026-04-04	Night	Staff	Secretary	1
-Surgery	2026-04-04	Evening	Doctor	Surgery	4
-Surgery	2026-04-04	Evening	Nurse	Assistant Nurse	2
-Surgery	2026-04-04	Evening	Nurse	Head Nurse	2
-Surgery	2026-04-04	Evening	Nurse	Nurse	2
+Pediatrics	2026-04-04	Evening	Doctor	Microbiology	1
+Pediatrics	2026-04-04	Evening	Doctor	Pathology	1
+Pediatrics	2026-04-04	Evening	Doctor	Radiology	1
+Pediatrics	2026-04-04	Evening	Nurse	Head Nurse	6
+Pediatrics	2026-04-04	Evening	Staff	Accountant	1
+Pediatrics	2026-04-04	Evening	Staff	Admissions Clerk	1
+Pediatrics	2026-04-04	Morning	Doctor	Microbiology	1
+Pediatrics	2026-04-04	Morning	Doctor	Pathology	1
+Pediatrics	2026-04-04	Morning	Doctor	Radiology	1
+Pediatrics	2026-04-04	Morning	Nurse	Head Nurse	6
+Pediatrics	2026-04-04	Morning	Staff	Accountant	1
+Pediatrics	2026-04-04	Morning	Staff	Secretary	1
+Pediatrics	2026-04-04	Night	Doctor	Microbiology	1
+Pediatrics	2026-04-04	Night	Doctor	Pathology	1
+Pediatrics	2026-04-04	Night	Doctor	Radiology	1
+Pediatrics	2026-04-04	Night	Nurse	Head Nurse	6
+Pediatrics	2026-04-04	Night	Staff	Admissions Clerk	1
+Pediatrics	2026-04-04	Night	Staff	IT Support	1
+Pulmonology	2026-04-04	Evening	Doctor	Cardiology	1
+Pulmonology	2026-04-04	Evening	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-04	Evening	Doctor	Surgery	1
+Pulmonology	2026-04-04	Evening	Nurse	Nurse	6
+Pulmonology	2026-04-04	Evening	Staff	Accountant	1
+Pulmonology	2026-04-04	Evening	Staff	Admissions Clerk	1
+Pulmonology	2026-04-04	Morning	Doctor	Cardiology	1
+Pulmonology	2026-04-04	Morning	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-04	Morning	Doctor	Surgery	1
+Pulmonology	2026-04-04	Morning	Nurse	Nurse	6
+Pulmonology	2026-04-04	Morning	Staff	Accountant	1
+Pulmonology	2026-04-04	Morning	Staff	Secretary	1
+Pulmonology	2026-04-04	Night	Doctor	Cardiology	1
+Pulmonology	2026-04-04	Night	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-04	Night	Doctor	Surgery	1
+Pulmonology	2026-04-04	Night	Nurse	Nurse	6
+Pulmonology	2026-04-04	Night	Staff	Admissions Clerk	1
+Pulmonology	2026-04-04	Night	Staff	IT Support	1
+Radiology	2026-04-04	Evening	Doctor	Microbiology	1
+Radiology	2026-04-04	Evening	Doctor	Pathology	1
+Radiology	2026-04-04	Evening	Doctor	Radiology	1
+Radiology	2026-04-04	Evening	Nurse	Assistant Nurse	6
+Radiology	2026-04-04	Evening	Staff	Accountant	1
+Radiology	2026-04-04	Evening	Staff	Admissions Clerk	1
+Radiology	2026-04-04	Morning	Doctor	Microbiology	1
+Radiology	2026-04-04	Morning	Doctor	Pathology	1
+Radiology	2026-04-04	Morning	Doctor	Radiology	1
+Radiology	2026-04-04	Morning	Nurse	Assistant Nurse	6
+Radiology	2026-04-04	Morning	Staff	Accountant	1
+Radiology	2026-04-04	Morning	Staff	Secretary	1
+Radiology	2026-04-04	Night	Doctor	Microbiology	1
+Radiology	2026-04-04	Night	Doctor	Pathology	1
+Radiology	2026-04-04	Night	Doctor	Radiology	1
+Radiology	2026-04-04	Night	Nurse	Assistant Nurse	6
+Radiology	2026-04-04	Night	Staff	Admissions Clerk	1
+Radiology	2026-04-04	Night	Staff	IT Support	1
+Surgery	2026-04-04	Evening	Doctor	Cardiology	1
+Surgery	2026-04-04	Evening	Doctor	Emergency Medicine	1
+Surgery	2026-04-04	Evening	Doctor	Surgery	1
+Surgery	2026-04-04	Evening	Nurse	Head Nurse	6
 Surgery	2026-04-04	Evening	Staff	Accountant	1
 Surgery	2026-04-04	Evening	Staff	Admissions Clerk	1
-Surgery	2026-04-04	Morning	Doctor	Surgery	4
-Surgery	2026-04-04	Morning	Nurse	Assistant Nurse	2
-Surgery	2026-04-04	Morning	Nurse	Head Nurse	2
-Surgery	2026-04-04	Morning	Nurse	Nurse	2
+Surgery	2026-04-04	Morning	Doctor	Cardiology	1
+Surgery	2026-04-04	Morning	Doctor	Emergency Medicine	1
+Surgery	2026-04-04	Morning	Doctor	Surgery	1
+Surgery	2026-04-04	Morning	Nurse	Head Nurse	6
 Surgery	2026-04-04	Morning	Staff	Accountant	1
 Surgery	2026-04-04	Morning	Staff	Secretary	1
-Surgery	2026-04-04	Night	Doctor	Surgery	4
-Surgery	2026-04-04	Night	Nurse	Assistant Nurse	2
-Surgery	2026-04-04	Night	Nurse	Head Nurse	2
-Surgery	2026-04-04	Night	Nurse	Nurse	2
+Surgery	2026-04-04	Night	Doctor	Cardiology	1
+Surgery	2026-04-04	Night	Doctor	Emergency Medicine	1
+Surgery	2026-04-04	Night	Doctor	Surgery	1
+Surgery	2026-04-04	Night	Nurse	Head Nurse	6
 Surgery	2026-04-04	Night	Staff	Admissions Clerk	1
 Surgery	2026-04-04	Night	Staff	IT Support	1
-Cardiology	2026-04-05	Evening	Doctor	Cardiology	3
-Cardiology	2026-04-05	Evening	Doctor	Pathology	1
-Cardiology	2026-04-05	Evening	Nurse	Assistant Nurse	2
-Cardiology	2026-04-05	Evening	Nurse	Head Nurse	2
-Cardiology	2026-04-05	Evening	Nurse	Nurse	2
+Urology	2026-04-04	Evening	Doctor	Microbiology	1
+Urology	2026-04-04	Evening	Doctor	Neurology	1
+Urology	2026-04-04	Evening	Doctor	Radiology	1
+Urology	2026-04-04	Evening	Nurse	Assistant Nurse	6
+Urology	2026-04-04	Evening	Staff	Accountant	1
+Urology	2026-04-04	Evening	Staff	Admissions Clerk	1
+Urology	2026-04-04	Morning	Doctor	Microbiology	1
+Urology	2026-04-04	Morning	Doctor	Neurology	1
+Urology	2026-04-04	Morning	Doctor	Radiology	1
+Urology	2026-04-04	Morning	Nurse	Assistant Nurse	6
+Urology	2026-04-04	Morning	Staff	Accountant	1
+Urology	2026-04-04	Morning	Staff	Secretary	1
+Urology	2026-04-04	Night	Doctor	Microbiology	1
+Urology	2026-04-04	Night	Doctor	Neurology	1
+Urology	2026-04-04	Night	Doctor	Radiology	1
+Urology	2026-04-04	Night	Nurse	Assistant Nurse	6
+Urology	2026-04-04	Night	Staff	Admissions Clerk	1
+Urology	2026-04-04	Night	Staff	IT Support	1
+Cardiology	2026-04-05	Evening	Doctor	Cardiology	1
+Cardiology	2026-04-05	Evening	Doctor	Neurology	1
+Cardiology	2026-04-05	Evening	Doctor	Surgery	1
+Cardiology	2026-04-05	Evening	Nurse	Nurse	6
 Cardiology	2026-04-05	Evening	Staff	Accountant	1
-Cardiology	2026-04-05	Evening	Staff	Admissions Clerk	1
-Cardiology	2026-04-05	Morning	Doctor	Cardiology	3
-Cardiology	2026-04-05	Morning	Doctor	Pathology	1
-Cardiology	2026-04-05	Morning	Nurse	Assistant Nurse	2
-Cardiology	2026-04-05	Morning	Nurse	Head Nurse	2
-Cardiology	2026-04-05	Morning	Nurse	Nurse	2
-Cardiology	2026-04-05	Morning	Staff	Accountant	1
+Cardiology	2026-04-05	Evening	Staff	Secretary	1
+Cardiology	2026-04-05	Morning	Doctor	Cardiology	1
+Cardiology	2026-04-05	Morning	Doctor	Neurology	1
+Cardiology	2026-04-05	Morning	Doctor	Surgery	1
+Cardiology	2026-04-05	Morning	Nurse	Nurse	6
+Cardiology	2026-04-05	Morning	Staff	IT Support	1
 Cardiology	2026-04-05	Morning	Staff	Secretary	1
-Cardiology	2026-04-05	Night	Doctor	Cardiology	3
-Cardiology	2026-04-05	Night	Doctor	Pathology	1
-Cardiology	2026-04-05	Night	Nurse	Assistant Nurse	2
-Cardiology	2026-04-05	Night	Nurse	Head Nurse	2
-Cardiology	2026-04-05	Night	Nurse	Nurse	2
+Cardiology	2026-04-05	Night	Doctor	Cardiology	1
+Cardiology	2026-04-05	Night	Doctor	Neurology	1
+Cardiology	2026-04-05	Night	Doctor	Surgery	1
+Cardiology	2026-04-05	Night	Nurse	Nurse	6
+Cardiology	2026-04-05	Night	Staff	Accountant	1
 Cardiology	2026-04-05	Night	Staff	Admissions Clerk	1
-Cardiology	2026-04-05	Night	Staff	IT Support	1
-Emergency	2026-04-05	Evening	Doctor	Emergency Medicine	3
-Emergency	2026-04-05	Evening	Doctor	Radiology	2
-Emergency	2026-04-05	Evening	Nurse	Assistant Nurse	1
-Emergency	2026-04-05	Evening	Nurse	Head Nurse	3
-Emergency	2026-04-05	Evening	Nurse	Nurse	2
-Emergency	2026-04-05	Evening	Staff	IT Support	1
+Emergency	2026-04-05	Evening	Doctor	Emergency Medicine	1
+Emergency	2026-04-05	Evening	Doctor	Intensive Care	1
+Emergency	2026-04-05	Evening	Doctor	Surgery	1
+Emergency	2026-04-05	Evening	Nurse	Assistant Nurse	6
+Emergency	2026-04-05	Evening	Staff	Accountant	1
 Emergency	2026-04-05	Evening	Staff	Secretary	1
-Emergency	2026-04-05	Morning	Doctor	Emergency Medicine	3
-Emergency	2026-04-05	Morning	Doctor	Radiology	2
-Emergency	2026-04-05	Morning	Nurse	Assistant Nurse	1
-Emergency	2026-04-05	Morning	Nurse	Head Nurse	2
-Emergency	2026-04-05	Morning	Nurse	Nurse	3
-Emergency	2026-04-05	Morning	Staff	Admissions Clerk	1
+Emergency	2026-04-05	Morning	Doctor	Emergency Medicine	1
+Emergency	2026-04-05	Morning	Doctor	Intensive Care	1
+Emergency	2026-04-05	Morning	Doctor	Surgery	1
+Emergency	2026-04-05	Morning	Nurse	Assistant Nurse	6
 Emergency	2026-04-05	Morning	Staff	IT Support	1
-Emergency	2026-04-05	Night	Doctor	Emergency Medicine	3
-Emergency	2026-04-05	Night	Doctor	Radiology	2
-Emergency	2026-04-05	Night	Nurse	Assistant Nurse	2
-Emergency	2026-04-05	Night	Nurse	Head Nurse	2
-Emergency	2026-04-05	Night	Nurse	Nurse	2
+Emergency	2026-04-05	Morning	Staff	Secretary	1
+Emergency	2026-04-05	Night	Doctor	Emergency Medicine	1
+Emergency	2026-04-05	Night	Doctor	Intensive Care	1
+Emergency	2026-04-05	Night	Doctor	Surgery	1
+Emergency	2026-04-05	Night	Nurse	Assistant Nurse	6
 Emergency	2026-04-05	Night	Staff	Accountant	1
-Emergency	2026-04-05	Night	Staff	Secretary	1
-ICU	2026-04-05	Evening	Doctor	Intensive Care	3
-ICU	2026-04-05	Evening	Nurse	Assistant Nurse	2
-ICU	2026-04-05	Evening	Nurse	Head Nurse	2
-ICU	2026-04-05	Evening	Nurse	Nurse	2
-ICU	2026-04-05	Evening	Staff	Admissions Clerk	1
-ICU	2026-04-05	Evening	Staff	IT Support	1
-ICU	2026-04-05	Morning	Doctor	Intensive Care	3
-ICU	2026-04-05	Morning	Nurse	Assistant Nurse	2
-ICU	2026-04-05	Morning	Nurse	Head Nurse	2
-ICU	2026-04-05	Morning	Nurse	Nurse	2
-ICU	2026-04-05	Morning	Staff	Accountant	1
-ICU	2026-04-05	Morning	Staff	Admissions Clerk	1
-ICU	2026-04-05	Night	Doctor	Intensive Care	3
-ICU	2026-04-05	Night	Nurse	Assistant Nurse	2
-ICU	2026-04-05	Night	Nurse	Head Nurse	2
-ICU	2026-04-05	Night	Nurse	Nurse	2
-ICU	2026-04-05	Night	Staff	IT Support	1
-ICU	2026-04-05	Night	Staff	Secretary	1
-Pathology	2026-04-05	Evening	Doctor	Microbiology	1
-Pathology	2026-04-05	Evening	Doctor	Pathology	2
-Pathology	2026-04-05	Evening	Nurse	Assistant Nurse	2
-Pathology	2026-04-05	Evening	Nurse	Head Nurse	2
-Pathology	2026-04-05	Evening	Nurse	Nurse	2
+Emergency	2026-04-05	Night	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-05	Evening	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-05	Evening	Doctor	Intensive Care	1
+Gastroenterology	2026-04-05	Evening	Doctor	Surgery	1
+Gastroenterology	2026-04-05	Evening	Nurse	Head Nurse	6
+Gastroenterology	2026-04-05	Evening	Staff	Accountant	1
+Gastroenterology	2026-04-05	Evening	Staff	Secretary	1
+Gastroenterology	2026-04-05	Morning	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-05	Morning	Doctor	Intensive Care	1
+Gastroenterology	2026-04-05	Morning	Doctor	Surgery	1
+Gastroenterology	2026-04-05	Morning	Nurse	Head Nurse	6
+Gastroenterology	2026-04-05	Morning	Staff	IT Support	1
+Gastroenterology	2026-04-05	Morning	Staff	Secretary	1
+Gastroenterology	2026-04-05	Night	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-05	Night	Doctor	Intensive Care	1
+Gastroenterology	2026-04-05	Night	Doctor	Surgery	1
+Gastroenterology	2026-04-05	Night	Nurse	Head Nurse	6
+Gastroenterology	2026-04-05	Night	Staff	Accountant	1
+Gastroenterology	2026-04-05	Night	Staff	Admissions Clerk	1
+ICU	2026-04-05	Evening	Doctor	Emergency Medicine	1
+ICU	2026-04-05	Evening	Doctor	Intensive Care	1
+ICU	2026-04-05	Evening	Doctor	Pathology	1
+ICU	2026-04-05	Evening	Nurse	Nurse	6
+ICU	2026-04-05	Evening	Staff	Accountant	1
+ICU	2026-04-05	Evening	Staff	Secretary	1
+ICU	2026-04-05	Morning	Doctor	Emergency Medicine	1
+ICU	2026-04-05	Morning	Doctor	Intensive Care	1
+ICU	2026-04-05	Morning	Doctor	Pathology	1
+ICU	2026-04-05	Morning	Nurse	Nurse	6
+ICU	2026-04-05	Morning	Staff	IT Support	1
+ICU	2026-04-05	Morning	Staff	Secretary	1
+ICU	2026-04-05	Night	Doctor	Emergency Medicine	1
+ICU	2026-04-05	Night	Doctor	Intensive Care	1
+ICU	2026-04-05	Night	Doctor	Pathology	1
+ICU	2026-04-05	Night	Nurse	Nurse	6
+ICU	2026-04-05	Night	Staff	Accountant	1
+ICU	2026-04-05	Night	Staff	Admissions Clerk	1
+Microbiology	2026-04-05	Evening	Doctor	Microbiology	1
+Microbiology	2026-04-05	Evening	Doctor	Neurology	1
+Microbiology	2026-04-05	Evening	Doctor	Radiology	1
+Microbiology	2026-04-05	Evening	Nurse	Nurse	6
+Microbiology	2026-04-05	Evening	Staff	Accountant	1
+Microbiology	2026-04-05	Evening	Staff	Secretary	1
+Microbiology	2026-04-05	Morning	Doctor	Microbiology	1
+Microbiology	2026-04-05	Morning	Doctor	Neurology	1
+Microbiology	2026-04-05	Morning	Doctor	Radiology	1
+Microbiology	2026-04-05	Morning	Nurse	Nurse	6
+Microbiology	2026-04-05	Morning	Staff	IT Support	1
+Microbiology	2026-04-05	Morning	Staff	Secretary	1
+Microbiology	2026-04-05	Night	Doctor	Microbiology	1
+Microbiology	2026-04-05	Night	Doctor	Neurology	1
+Microbiology	2026-04-05	Night	Doctor	Radiology	1
+Microbiology	2026-04-05	Night	Nurse	Nurse	6
+Microbiology	2026-04-05	Night	Staff	Accountant	1
+Microbiology	2026-04-05	Night	Staff	Admissions Clerk	1
+Nephrology	2026-04-05	Evening	Doctor	Emergency Medicine	1
+Nephrology	2026-04-05	Evening	Doctor	Intensive Care	1
+Nephrology	2026-04-05	Evening	Doctor	Pathology	1
+Nephrology	2026-04-05	Evening	Nurse	Assistant Nurse	6
+Nephrology	2026-04-05	Evening	Staff	Accountant	1
+Nephrology	2026-04-05	Evening	Staff	Secretary	1
+Nephrology	2026-04-05	Morning	Doctor	Emergency Medicine	1
+Nephrology	2026-04-05	Morning	Doctor	Intensive Care	1
+Nephrology	2026-04-05	Morning	Doctor	Pathology	1
+Nephrology	2026-04-05	Morning	Nurse	Assistant Nurse	6
+Nephrology	2026-04-05	Morning	Staff	IT Support	1
+Nephrology	2026-04-05	Morning	Staff	Secretary	1
+Nephrology	2026-04-05	Night	Doctor	Emergency Medicine	1
+Nephrology	2026-04-05	Night	Doctor	Intensive Care	1
+Nephrology	2026-04-05	Night	Doctor	Pathology	1
+Nephrology	2026-04-05	Night	Nurse	Assistant Nurse	6
+Nephrology	2026-04-05	Night	Staff	Accountant	1
+Nephrology	2026-04-05	Night	Staff	Admissions Clerk	1
+Neurology	2026-04-05	Evening	Doctor	Cardiology	1
+Neurology	2026-04-05	Evening	Doctor	Microbiology	1
+Neurology	2026-04-05	Evening	Doctor	Neurology	1
+Neurology	2026-04-05	Evening	Nurse	Head Nurse	6
+Neurology	2026-04-05	Evening	Staff	Accountant	1
+Neurology	2026-04-05	Evening	Staff	Secretary	1
+Neurology	2026-04-05	Morning	Doctor	Cardiology	1
+Neurology	2026-04-05	Morning	Doctor	Microbiology	1
+Neurology	2026-04-05	Morning	Doctor	Neurology	1
+Neurology	2026-04-05	Morning	Nurse	Head Nurse	6
+Neurology	2026-04-05	Morning	Staff	IT Support	1
+Neurology	2026-04-05	Morning	Staff	Secretary	1
+Neurology	2026-04-05	Night	Doctor	Cardiology	1
+Neurology	2026-04-05	Night	Doctor	Microbiology	1
+Neurology	2026-04-05	Night	Doctor	Neurology	1
+Neurology	2026-04-05	Night	Nurse	Head Nurse	6
+Neurology	2026-04-05	Night	Staff	Accountant	1
+Neurology	2026-04-05	Night	Staff	Admissions Clerk	1
+Oncology	2026-04-05	Evening	Doctor	Intensive Care	1
+Oncology	2026-04-05	Evening	Doctor	Pathology	1
+Oncology	2026-04-05	Evening	Doctor	Radiology	1
+Oncology	2026-04-05	Evening	Nurse	Nurse	6
+Oncology	2026-04-05	Evening	Staff	Accountant	1
+Oncology	2026-04-05	Evening	Staff	Secretary	1
+Oncology	2026-04-05	Morning	Doctor	Intensive Care	1
+Oncology	2026-04-05	Morning	Doctor	Pathology	1
+Oncology	2026-04-05	Morning	Doctor	Radiology	1
+Oncology	2026-04-05	Morning	Nurse	Nurse	6
+Oncology	2026-04-05	Morning	Staff	IT Support	1
+Oncology	2026-04-05	Morning	Staff	Secretary	1
+Oncology	2026-04-05	Night	Doctor	Intensive Care	1
+Oncology	2026-04-05	Night	Doctor	Pathology	1
+Oncology	2026-04-05	Night	Doctor	Radiology	1
+Oncology	2026-04-05	Night	Nurse	Nurse	6
+Oncology	2026-04-05	Night	Staff	Accountant	1
+Oncology	2026-04-05	Night	Staff	Admissions Clerk	1
+Orthopedics	2026-04-05	Evening	Doctor	Cardiology	1
+Orthopedics	2026-04-05	Evening	Doctor	Neurology	1
+Orthopedics	2026-04-05	Evening	Doctor	Surgery	1
+Orthopedics	2026-04-05	Evening	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-05	Evening	Staff	Accountant	1
+Orthopedics	2026-04-05	Evening	Staff	Secretary	1
+Orthopedics	2026-04-05	Morning	Doctor	Cardiology	1
+Orthopedics	2026-04-05	Morning	Doctor	Neurology	1
+Orthopedics	2026-04-05	Morning	Doctor	Surgery	1
+Orthopedics	2026-04-05	Morning	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-05	Morning	Staff	IT Support	1
+Orthopedics	2026-04-05	Morning	Staff	Secretary	1
+Orthopedics	2026-04-05	Night	Doctor	Cardiology	1
+Orthopedics	2026-04-05	Night	Doctor	Neurology	1
+Orthopedics	2026-04-05	Night	Doctor	Surgery	1
+Orthopedics	2026-04-05	Night	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-05	Night	Staff	Accountant	1
+Orthopedics	2026-04-05	Night	Staff	Admissions Clerk	1
+Pathology	2026-04-05	Evening	Doctor	Intensive Care	1
+Pathology	2026-04-05	Evening	Doctor	Pathology	1
+Pathology	2026-04-05	Evening	Doctor	Radiology	1
+Pathology	2026-04-05	Evening	Nurse	Head Nurse	6
 Pathology	2026-04-05	Evening	Staff	Accountant	1
 Pathology	2026-04-05	Evening	Staff	Secretary	1
-Pathology	2026-04-05	Morning	Doctor	Microbiology	1
-Pathology	2026-04-05	Morning	Doctor	Pathology	2
-Pathology	2026-04-05	Morning	Nurse	Assistant Nurse	2
-Pathology	2026-04-05	Morning	Nurse	Head Nurse	2
-Pathology	2026-04-05	Morning	Nurse	Nurse	2
-Pathology	2026-04-05	Morning	Staff	Secretary	2
-Pathology	2026-04-05	Night	Doctor	Microbiology	1
-Pathology	2026-04-05	Night	Doctor	Pathology	2
-Pathology	2026-04-05	Night	Nurse	Assistant Nurse	2
-Pathology	2026-04-05	Night	Nurse	Head Nurse	2
-Pathology	2026-04-05	Night	Nurse	Nurse	2
+Pathology	2026-04-05	Morning	Doctor	Intensive Care	1
+Pathology	2026-04-05	Morning	Doctor	Pathology	1
+Pathology	2026-04-05	Morning	Doctor	Radiology	1
+Pathology	2026-04-05	Morning	Nurse	Head Nurse	6
+Pathology	2026-04-05	Morning	Staff	IT Support	1
+Pathology	2026-04-05	Morning	Staff	Secretary	1
+Pathology	2026-04-05	Night	Doctor	Intensive Care	1
+Pathology	2026-04-05	Night	Doctor	Pathology	1
+Pathology	2026-04-05	Night	Doctor	Radiology	1
+Pathology	2026-04-05	Night	Nurse	Head Nurse	6
 Pathology	2026-04-05	Night	Staff	Accountant	1
 Pathology	2026-04-05	Night	Staff	Admissions Clerk	1
-Surgery	2026-04-05	Evening	Doctor	Surgery	4
-Surgery	2026-04-05	Evening	Nurse	Assistant Nurse	1
-Surgery	2026-04-05	Evening	Nurse	Head Nurse	3
-Surgery	2026-04-05	Evening	Nurse	Nurse	2
+Pediatrics	2026-04-05	Evening	Doctor	Microbiology	1
+Pediatrics	2026-04-05	Evening	Doctor	Pathology	1
+Pediatrics	2026-04-05	Evening	Doctor	Radiology	1
+Pediatrics	2026-04-05	Evening	Nurse	Head Nurse	6
+Pediatrics	2026-04-05	Evening	Staff	Accountant	1
+Pediatrics	2026-04-05	Evening	Staff	Secretary	1
+Pediatrics	2026-04-05	Morning	Doctor	Microbiology	1
+Pediatrics	2026-04-05	Morning	Doctor	Pathology	1
+Pediatrics	2026-04-05	Morning	Doctor	Radiology	1
+Pediatrics	2026-04-05	Morning	Nurse	Head Nurse	6
+Pediatrics	2026-04-05	Morning	Staff	IT Support	1
+Pediatrics	2026-04-05	Morning	Staff	Secretary	1
+Pediatrics	2026-04-05	Night	Doctor	Microbiology	1
+Pediatrics	2026-04-05	Night	Doctor	Pathology	1
+Pediatrics	2026-04-05	Night	Doctor	Radiology	1
+Pediatrics	2026-04-05	Night	Nurse	Head Nurse	6
+Pediatrics	2026-04-05	Night	Staff	Accountant	1
+Pediatrics	2026-04-05	Night	Staff	Admissions Clerk	1
+Pulmonology	2026-04-05	Evening	Doctor	Cardiology	1
+Pulmonology	2026-04-05	Evening	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-05	Evening	Doctor	Surgery	1
+Pulmonology	2026-04-05	Evening	Nurse	Nurse	6
+Pulmonology	2026-04-05	Evening	Staff	Accountant	1
+Pulmonology	2026-04-05	Evening	Staff	Secretary	1
+Pulmonology	2026-04-05	Morning	Doctor	Cardiology	1
+Pulmonology	2026-04-05	Morning	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-05	Morning	Doctor	Surgery	1
+Pulmonology	2026-04-05	Morning	Nurse	Nurse	6
+Pulmonology	2026-04-05	Morning	Staff	IT Support	1
+Pulmonology	2026-04-05	Morning	Staff	Secretary	1
+Pulmonology	2026-04-05	Night	Doctor	Cardiology	1
+Pulmonology	2026-04-05	Night	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-05	Night	Doctor	Surgery	1
+Pulmonology	2026-04-05	Night	Nurse	Nurse	6
+Pulmonology	2026-04-05	Night	Staff	Accountant	1
+Pulmonology	2026-04-05	Night	Staff	Admissions Clerk	1
+Radiology	2026-04-05	Evening	Doctor	Microbiology	1
+Radiology	2026-04-05	Evening	Doctor	Pathology	1
+Radiology	2026-04-05	Evening	Doctor	Radiology	1
+Radiology	2026-04-05	Evening	Nurse	Assistant Nurse	6
+Radiology	2026-04-05	Evening	Staff	Accountant	1
+Radiology	2026-04-05	Evening	Staff	Secretary	1
+Radiology	2026-04-05	Morning	Doctor	Microbiology	1
+Radiology	2026-04-05	Morning	Doctor	Pathology	1
+Radiology	2026-04-05	Morning	Doctor	Radiology	1
+Radiology	2026-04-05	Morning	Nurse	Assistant Nurse	6
+Radiology	2026-04-05	Morning	Staff	IT Support	1
+Radiology	2026-04-05	Morning	Staff	Secretary	1
+Radiology	2026-04-05	Night	Doctor	Microbiology	1
+Radiology	2026-04-05	Night	Doctor	Pathology	1
+Radiology	2026-04-05	Night	Doctor	Radiology	1
+Radiology	2026-04-05	Night	Nurse	Assistant Nurse	6
+Radiology	2026-04-05	Night	Staff	Accountant	1
+Radiology	2026-04-05	Night	Staff	Admissions Clerk	1
+Surgery	2026-04-05	Evening	Doctor	Cardiology	1
+Surgery	2026-04-05	Evening	Doctor	Emergency Medicine	1
+Surgery	2026-04-05	Evening	Doctor	Surgery	1
+Surgery	2026-04-05	Evening	Nurse	Head Nurse	6
 Surgery	2026-04-05	Evening	Staff	Accountant	1
 Surgery	2026-04-05	Evening	Staff	Secretary	1
-Surgery	2026-04-05	Morning	Doctor	Surgery	4
-Surgery	2026-04-05	Morning	Nurse	Assistant Nurse	1
-Surgery	2026-04-05	Morning	Nurse	Head Nurse	2
-Surgery	2026-04-05	Morning	Nurse	Nurse	3
+Surgery	2026-04-05	Morning	Doctor	Cardiology	1
+Surgery	2026-04-05	Morning	Doctor	Emergency Medicine	1
+Surgery	2026-04-05	Morning	Doctor	Surgery	1
+Surgery	2026-04-05	Morning	Nurse	Head Nurse	6
 Surgery	2026-04-05	Morning	Staff	IT Support	1
 Surgery	2026-04-05	Morning	Staff	Secretary	1
-Surgery	2026-04-05	Night	Doctor	Surgery	4
-Surgery	2026-04-05	Night	Nurse	Assistant Nurse	2
-Surgery	2026-04-05	Night	Nurse	Head Nurse	2
-Surgery	2026-04-05	Night	Nurse	Nurse	2
+Surgery	2026-04-05	Night	Doctor	Cardiology	1
+Surgery	2026-04-05	Night	Doctor	Emergency Medicine	1
+Surgery	2026-04-05	Night	Doctor	Surgery	1
+Surgery	2026-04-05	Night	Nurse	Head Nurse	6
 Surgery	2026-04-05	Night	Staff	Accountant	1
 Surgery	2026-04-05	Night	Staff	Admissions Clerk	1
-Cardiology	2026-04-06	Evening	Doctor	Cardiology	3
-Cardiology	2026-04-06	Evening	Doctor	Pathology	1
-Cardiology	2026-04-06	Evening	Nurse	Assistant Nurse	2
-Cardiology	2026-04-06	Evening	Nurse	Head Nurse	2
-Cardiology	2026-04-06	Evening	Nurse	Nurse	2
+Urology	2026-04-05	Evening	Doctor	Microbiology	1
+Urology	2026-04-05	Evening	Doctor	Neurology	1
+Urology	2026-04-05	Evening	Doctor	Radiology	1
+Urology	2026-04-05	Evening	Nurse	Assistant Nurse	6
+Urology	2026-04-05	Evening	Staff	Accountant	1
+Urology	2026-04-05	Evening	Staff	Secretary	1
+Urology	2026-04-05	Morning	Doctor	Microbiology	1
+Urology	2026-04-05	Morning	Doctor	Neurology	1
+Urology	2026-04-05	Morning	Doctor	Radiology	1
+Urology	2026-04-05	Morning	Nurse	Assistant Nurse	6
+Urology	2026-04-05	Morning	Staff	IT Support	1
+Urology	2026-04-05	Morning	Staff	Secretary	1
+Urology	2026-04-05	Night	Doctor	Microbiology	1
+Urology	2026-04-05	Night	Doctor	Neurology	1
+Urology	2026-04-05	Night	Doctor	Radiology	1
+Urology	2026-04-05	Night	Nurse	Assistant Nurse	6
+Urology	2026-04-05	Night	Staff	Accountant	1
+Urology	2026-04-05	Night	Staff	Admissions Clerk	1
+Cardiology	2026-04-06	Evening	Doctor	Cardiology	1
+Cardiology	2026-04-06	Evening	Doctor	Neurology	1
+Cardiology	2026-04-06	Evening	Doctor	Surgery	1
+Cardiology	2026-04-06	Evening	Nurse	Nurse	6
 Cardiology	2026-04-06	Evening	Staff	IT Support	1
 Cardiology	2026-04-06	Evening	Staff	Secretary	1
-Cardiology	2026-04-06	Morning	Doctor	Cardiology	3
-Cardiology	2026-04-06	Morning	Doctor	Pathology	1
-Cardiology	2026-04-06	Morning	Nurse	Assistant Nurse	2
-Cardiology	2026-04-06	Morning	Nurse	Head Nurse	2
-Cardiology	2026-04-06	Morning	Nurse	Nurse	2
+Cardiology	2026-04-06	Morning	Doctor	Cardiology	1
+Cardiology	2026-04-06	Morning	Doctor	Neurology	1
+Cardiology	2026-04-06	Morning	Doctor	Surgery	1
+Cardiology	2026-04-06	Morning	Nurse	Nurse	6
 Cardiology	2026-04-06	Morning	Staff	Admissions Clerk	1
 Cardiology	2026-04-06	Morning	Staff	IT Support	1
-Cardiology	2026-04-06	Night	Doctor	Cardiology	3
-Cardiology	2026-04-06	Night	Doctor	Pathology	1
-Cardiology	2026-04-06	Night	Nurse	Assistant Nurse	2
-Cardiology	2026-04-06	Night	Nurse	Head Nurse	2
-Cardiology	2026-04-06	Night	Nurse	Nurse	2
+Cardiology	2026-04-06	Night	Doctor	Cardiology	1
+Cardiology	2026-04-06	Night	Doctor	Neurology	1
+Cardiology	2026-04-06	Night	Doctor	Surgery	1
+Cardiology	2026-04-06	Night	Nurse	Nurse	6
 Cardiology	2026-04-06	Night	Staff	Accountant	1
 Cardiology	2026-04-06	Night	Staff	Secretary	1
-Emergency	2026-04-06	Evening	Doctor	Emergency Medicine	3
-Emergency	2026-04-06	Evening	Doctor	Radiology	2
-Emergency	2026-04-06	Evening	Nurse	Assistant Nurse	2
-Emergency	2026-04-06	Evening	Nurse	Head Nurse	2
-Emergency	2026-04-06	Evening	Nurse	Nurse	2
-Emergency	2026-04-06	Evening	Staff	Accountant	1
-Emergency	2026-04-06	Evening	Staff	Admissions Clerk	1
-Emergency	2026-04-06	Morning	Doctor	Emergency Medicine	3
-Emergency	2026-04-06	Morning	Doctor	Radiology	2
-Emergency	2026-04-06	Morning	Nurse	Assistant Nurse	2
-Emergency	2026-04-06	Morning	Nurse	Head Nurse	2
-Emergency	2026-04-06	Morning	Nurse	Nurse	2
-Emergency	2026-04-06	Morning	Staff	Accountant	1
-Emergency	2026-04-06	Morning	Staff	Secretary	1
-Emergency	2026-04-06	Night	Doctor	Emergency Medicine	3
-Emergency	2026-04-06	Night	Doctor	Radiology	2
-Emergency	2026-04-06	Night	Nurse	Assistant Nurse	2
-Emergency	2026-04-06	Night	Nurse	Head Nurse	2
-Emergency	2026-04-06	Night	Nurse	Nurse	2
-Emergency	2026-04-06	Night	Staff	Admissions Clerk	1
-Emergency	2026-04-06	Night	Staff	IT Support	1
-ICU	2026-04-06	Evening	Doctor	Intensive Care	3
-ICU	2026-04-06	Evening	Nurse	Assistant Nurse	2
-ICU	2026-04-06	Evening	Nurse	Head Nurse	2
-ICU	2026-04-06	Evening	Nurse	Nurse	2
-ICU	2026-04-06	Evening	Staff	Accountant	1
+Emergency	2026-04-06	Evening	Doctor	Emergency Medicine	1
+Emergency	2026-04-06	Evening	Doctor	Intensive Care	1
+Emergency	2026-04-06	Evening	Doctor	Surgery	1
+Emergency	2026-04-06	Evening	Nurse	Assistant Nurse	6
+Emergency	2026-04-06	Evening	Staff	IT Support	1
+Emergency	2026-04-06	Evening	Staff	Secretary	1
+Emergency	2026-04-06	Morning	Doctor	Emergency Medicine	1
+Emergency	2026-04-06	Morning	Doctor	Intensive Care	1
+Emergency	2026-04-06	Morning	Doctor	Surgery	1
+Emergency	2026-04-06	Morning	Nurse	Assistant Nurse	6
+Emergency	2026-04-06	Morning	Staff	Admissions Clerk	1
+Emergency	2026-04-06	Morning	Staff	IT Support	1
+Emergency	2026-04-06	Night	Doctor	Emergency Medicine	1
+Emergency	2026-04-06	Night	Doctor	Intensive Care	1
+Emergency	2026-04-06	Night	Doctor	Surgery	1
+Emergency	2026-04-06	Night	Nurse	Assistant Nurse	6
+Emergency	2026-04-06	Night	Staff	Accountant	1
+Emergency	2026-04-06	Night	Staff	Secretary	1
+Gastroenterology	2026-04-06	Evening	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-06	Evening	Doctor	Intensive Care	1
+Gastroenterology	2026-04-06	Evening	Doctor	Surgery	1
+Gastroenterology	2026-04-06	Evening	Nurse	Head Nurse	6
+Gastroenterology	2026-04-06	Evening	Staff	IT Support	1
+Gastroenterology	2026-04-06	Evening	Staff	Secretary	1
+Gastroenterology	2026-04-06	Morning	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-06	Morning	Doctor	Intensive Care	1
+Gastroenterology	2026-04-06	Morning	Doctor	Surgery	1
+Gastroenterology	2026-04-06	Morning	Nurse	Head Nurse	6
+Gastroenterology	2026-04-06	Morning	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-06	Morning	Staff	IT Support	1
+Gastroenterology	2026-04-06	Night	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-06	Night	Doctor	Intensive Care	1
+Gastroenterology	2026-04-06	Night	Doctor	Surgery	1
+Gastroenterology	2026-04-06	Night	Nurse	Head Nurse	6
+Gastroenterology	2026-04-06	Night	Staff	Accountant	1
+Gastroenterology	2026-04-06	Night	Staff	Secretary	1
+ICU	2026-04-06	Evening	Doctor	Emergency Medicine	1
+ICU	2026-04-06	Evening	Doctor	Intensive Care	1
+ICU	2026-04-06	Evening	Doctor	Pathology	1
+ICU	2026-04-06	Evening	Nurse	Nurse	6
+ICU	2026-04-06	Evening	Staff	IT Support	1
 ICU	2026-04-06	Evening	Staff	Secretary	1
-ICU	2026-04-06	Morning	Doctor	Intensive Care	3
-ICU	2026-04-06	Morning	Nurse	Assistant Nurse	2
-ICU	2026-04-06	Morning	Nurse	Head Nurse	2
-ICU	2026-04-06	Morning	Nurse	Nurse	2
+ICU	2026-04-06	Morning	Doctor	Emergency Medicine	1
+ICU	2026-04-06	Morning	Doctor	Intensive Care	1
+ICU	2026-04-06	Morning	Doctor	Pathology	1
+ICU	2026-04-06	Morning	Nurse	Nurse	6
+ICU	2026-04-06	Morning	Staff	Admissions Clerk	1
 ICU	2026-04-06	Morning	Staff	IT Support	1
-ICU	2026-04-06	Morning	Staff	Secretary	1
-ICU	2026-04-06	Night	Doctor	Intensive Care	3
-ICU	2026-04-06	Night	Nurse	Assistant Nurse	2
-ICU	2026-04-06	Night	Nurse	Head Nurse	2
-ICU	2026-04-06	Night	Nurse	Nurse	2
+ICU	2026-04-06	Night	Doctor	Emergency Medicine	1
+ICU	2026-04-06	Night	Doctor	Intensive Care	1
+ICU	2026-04-06	Night	Doctor	Pathology	1
+ICU	2026-04-06	Night	Nurse	Nurse	6
 ICU	2026-04-06	Night	Staff	Accountant	1
-ICU	2026-04-06	Night	Staff	Admissions Clerk	1
-Pathology	2026-04-06	Evening	Doctor	Microbiology	1
-Pathology	2026-04-06	Evening	Doctor	Pathology	2
-Pathology	2026-04-06	Evening	Nurse	Assistant Nurse	2
-Pathology	2026-04-06	Evening	Nurse	Head Nurse	2
-Pathology	2026-04-06	Evening	Nurse	Nurse	2
+ICU	2026-04-06	Night	Staff	Secretary	1
+Microbiology	2026-04-06	Evening	Doctor	Microbiology	1
+Microbiology	2026-04-06	Evening	Doctor	Neurology	1
+Microbiology	2026-04-06	Evening	Doctor	Radiology	1
+Microbiology	2026-04-06	Evening	Nurse	Nurse	6
+Microbiology	2026-04-06	Evening	Staff	IT Support	1
+Microbiology	2026-04-06	Evening	Staff	Secretary	1
+Microbiology	2026-04-06	Morning	Doctor	Microbiology	1
+Microbiology	2026-04-06	Morning	Doctor	Neurology	1
+Microbiology	2026-04-06	Morning	Doctor	Radiology	1
+Microbiology	2026-04-06	Morning	Nurse	Nurse	6
+Microbiology	2026-04-06	Morning	Staff	Admissions Clerk	1
+Microbiology	2026-04-06	Morning	Staff	IT Support	1
+Microbiology	2026-04-06	Night	Doctor	Microbiology	1
+Microbiology	2026-04-06	Night	Doctor	Neurology	1
+Microbiology	2026-04-06	Night	Doctor	Radiology	1
+Microbiology	2026-04-06	Night	Nurse	Nurse	6
+Microbiology	2026-04-06	Night	Staff	Accountant	1
+Microbiology	2026-04-06	Night	Staff	Secretary	1
+Nephrology	2026-04-06	Evening	Doctor	Emergency Medicine	1
+Nephrology	2026-04-06	Evening	Doctor	Intensive Care	1
+Nephrology	2026-04-06	Evening	Doctor	Pathology	1
+Nephrology	2026-04-06	Evening	Nurse	Assistant Nurse	6
+Nephrology	2026-04-06	Evening	Staff	IT Support	1
+Nephrology	2026-04-06	Evening	Staff	Secretary	1
+Nephrology	2026-04-06	Morning	Doctor	Emergency Medicine	1
+Nephrology	2026-04-06	Morning	Doctor	Intensive Care	1
+Nephrology	2026-04-06	Morning	Doctor	Pathology	1
+Nephrology	2026-04-06	Morning	Nurse	Assistant Nurse	6
+Nephrology	2026-04-06	Morning	Staff	Admissions Clerk	1
+Nephrology	2026-04-06	Morning	Staff	IT Support	1
+Nephrology	2026-04-06	Night	Doctor	Emergency Medicine	1
+Nephrology	2026-04-06	Night	Doctor	Intensive Care	1
+Nephrology	2026-04-06	Night	Doctor	Pathology	1
+Nephrology	2026-04-06	Night	Nurse	Assistant Nurse	6
+Nephrology	2026-04-06	Night	Staff	Accountant	1
+Nephrology	2026-04-06	Night	Staff	Secretary	1
+Neurology	2026-04-06	Evening	Doctor	Cardiology	1
+Neurology	2026-04-06	Evening	Doctor	Microbiology	1
+Neurology	2026-04-06	Evening	Doctor	Neurology	1
+Neurology	2026-04-06	Evening	Nurse	Head Nurse	6
+Neurology	2026-04-06	Evening	Staff	IT Support	1
+Neurology	2026-04-06	Evening	Staff	Secretary	1
+Neurology	2026-04-06	Morning	Doctor	Cardiology	1
+Neurology	2026-04-06	Morning	Doctor	Microbiology	1
+Neurology	2026-04-06	Morning	Doctor	Neurology	1
+Neurology	2026-04-06	Morning	Nurse	Head Nurse	6
+Neurology	2026-04-06	Morning	Staff	Admissions Clerk	1
+Neurology	2026-04-06	Morning	Staff	IT Support	1
+Neurology	2026-04-06	Night	Doctor	Cardiology	1
+Neurology	2026-04-06	Night	Doctor	Microbiology	1
+Neurology	2026-04-06	Night	Doctor	Neurology	1
+Neurology	2026-04-06	Night	Nurse	Head Nurse	6
+Neurology	2026-04-06	Night	Staff	Accountant	1
+Neurology	2026-04-06	Night	Staff	Secretary	1
+Oncology	2026-04-06	Evening	Doctor	Intensive Care	1
+Oncology	2026-04-06	Evening	Doctor	Pathology	1
+Oncology	2026-04-06	Evening	Doctor	Radiology	1
+Oncology	2026-04-06	Evening	Nurse	Nurse	6
+Oncology	2026-04-06	Evening	Staff	IT Support	1
+Oncology	2026-04-06	Evening	Staff	Secretary	1
+Oncology	2026-04-06	Morning	Doctor	Intensive Care	1
+Oncology	2026-04-06	Morning	Doctor	Pathology	1
+Oncology	2026-04-06	Morning	Doctor	Radiology	1
+Oncology	2026-04-06	Morning	Nurse	Nurse	6
+Oncology	2026-04-06	Morning	Staff	Admissions Clerk	1
+Oncology	2026-04-06	Morning	Staff	IT Support	1
+Oncology	2026-04-06	Night	Doctor	Intensive Care	1
+Oncology	2026-04-06	Night	Doctor	Pathology	1
+Oncology	2026-04-06	Night	Doctor	Radiology	1
+Oncology	2026-04-06	Night	Nurse	Nurse	6
+Oncology	2026-04-06	Night	Staff	Accountant	1
+Oncology	2026-04-06	Night	Staff	Secretary	1
+Orthopedics	2026-04-06	Evening	Doctor	Cardiology	1
+Orthopedics	2026-04-06	Evening	Doctor	Neurology	1
+Orthopedics	2026-04-06	Evening	Doctor	Surgery	1
+Orthopedics	2026-04-06	Evening	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-06	Evening	Staff	IT Support	1
+Orthopedics	2026-04-06	Evening	Staff	Secretary	1
+Orthopedics	2026-04-06	Morning	Doctor	Cardiology	1
+Orthopedics	2026-04-06	Morning	Doctor	Neurology	1
+Orthopedics	2026-04-06	Morning	Doctor	Surgery	1
+Orthopedics	2026-04-06	Morning	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-06	Morning	Staff	Admissions Clerk	1
+Orthopedics	2026-04-06	Morning	Staff	IT Support	1
+Orthopedics	2026-04-06	Night	Doctor	Cardiology	1
+Orthopedics	2026-04-06	Night	Doctor	Neurology	1
+Orthopedics	2026-04-06	Night	Doctor	Surgery	1
+Orthopedics	2026-04-06	Night	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-06	Night	Staff	Accountant	1
+Orthopedics	2026-04-06	Night	Staff	Secretary	1
+Pathology	2026-04-06	Evening	Doctor	Intensive Care	1
+Pathology	2026-04-06	Evening	Doctor	Pathology	1
+Pathology	2026-04-06	Evening	Doctor	Radiology	1
+Pathology	2026-04-06	Evening	Nurse	Head Nurse	6
 Pathology	2026-04-06	Evening	Staff	IT Support	1
 Pathology	2026-04-06	Evening	Staff	Secretary	1
-Pathology	2026-04-06	Morning	Doctor	Microbiology	1
-Pathology	2026-04-06	Morning	Doctor	Pathology	2
-Pathology	2026-04-06	Morning	Nurse	Assistant Nurse	2
-Pathology	2026-04-06	Morning	Nurse	Head Nurse	2
-Pathology	2026-04-06	Morning	Nurse	Nurse	2
+Pathology	2026-04-06	Morning	Doctor	Intensive Care	1
+Pathology	2026-04-06	Morning	Doctor	Pathology	1
+Pathology	2026-04-06	Morning	Doctor	Radiology	1
+Pathology	2026-04-06	Morning	Nurse	Head Nurse	6
 Pathology	2026-04-06	Morning	Staff	Admissions Clerk	1
 Pathology	2026-04-06	Morning	Staff	IT Support	1
-Pathology	2026-04-06	Night	Doctor	Microbiology	1
-Pathology	2026-04-06	Night	Doctor	Pathology	2
-Pathology	2026-04-06	Night	Nurse	Assistant Nurse	2
-Pathology	2026-04-06	Night	Nurse	Head Nurse	2
-Pathology	2026-04-06	Night	Nurse	Nurse	2
+Pathology	2026-04-06	Night	Doctor	Intensive Care	1
+Pathology	2026-04-06	Night	Doctor	Pathology	1
+Pathology	2026-04-06	Night	Doctor	Radiology	1
+Pathology	2026-04-06	Night	Nurse	Head Nurse	6
 Pathology	2026-04-06	Night	Staff	Accountant	1
 Pathology	2026-04-06	Night	Staff	Secretary	1
-Surgery	2026-04-06	Evening	Doctor	Surgery	4
-Surgery	2026-04-06	Evening	Nurse	Assistant Nurse	2
-Surgery	2026-04-06	Evening	Nurse	Head Nurse	2
-Surgery	2026-04-06	Evening	Nurse	Nurse	2
-Surgery	2026-04-06	Evening	Staff	Admissions Clerk	1
+Pediatrics	2026-04-06	Evening	Doctor	Microbiology	1
+Pediatrics	2026-04-06	Evening	Doctor	Pathology	1
+Pediatrics	2026-04-06	Evening	Doctor	Radiology	1
+Pediatrics	2026-04-06	Evening	Nurse	Head Nurse	6
+Pediatrics	2026-04-06	Evening	Staff	IT Support	1
+Pediatrics	2026-04-06	Evening	Staff	Secretary	1
+Pediatrics	2026-04-06	Morning	Doctor	Microbiology	1
+Pediatrics	2026-04-06	Morning	Doctor	Pathology	1
+Pediatrics	2026-04-06	Morning	Doctor	Radiology	1
+Pediatrics	2026-04-06	Morning	Nurse	Head Nurse	6
+Pediatrics	2026-04-06	Morning	Staff	Admissions Clerk	1
+Pediatrics	2026-04-06	Morning	Staff	IT Support	1
+Pediatrics	2026-04-06	Night	Doctor	Microbiology	1
+Pediatrics	2026-04-06	Night	Doctor	Pathology	1
+Pediatrics	2026-04-06	Night	Doctor	Radiology	1
+Pediatrics	2026-04-06	Night	Nurse	Head Nurse	6
+Pediatrics	2026-04-06	Night	Staff	Accountant	1
+Pediatrics	2026-04-06	Night	Staff	Secretary	1
+Pulmonology	2026-04-06	Evening	Doctor	Cardiology	1
+Pulmonology	2026-04-06	Evening	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-06	Evening	Doctor	Surgery	1
+Pulmonology	2026-04-06	Evening	Nurse	Nurse	6
+Pulmonology	2026-04-06	Evening	Staff	IT Support	1
+Pulmonology	2026-04-06	Evening	Staff	Secretary	1
+Pulmonology	2026-04-06	Morning	Doctor	Cardiology	1
+Pulmonology	2026-04-06	Morning	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-06	Morning	Doctor	Surgery	1
+Pulmonology	2026-04-06	Morning	Nurse	Nurse	6
+Pulmonology	2026-04-06	Morning	Staff	Admissions Clerk	1
+Pulmonology	2026-04-06	Morning	Staff	IT Support	1
+Pulmonology	2026-04-06	Night	Doctor	Cardiology	1
+Pulmonology	2026-04-06	Night	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-06	Night	Doctor	Surgery	1
+Pulmonology	2026-04-06	Night	Nurse	Nurse	6
+Pulmonology	2026-04-06	Night	Staff	Accountant	1
+Pulmonology	2026-04-06	Night	Staff	Secretary	1
+Radiology	2026-04-06	Evening	Doctor	Microbiology	1
+Radiology	2026-04-06	Evening	Doctor	Pathology	1
+Radiology	2026-04-06	Evening	Doctor	Radiology	1
+Radiology	2026-04-06	Evening	Nurse	Assistant Nurse	6
+Radiology	2026-04-06	Evening	Staff	IT Support	1
+Radiology	2026-04-06	Evening	Staff	Secretary	1
+Radiology	2026-04-06	Morning	Doctor	Microbiology	1
+Radiology	2026-04-06	Morning	Doctor	Pathology	1
+Radiology	2026-04-06	Morning	Doctor	Radiology	1
+Radiology	2026-04-06	Morning	Nurse	Assistant Nurse	6
+Radiology	2026-04-06	Morning	Staff	Admissions Clerk	1
+Radiology	2026-04-06	Morning	Staff	IT Support	1
+Radiology	2026-04-06	Night	Doctor	Microbiology	1
+Radiology	2026-04-06	Night	Doctor	Pathology	1
+Radiology	2026-04-06	Night	Doctor	Radiology	1
+Radiology	2026-04-06	Night	Nurse	Assistant Nurse	6
+Radiology	2026-04-06	Night	Staff	Accountant	1
+Radiology	2026-04-06	Night	Staff	Secretary	1
+Surgery	2026-04-06	Evening	Doctor	Cardiology	1
+Surgery	2026-04-06	Evening	Doctor	Emergency Medicine	1
+Surgery	2026-04-06	Evening	Doctor	Surgery	1
+Surgery	2026-04-06	Evening	Nurse	Head Nurse	6
 Surgery	2026-04-06	Evening	Staff	IT Support	1
-Surgery	2026-04-06	Morning	Doctor	Surgery	4
-Surgery	2026-04-06	Morning	Nurse	Assistant Nurse	2
-Surgery	2026-04-06	Morning	Nurse	Head Nurse	2
-Surgery	2026-04-06	Morning	Nurse	Nurse	2
-Surgery	2026-04-06	Morning	Staff	Accountant	1
+Surgery	2026-04-06	Evening	Staff	Secretary	1
+Surgery	2026-04-06	Morning	Doctor	Cardiology	1
+Surgery	2026-04-06	Morning	Doctor	Emergency Medicine	1
+Surgery	2026-04-06	Morning	Doctor	Surgery	1
+Surgery	2026-04-06	Morning	Nurse	Head Nurse	6
 Surgery	2026-04-06	Morning	Staff	Admissions Clerk	1
-Surgery	2026-04-06	Night	Doctor	Surgery	4
-Surgery	2026-04-06	Night	Nurse	Assistant Nurse	2
-Surgery	2026-04-06	Night	Nurse	Head Nurse	2
-Surgery	2026-04-06	Night	Nurse	Nurse	2
-Surgery	2026-04-06	Night	Staff	IT Support	1
+Surgery	2026-04-06	Morning	Staff	IT Support	1
+Surgery	2026-04-06	Night	Doctor	Cardiology	1
+Surgery	2026-04-06	Night	Doctor	Emergency Medicine	1
+Surgery	2026-04-06	Night	Doctor	Surgery	1
+Surgery	2026-04-06	Night	Nurse	Head Nurse	6
+Surgery	2026-04-06	Night	Staff	Accountant	1
 Surgery	2026-04-06	Night	Staff	Secretary	1
-Cardiology	2026-04-07	Evening	Doctor	Cardiology	3
-Cardiology	2026-04-07	Evening	Doctor	Pathology	1
-Cardiology	2026-04-07	Evening	Nurse	Assistant Nurse	2
-Cardiology	2026-04-07	Evening	Nurse	Head Nurse	2
-Cardiology	2026-04-07	Evening	Nurse	Nurse	2
+Urology	2026-04-06	Evening	Doctor	Microbiology	1
+Urology	2026-04-06	Evening	Doctor	Neurology	1
+Urology	2026-04-06	Evening	Doctor	Radiology	1
+Urology	2026-04-06	Evening	Nurse	Assistant Nurse	6
+Urology	2026-04-06	Evening	Staff	IT Support	1
+Urology	2026-04-06	Evening	Staff	Secretary	1
+Urology	2026-04-06	Morning	Doctor	Microbiology	1
+Urology	2026-04-06	Morning	Doctor	Neurology	1
+Urology	2026-04-06	Morning	Doctor	Radiology	1
+Urology	2026-04-06	Morning	Nurse	Assistant Nurse	6
+Urology	2026-04-06	Morning	Staff	Admissions Clerk	1
+Urology	2026-04-06	Morning	Staff	IT Support	1
+Urology	2026-04-06	Night	Doctor	Microbiology	1
+Urology	2026-04-06	Night	Doctor	Neurology	1
+Urology	2026-04-06	Night	Doctor	Radiology	1
+Urology	2026-04-06	Night	Nurse	Assistant Nurse	6
+Urology	2026-04-06	Night	Staff	Accountant	1
+Urology	2026-04-06	Night	Staff	Secretary	1
+Cardiology	2026-04-07	Evening	Doctor	Cardiology	1
+Cardiology	2026-04-07	Evening	Doctor	Neurology	1
+Cardiology	2026-04-07	Evening	Doctor	Surgery	1
+Cardiology	2026-04-07	Evening	Nurse	Nurse	6
 Cardiology	2026-04-07	Evening	Staff	Admissions Clerk	1
 Cardiology	2026-04-07	Evening	Staff	IT Support	1
-Cardiology	2026-04-07	Morning	Doctor	Cardiology	3
-Cardiology	2026-04-07	Morning	Doctor	Pathology	1
-Cardiology	2026-04-07	Morning	Nurse	Assistant Nurse	2
-Cardiology	2026-04-07	Morning	Nurse	Head Nurse	2
-Cardiology	2026-04-07	Morning	Nurse	Nurse	2
+Cardiology	2026-04-07	Morning	Doctor	Cardiology	1
+Cardiology	2026-04-07	Morning	Doctor	Neurology	1
+Cardiology	2026-04-07	Morning	Doctor	Surgery	1
+Cardiology	2026-04-07	Morning	Nurse	Nurse	6
 Cardiology	2026-04-07	Morning	Staff	Accountant	1
 Cardiology	2026-04-07	Morning	Staff	Admissions Clerk	1
-Cardiology	2026-04-07	Night	Doctor	Cardiology	3
-Cardiology	2026-04-07	Night	Doctor	Pathology	1
-Cardiology	2026-04-07	Night	Nurse	Assistant Nurse	2
-Cardiology	2026-04-07	Night	Nurse	Head Nurse	2
-Cardiology	2026-04-07	Night	Nurse	Nurse	2
+Cardiology	2026-04-07	Night	Doctor	Cardiology	1
+Cardiology	2026-04-07	Night	Doctor	Neurology	1
+Cardiology	2026-04-07	Night	Doctor	Surgery	1
+Cardiology	2026-04-07	Night	Nurse	Nurse	6
 Cardiology	2026-04-07	Night	Staff	IT Support	1
 Cardiology	2026-04-07	Night	Staff	Secretary	1
-Emergency	2026-04-07	Evening	Doctor	Emergency Medicine	3
-Emergency	2026-04-07	Evening	Doctor	Radiology	2
-Emergency	2026-04-07	Evening	Nurse	Assistant Nurse	2
-Emergency	2026-04-07	Evening	Nurse	Head Nurse	2
-Emergency	2026-04-07	Evening	Nurse	Nurse	2
-Emergency	2026-04-07	Evening	Staff	Secretary	2
-Emergency	2026-04-07	Morning	Doctor	Emergency Medicine	3
-Emergency	2026-04-07	Morning	Doctor	Radiology	2
-Emergency	2026-04-07	Morning	Nurse	Assistant Nurse	2
-Emergency	2026-04-07	Morning	Nurse	Head Nurse	2
-Emergency	2026-04-07	Morning	Nurse	Nurse	2
-Emergency	2026-04-07	Morning	Staff	IT Support	1
-Emergency	2026-04-07	Morning	Staff	Secretary	1
-Emergency	2026-04-07	Night	Doctor	Emergency Medicine	3
-Emergency	2026-04-07	Night	Doctor	Radiology	2
-Emergency	2026-04-07	Night	Nurse	Assistant Nurse	1
-Emergency	2026-04-07	Night	Nurse	Head Nurse	2
-Emergency	2026-04-07	Night	Nurse	Nurse	3
-Emergency	2026-04-07	Night	Staff	Accountant	1
+Emergency	2026-04-07	Evening	Doctor	Emergency Medicine	1
+Emergency	2026-04-07	Evening	Doctor	Intensive Care	1
+Emergency	2026-04-07	Evening	Doctor	Surgery	1
+Emergency	2026-04-07	Evening	Nurse	Assistant Nurse	6
+Emergency	2026-04-07	Evening	Staff	Admissions Clerk	1
+Emergency	2026-04-07	Evening	Staff	IT Support	1
+Emergency	2026-04-07	Morning	Doctor	Emergency Medicine	1
+Emergency	2026-04-07	Morning	Doctor	Intensive Care	1
+Emergency	2026-04-07	Morning	Doctor	Surgery	1
+Emergency	2026-04-07	Morning	Nurse	Assistant Nurse	6
+Emergency	2026-04-07	Morning	Staff	Accountant	1
+Emergency	2026-04-07	Morning	Staff	Admissions Clerk	1
+Emergency	2026-04-07	Night	Doctor	Emergency Medicine	1
+Emergency	2026-04-07	Night	Doctor	Intensive Care	1
+Emergency	2026-04-07	Night	Doctor	Surgery	1
+Emergency	2026-04-07	Night	Nurse	Assistant Nurse	6
+Emergency	2026-04-07	Night	Staff	IT Support	1
 Emergency	2026-04-07	Night	Staff	Secretary	1
-ICU	2026-04-07	Evening	Doctor	Intensive Care	3
-ICU	2026-04-07	Evening	Nurse	Assistant Nurse	2
-ICU	2026-04-07	Evening	Nurse	Head Nurse	2
-ICU	2026-04-07	Evening	Nurse	Nurse	2
+Gastroenterology	2026-04-07	Evening	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-07	Evening	Doctor	Intensive Care	1
+Gastroenterology	2026-04-07	Evening	Doctor	Surgery	1
+Gastroenterology	2026-04-07	Evening	Nurse	Head Nurse	6
+Gastroenterology	2026-04-07	Evening	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-07	Evening	Staff	IT Support	1
+Gastroenterology	2026-04-07	Morning	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-07	Morning	Doctor	Intensive Care	1
+Gastroenterology	2026-04-07	Morning	Doctor	Surgery	1
+Gastroenterology	2026-04-07	Morning	Nurse	Head Nurse	6
+Gastroenterology	2026-04-07	Morning	Staff	Accountant	1
+Gastroenterology	2026-04-07	Morning	Staff	Admissions Clerk	1
+Gastroenterology	2026-04-07	Night	Doctor	Emergency Medicine	1
+Gastroenterology	2026-04-07	Night	Doctor	Intensive Care	1
+Gastroenterology	2026-04-07	Night	Doctor	Surgery	1
+Gastroenterology	2026-04-07	Night	Nurse	Head Nurse	6
+Gastroenterology	2026-04-07	Night	Staff	IT Support	1
+Gastroenterology	2026-04-07	Night	Staff	Secretary	1
+ICU	2026-04-07	Evening	Doctor	Emergency Medicine	1
+ICU	2026-04-07	Evening	Doctor	Intensive Care	1
+ICU	2026-04-07	Evening	Doctor	Pathology	1
+ICU	2026-04-07	Evening	Nurse	Nurse	6
 ICU	2026-04-07	Evening	Staff	Admissions Clerk	1
 ICU	2026-04-07	Evening	Staff	IT Support	1
-ICU	2026-04-07	Morning	Doctor	Intensive Care	3
-ICU	2026-04-07	Morning	Nurse	Assistant Nurse	1
-ICU	2026-04-07	Morning	Nurse	Head Nurse	3
-ICU	2026-04-07	Morning	Nurse	Nurse	2
+ICU	2026-04-07	Morning	Doctor	Emergency Medicine	1
+ICU	2026-04-07	Morning	Doctor	Intensive Care	1
+ICU	2026-04-07	Morning	Doctor	Pathology	1
+ICU	2026-04-07	Morning	Nurse	Nurse	6
 ICU	2026-04-07	Morning	Staff	Accountant	1
 ICU	2026-04-07	Morning	Staff	Admissions Clerk	1
-ICU	2026-04-07	Night	Doctor	Intensive Care	3
-ICU	2026-04-07	Night	Nurse	Assistant Nurse	1
-ICU	2026-04-07	Night	Nurse	Head Nurse	2
-ICU	2026-04-07	Night	Nurse	Nurse	3
+ICU	2026-04-07	Night	Doctor	Emergency Medicine	1
+ICU	2026-04-07	Night	Doctor	Intensive Care	1
+ICU	2026-04-07	Night	Doctor	Pathology	1
+ICU	2026-04-07	Night	Nurse	Nurse	6
 ICU	2026-04-07	Night	Staff	IT Support	1
 ICU	2026-04-07	Night	Staff	Secretary	1
-Pathology	2026-04-07	Evening	Doctor	Microbiology	1
-Pathology	2026-04-07	Evening	Doctor	Pathology	2
-Pathology	2026-04-07	Evening	Nurse	Assistant Nurse	2
-Pathology	2026-04-07	Evening	Nurse	Head Nurse	2
-Pathology	2026-04-07	Evening	Nurse	Nurse	2
-Pathology	2026-04-07	Evening	Staff	Accountant	1
+Microbiology	2026-04-07	Evening	Doctor	Microbiology	1
+Microbiology	2026-04-07	Evening	Doctor	Neurology	1
+Microbiology	2026-04-07	Evening	Doctor	Radiology	1
+Microbiology	2026-04-07	Evening	Nurse	Nurse	6
+Microbiology	2026-04-07	Evening	Staff	Admissions Clerk	1
+Microbiology	2026-04-07	Evening	Staff	IT Support	1
+Microbiology	2026-04-07	Morning	Doctor	Microbiology	1
+Microbiology	2026-04-07	Morning	Doctor	Neurology	1
+Microbiology	2026-04-07	Morning	Doctor	Radiology	1
+Microbiology	2026-04-07	Morning	Nurse	Nurse	6
+Microbiology	2026-04-07	Morning	Staff	Accountant	1
+Microbiology	2026-04-07	Morning	Staff	Admissions Clerk	1
+Microbiology	2026-04-07	Night	Doctor	Microbiology	1
+Microbiology	2026-04-07	Night	Doctor	Neurology	1
+Microbiology	2026-04-07	Night	Doctor	Radiology	1
+Microbiology	2026-04-07	Night	Nurse	Nurse	6
+Microbiology	2026-04-07	Night	Staff	IT Support	1
+Microbiology	2026-04-07	Night	Staff	Secretary	1
+Nephrology	2026-04-07	Evening	Doctor	Emergency Medicine	1
+Nephrology	2026-04-07	Evening	Doctor	Intensive Care	1
+Nephrology	2026-04-07	Evening	Doctor	Pathology	1
+Nephrology	2026-04-07	Evening	Nurse	Assistant Nurse	6
+Nephrology	2026-04-07	Evening	Staff	Admissions Clerk	1
+Nephrology	2026-04-07	Evening	Staff	IT Support	1
+Nephrology	2026-04-07	Morning	Doctor	Emergency Medicine	1
+Nephrology	2026-04-07	Morning	Doctor	Intensive Care	1
+Nephrology	2026-04-07	Morning	Doctor	Pathology	1
+Nephrology	2026-04-07	Morning	Nurse	Assistant Nurse	6
+Nephrology	2026-04-07	Morning	Staff	Accountant	1
+Nephrology	2026-04-07	Morning	Staff	Admissions Clerk	1
+Nephrology	2026-04-07	Night	Doctor	Emergency Medicine	1
+Nephrology	2026-04-07	Night	Doctor	Intensive Care	1
+Nephrology	2026-04-07	Night	Doctor	Pathology	1
+Nephrology	2026-04-07	Night	Nurse	Assistant Nurse	6
+Nephrology	2026-04-07	Night	Staff	IT Support	1
+Nephrology	2026-04-07	Night	Staff	Secretary	1
+Neurology	2026-04-07	Evening	Doctor	Cardiology	1
+Neurology	2026-04-07	Evening	Doctor	Microbiology	1
+Neurology	2026-04-07	Evening	Doctor	Neurology	1
+Neurology	2026-04-07	Evening	Nurse	Head Nurse	6
+Neurology	2026-04-07	Evening	Staff	Admissions Clerk	1
+Neurology	2026-04-07	Evening	Staff	IT Support	1
+Neurology	2026-04-07	Morning	Doctor	Cardiology	1
+Neurology	2026-04-07	Morning	Doctor	Microbiology	1
+Neurology	2026-04-07	Morning	Doctor	Neurology	1
+Neurology	2026-04-07	Morning	Nurse	Head Nurse	6
+Neurology	2026-04-07	Morning	Staff	Accountant	1
+Neurology	2026-04-07	Morning	Staff	Admissions Clerk	1
+Neurology	2026-04-07	Night	Doctor	Cardiology	1
+Neurology	2026-04-07	Night	Doctor	Microbiology	1
+Neurology	2026-04-07	Night	Doctor	Neurology	1
+Neurology	2026-04-07	Night	Nurse	Head Nurse	6
+Neurology	2026-04-07	Night	Staff	IT Support	1
+Neurology	2026-04-07	Night	Staff	Secretary	1
+Oncology	2026-04-07	Evening	Doctor	Intensive Care	1
+Oncology	2026-04-07	Evening	Doctor	Pathology	1
+Oncology	2026-04-07	Evening	Doctor	Radiology	1
+Oncology	2026-04-07	Evening	Nurse	Nurse	6
+Oncology	2026-04-07	Evening	Staff	Admissions Clerk	1
+Oncology	2026-04-07	Evening	Staff	IT Support	1
+Oncology	2026-04-07	Morning	Doctor	Intensive Care	1
+Oncology	2026-04-07	Morning	Doctor	Pathology	1
+Oncology	2026-04-07	Morning	Doctor	Radiology	1
+Oncology	2026-04-07	Morning	Nurse	Nurse	6
+Oncology	2026-04-07	Morning	Staff	Accountant	1
+Oncology	2026-04-07	Morning	Staff	Admissions Clerk	1
+Oncology	2026-04-07	Night	Doctor	Intensive Care	1
+Oncology	2026-04-07	Night	Doctor	Pathology	1
+Oncology	2026-04-07	Night	Doctor	Radiology	1
+Oncology	2026-04-07	Night	Nurse	Nurse	6
+Oncology	2026-04-07	Night	Staff	IT Support	1
+Oncology	2026-04-07	Night	Staff	Secretary	1
+Orthopedics	2026-04-07	Evening	Doctor	Cardiology	1
+Orthopedics	2026-04-07	Evening	Doctor	Neurology	1
+Orthopedics	2026-04-07	Evening	Doctor	Surgery	1
+Orthopedics	2026-04-07	Evening	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-07	Evening	Staff	Admissions Clerk	1
+Orthopedics	2026-04-07	Evening	Staff	IT Support	1
+Orthopedics	2026-04-07	Morning	Doctor	Cardiology	1
+Orthopedics	2026-04-07	Morning	Doctor	Neurology	1
+Orthopedics	2026-04-07	Morning	Doctor	Surgery	1
+Orthopedics	2026-04-07	Morning	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-07	Morning	Staff	Accountant	1
+Orthopedics	2026-04-07	Morning	Staff	Admissions Clerk	1
+Orthopedics	2026-04-07	Night	Doctor	Cardiology	1
+Orthopedics	2026-04-07	Night	Doctor	Neurology	1
+Orthopedics	2026-04-07	Night	Doctor	Surgery	1
+Orthopedics	2026-04-07	Night	Nurse	Assistant Nurse	6
+Orthopedics	2026-04-07	Night	Staff	IT Support	1
+Orthopedics	2026-04-07	Night	Staff	Secretary	1
+Pathology	2026-04-07	Evening	Doctor	Intensive Care	1
+Pathology	2026-04-07	Evening	Doctor	Pathology	1
+Pathology	2026-04-07	Evening	Doctor	Radiology	1
+Pathology	2026-04-07	Evening	Nurse	Head Nurse	6
 Pathology	2026-04-07	Evening	Staff	Admissions Clerk	1
-Pathology	2026-04-07	Morning	Doctor	Microbiology	1
-Pathology	2026-04-07	Morning	Doctor	Pathology	2
-Pathology	2026-04-07	Morning	Nurse	Assistant Nurse	1
-Pathology	2026-04-07	Morning	Nurse	Head Nurse	3
-Pathology	2026-04-07	Morning	Nurse	Nurse	2
+Pathology	2026-04-07	Evening	Staff	IT Support	1
+Pathology	2026-04-07	Morning	Doctor	Intensive Care	1
+Pathology	2026-04-07	Morning	Doctor	Pathology	1
+Pathology	2026-04-07	Morning	Doctor	Radiology	1
+Pathology	2026-04-07	Morning	Nurse	Head Nurse	6
 Pathology	2026-04-07	Morning	Staff	Accountant	1
-Pathology	2026-04-07	Morning	Staff	Secretary	1
-Pathology	2026-04-07	Night	Doctor	Microbiology	1
-Pathology	2026-04-07	Night	Doctor	Pathology	2
-Pathology	2026-04-07	Night	Nurse	Assistant Nurse	2
-Pathology	2026-04-07	Night	Nurse	Head Nurse	2
-Pathology	2026-04-07	Night	Nurse	Nurse	2
-Pathology	2026-04-07	Night	Staff	Admissions Clerk	1
+Pathology	2026-04-07	Morning	Staff	Admissions Clerk	1
+Pathology	2026-04-07	Night	Doctor	Intensive Care	1
+Pathology	2026-04-07	Night	Doctor	Pathology	1
+Pathology	2026-04-07	Night	Doctor	Radiology	1
+Pathology	2026-04-07	Night	Nurse	Head Nurse	6
 Pathology	2026-04-07	Night	Staff	IT Support	1
-Surgery	2026-04-07	Evening	Doctor	Surgery	4
-Surgery	2026-04-07	Evening	Nurse	Assistant Nurse	2
-Surgery	2026-04-07	Evening	Nurse	Head Nurse	2
-Surgery	2026-04-07	Evening	Nurse	Nurse	2
-Surgery	2026-04-07	Evening	Staff	Accountant	1
+Pathology	2026-04-07	Night	Staff	Secretary	1
+Pediatrics	2026-04-07	Evening	Doctor	Microbiology	1
+Pediatrics	2026-04-07	Evening	Doctor	Pathology	1
+Pediatrics	2026-04-07	Evening	Doctor	Radiology	1
+Pediatrics	2026-04-07	Evening	Nurse	Head Nurse	6
+Pediatrics	2026-04-07	Evening	Staff	Admissions Clerk	1
+Pediatrics	2026-04-07	Evening	Staff	IT Support	1
+Pediatrics	2026-04-07	Morning	Doctor	Microbiology	1
+Pediatrics	2026-04-07	Morning	Doctor	Pathology	1
+Pediatrics	2026-04-07	Morning	Doctor	Radiology	1
+Pediatrics	2026-04-07	Morning	Nurse	Head Nurse	6
+Pediatrics	2026-04-07	Morning	Staff	Accountant	1
+Pediatrics	2026-04-07	Morning	Staff	Admissions Clerk	1
+Pediatrics	2026-04-07	Night	Doctor	Microbiology	1
+Pediatrics	2026-04-07	Night	Doctor	Pathology	1
+Pediatrics	2026-04-07	Night	Doctor	Radiology	1
+Pediatrics	2026-04-07	Night	Nurse	Head Nurse	6
+Pediatrics	2026-04-07	Night	Staff	IT Support	1
+Pediatrics	2026-04-07	Night	Staff	Secretary	1
+Pulmonology	2026-04-07	Evening	Doctor	Cardiology	1
+Pulmonology	2026-04-07	Evening	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-07	Evening	Doctor	Surgery	1
+Pulmonology	2026-04-07	Evening	Nurse	Nurse	6
+Pulmonology	2026-04-07	Evening	Staff	Admissions Clerk	1
+Pulmonology	2026-04-07	Evening	Staff	IT Support	1
+Pulmonology	2026-04-07	Morning	Doctor	Cardiology	1
+Pulmonology	2026-04-07	Morning	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-07	Morning	Doctor	Surgery	1
+Pulmonology	2026-04-07	Morning	Nurse	Nurse	6
+Pulmonology	2026-04-07	Morning	Staff	Accountant	1
+Pulmonology	2026-04-07	Morning	Staff	Admissions Clerk	1
+Pulmonology	2026-04-07	Night	Doctor	Cardiology	1
+Pulmonology	2026-04-07	Night	Doctor	Emergency Medicine	1
+Pulmonology	2026-04-07	Night	Doctor	Surgery	1
+Pulmonology	2026-04-07	Night	Nurse	Nurse	6
+Pulmonology	2026-04-07	Night	Staff	IT Support	1
+Pulmonology	2026-04-07	Night	Staff	Secretary	1
+Radiology	2026-04-07	Evening	Doctor	Microbiology	1
+Radiology	2026-04-07	Evening	Doctor	Pathology	1
+Radiology	2026-04-07	Evening	Doctor	Radiology	1
+Radiology	2026-04-07	Evening	Nurse	Assistant Nurse	6
+Radiology	2026-04-07	Evening	Staff	Admissions Clerk	1
+Radiology	2026-04-07	Evening	Staff	IT Support	1
+Radiology	2026-04-07	Morning	Doctor	Microbiology	1
+Radiology	2026-04-07	Morning	Doctor	Pathology	1
+Radiology	2026-04-07	Morning	Doctor	Radiology	1
+Radiology	2026-04-07	Morning	Nurse	Assistant Nurse	6
+Radiology	2026-04-07	Morning	Staff	Accountant	1
+Radiology	2026-04-07	Morning	Staff	Admissions Clerk	1
+Radiology	2026-04-07	Night	Doctor	Microbiology	1
+Radiology	2026-04-07	Night	Doctor	Pathology	1
+Radiology	2026-04-07	Night	Doctor	Radiology	1
+Radiology	2026-04-07	Night	Nurse	Assistant Nurse	6
+Radiology	2026-04-07	Night	Staff	IT Support	1
+Radiology	2026-04-07	Night	Staff	Secretary	1
+Surgery	2026-04-07	Evening	Doctor	Cardiology	1
+Surgery	2026-04-07	Evening	Doctor	Emergency Medicine	1
+Surgery	2026-04-07	Evening	Doctor	Surgery	1
+Surgery	2026-04-07	Evening	Nurse	Head Nurse	6
 Surgery	2026-04-07	Evening	Staff	Admissions Clerk	1
-Surgery	2026-04-07	Morning	Doctor	Surgery	4
-Surgery	2026-04-07	Morning	Nurse	Assistant Nurse	2
-Surgery	2026-04-07	Morning	Nurse	Head Nurse	2
-Surgery	2026-04-07	Morning	Nurse	Nurse	2
+Surgery	2026-04-07	Evening	Staff	IT Support	1
+Surgery	2026-04-07	Morning	Doctor	Cardiology	1
+Surgery	2026-04-07	Morning	Doctor	Emergency Medicine	1
+Surgery	2026-04-07	Morning	Doctor	Surgery	1
+Surgery	2026-04-07	Morning	Nurse	Head Nurse	6
 Surgery	2026-04-07	Morning	Staff	Accountant	1
-Surgery	2026-04-07	Morning	Staff	Secretary	1
-Surgery	2026-04-07	Night	Doctor	Surgery	4
-Surgery	2026-04-07	Night	Nurse	Assistant Nurse	2
-Surgery	2026-04-07	Night	Nurse	Head Nurse	2
-Surgery	2026-04-07	Night	Nurse	Nurse	2
-Surgery	2026-04-07	Night	Staff	Admissions Clerk	1
+Surgery	2026-04-07	Morning	Staff	Admissions Clerk	1
+Surgery	2026-04-07	Night	Doctor	Cardiology	1
+Surgery	2026-04-07	Night	Doctor	Emergency Medicine	1
+Surgery	2026-04-07	Night	Doctor	Surgery	1
+Surgery	2026-04-07	Night	Nurse	Head Nurse	6
 Surgery	2026-04-07	Night	Staff	IT Support	1
+Surgery	2026-04-07	Night	Staff	Secretary	1
+Urology	2026-04-07	Evening	Doctor	Microbiology	1
+Urology	2026-04-07	Evening	Doctor	Neurology	1
+Urology	2026-04-07	Evening	Doctor	Radiology	1
+Urology	2026-04-07	Evening	Nurse	Assistant Nurse	6
+Urology	2026-04-07	Evening	Staff	Admissions Clerk	1
+Urology	2026-04-07	Evening	Staff	IT Support	1
+Urology	2026-04-07	Morning	Doctor	Microbiology	1
+Urology	2026-04-07	Morning	Doctor	Neurology	1
+Urology	2026-04-07	Morning	Doctor	Radiology	1
+Urology	2026-04-07	Morning	Nurse	Assistant Nurse	6
+Urology	2026-04-07	Morning	Staff	Accountant	1
+Urology	2026-04-07	Morning	Staff	Admissions Clerk	1
+Urology	2026-04-07	Night	Doctor	Microbiology	1
+Urology	2026-04-07	Night	Doctor	Neurology	1
+Urology	2026-04-07	Night	Doctor	Radiology	1
+Urology	2026-04-07	Night	Nurse	Assistant Nurse	6
+Urology	2026-04-07	Night	Staff	IT Support	1
+Urology	2026-04-07	Night	Staff	Secretary	1
