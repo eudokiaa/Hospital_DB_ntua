@@ -1,9 +1,9 @@
--- Q04: EXPLAIN ANALYSIS για MariaDB 10.4
+-- Q04: EXPLAIN ANALYSIS
 
 -- ============================================================
--- ΒΗΜΑ 1: EXPLAIN κανονικής έκδοσης
+-- (α) ΒΗΜΑ 1: EXPLAIN ANALYZE κανονικής έκδοσης
 -- ============================================================
-EXPLAIN
+EXPLAIN ANALYZE
 SELECT
     p.Name, p.Surname, d.Major, d.Rank,
     COUNT(DISTINCT h.Hospitalisation_id)        AS Total_Hospitalisations_Rated,
@@ -18,9 +18,9 @@ WHERE d.Doctor_AMKA = '20000000001'
 GROUP BY d.Doctor_AMKA, p.Name, p.Surname, d.Major, d.Rank;
 
 -- ============================================================
--- ΒΗΜΑ 2: EXPLAIN έκδοσης με FORCE INDEX
+-- (β) ΒΗΜΑ 2: EXPLAIN ANALYZE εναλλακτικής έκδοσης με FORCE INDEX
 -- ============================================================
-EXPLAIN
+EXPLAIN ANALYZE
 SELECT
     p.Name, p.Surname, d.Major, d.Rank,
     COUNT(DISTINCT h.Hospitalisation_id)        AS Total_Hospitalisations_Rated,

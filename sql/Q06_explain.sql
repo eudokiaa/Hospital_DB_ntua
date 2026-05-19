@@ -1,9 +1,9 @@
 -- Q06: EXPLAIN ANALYSIS
 
 -- ============================================================
--- ΒΗΜΑ 1: EXPLAIN κανονικής έκδοσης
+-- (α) ΒΗΜΑ 1: EXPLAIN ANALYZE κανονικής έκδοσης
 -- ============================================================
-EXPLAIN
+EXPLAIN ANALYZE
 SELECT
     h.Hospitalisation_id, h.EntryDate, h.ReleaseDate,
     DATEDIFF(h.ReleaseDate, h.EntryDate)        AS Days_Stayed,
@@ -20,9 +20,9 @@ WHERE h.Patient_AMKA = '10000000001'
 ORDER BY h.EntryDate ASC;
 
 -- ============================================================
--- ΒΗΜΑ 2: EXPLAIN έκδοσης με FORCE INDEX
+-- (β) ΒΗΜΑ 2: EXPLAIN ANALYZE εναλλακτικής έκδοσης με FORCE INDEX
 -- ============================================================
-EXPLAIN
+EXPLAIN ANALYZE
 SELECT
     h.Hospitalisation_id, h.EntryDate, h.ReleaseDate,
     DATEDIFF(h.ReleaseDate, h.EntryDate)        AS Days_Stayed,
