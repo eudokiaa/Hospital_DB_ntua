@@ -1,0 +1,2 @@
+Patient_AMKA	Name	Surname	Department	Times_Hospitalised	Total_Cost
+10000000001	Eleni	Nikolaidi	Cardiology	4	7859.00

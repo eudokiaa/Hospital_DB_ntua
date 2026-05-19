@@ -34,6 +34,7 @@ WHERE s.Date BETWEEN @week_start AND @week_end
 
 GROUP BY
     dep.Department_id,
+    dep.Name,
     s.Date,
     s.Type,
     Personnel_Category,

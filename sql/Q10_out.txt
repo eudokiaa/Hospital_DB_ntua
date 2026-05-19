@@ -1,2 +1,4 @@
 Substance_1	Substance_2	Co_Prescription_Count
-Dexamethasone Base	Dexamethasone Sodium Phosphate	1
+Abiraterone Acetate	Abiraterone	4
+Abiraterone Acetate	Prednisolone	2
+Erythromycin	Erythromycin Ethylsuccinate	2

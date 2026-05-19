@@ -1,50 +1,43 @@
--- Q13: Για κάθε ιατρό, η πλήρης ιεραρχία εποπτείας μέχρι τον Διευθυντή,
---       με ένδειξη επιπέδου σε κάθε βαθμίδα
- 
 WITH RECURSIVE SupervisionHierarchy AS (
-    -- Βάση: κάθε ιατρός ξεκινά ως επίπεδο 0 (ο ίδιος)
+    -- Anchor: ξεκινά από τον ΑΜΕΣΟ ΕΠΟΠΤΗ (όχι τον ίδιο)
     SELECT
-        d.Doctor_AMKA,
+        d.Doctor_AMKA        AS Root_AMKA,
+        sup.Doctor_AMKA      AS Current_AMKA,
+        sup.Supervisor_AMKA,
+        sup.Rank,
         p.Name,
         p.Surname,
-        d.Rank,
-        d.Supervisor_AMKA,
-        d.Doctor_AMKA       AS Root_AMKA,   -- ο ιατρός για τον οποίο χτίζουμε την ιεραρχία
-        0                   AS Level        -- 0 = ο ίδιος
+        1                    AS Level
     FROM Doctor d
-    JOIN Personel p ON d.Doctor_AMKA = p.AMKA
- 
+    JOIN Doctor sup   ON d.Supervisor_AMKA = sup.Doctor_AMKA
+    JOIN Personel p   ON sup.Doctor_AMKA   = p.AMKA
+    WHERE d.Supervisor_AMKA IS NOT NULL
+
     UNION ALL
- 
-    -- Αναδρομή: ανέβα στον επόπτη
+
+    -- Recursive: ανέβα στον επόμενο επόπτη
     SELECT
-        d.Doctor_AMKA,
+        sh.Root_AMKA,
+        sup.Doctor_AMKA,
+        sup.Supervisor_AMKA,
+        sup.Rank,
         p.Name,
         p.Surname,
-        d.Rank,
-        d.Supervisor_AMKA,
-        sh.Root_AMKA,
         sh.Level + 1
-    FROM Doctor d
-    JOIN Personel p            ON d.Doctor_AMKA   = p.AMKA
-    JOIN SupervisionHierarchy sh ON sh.Supervisor_AMKA = d.Doctor_AMKA
-    WHERE d.Supervisor_AMKA IS NOT NULL OR d.Rank = 'Director'
+    FROM SupervisionHierarchy sh
+    JOIN Doctor sup ON sup.Doctor_AMKA = sh.Supervisor_AMKA
+    JOIN Personel p ON sup.Doctor_AMKA = p.AMKA
 )
- 
+
 SELECT
-    sh.Root_AMKA                            AS Doctor_AMKA,
-    pr.Name                                 AS Doctor_Name,
-    pr.Surname                              AS Doctor_Surname,
+    sh.Root_AMKA          AS Doctor_AMKA,
+    pr.Name               AS Doctor_Name,
+    pr.Surname            AS Doctor_Surname,
     sh.Level,
-    sh.Doctor_AMKA                          AS Hierarchy_Member_AMKA,
-    sh.Name                                 AS Hierarchy_Member_Name,
-    sh.Surname                              AS Hierarchy_Member_Surname,
+    sh.Current_AMKA       AS Hierarchy_Member_AMKA,
+    sh.Name               AS Hierarchy_Member_Name,
+    sh.Surname            AS Hierarchy_Member_Surname,
     sh.Rank
 FROM SupervisionHierarchy sh
-JOIN Doctor  dr ON sh.Root_AMKA = dr.Doctor_AMKA
-JOIN Personel pr ON dr.Doctor_AMKA = pr.AMKA
- 
-ORDER BY
-    sh.Root_AMKA,
-    sh.Level;
- 
+JOIN Personel pr ON sh.Root_AMKA = pr.AMKA
+ORDER BY sh.Root_AMKA, sh.Level;
